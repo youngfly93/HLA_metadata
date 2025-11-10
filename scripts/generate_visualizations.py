@@ -14,10 +14,12 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-# 设置中文字体和样式
+# Set style: clean white background without grid
 plt.rcParams['font.family'] = ['DejaVu Sans', 'Arial', 'sans-serif']
 plt.rcParams['axes.unicode_minus'] = False
-sns.set_style("whitegrid")
+plt.rcParams['axes.facecolor'] = 'white'
+plt.rcParams['figure.facecolor'] = 'white'
+sns.set_style("white")  # Clean white background, no grid
 sns.set_palette("husl")
 
 # 项目路径
@@ -45,7 +47,7 @@ HLA_COLORS = {
     'HLA II': '#A23B72',
     'HLA I/II': '#06A77D',
     'Non-HLA': '#F77F00',
-    'HLA (需人工确认)': '#D62828',
+    'HLA (needs confirmation)': '#D62828',
 }
 
 
@@ -91,7 +93,6 @@ def create_hla_distribution_chart(df):
     bars = ax2.barh(hla_counts.index, hla_counts.values, color=colors_list, alpha=0.8)
     ax2.set_xlabel('Number of Datasets', fontsize=12, weight='bold')
     ax2.set_title('HLA Type Distribution\n(Count)', fontsize=14, weight='bold', pad=20)
-    ax2.grid(axis='x', alpha=0.3)
 
     # 添加数值标签
     for i, (bar, count) in enumerate(zip(bars, hla_counts.values)):
@@ -120,7 +121,6 @@ def create_disease_distribution_chart(df):
     ax.set_xticklabels(disease_counts.index, rotation=45, ha='right', fontsize=11)
     ax.set_ylabel('Number of Datasets', fontsize=12, weight='bold')
     ax.set_title('Disease Category Distribution', fontsize=16, weight='bold', pad=20)
-    ax.grid(axis='y', alpha=0.3, linestyle='--')
 
     # 添加数值标签
     for i, (bar, count) in enumerate(zip(bars, disease_counts.values)):
@@ -165,7 +165,6 @@ def create_sample_type_chart(df):
     ax.set_yticklabels(sample_counts.index, fontsize=11)
     ax.set_xlabel('Number of Datasets', fontsize=12, weight='bold')
     ax.set_title('Sample Type Distribution (Top 15)', fontsize=16, weight='bold', pad=20)
-    ax.grid(axis='x', alpha=0.3, linestyle='--')
 
     # 添加数值标签
     for i, (bar, count) in enumerate(zip(bars, sample_counts.values)):
@@ -254,7 +253,6 @@ def create_timeline_chart(df):
     ax1.set_xlabel('Year', fontsize=12, weight='bold')
     ax1.set_ylabel('Number of Datasets', fontsize=12, weight='bold')
     ax1.set_title('Dataset Publications Over Time (By Year)', fontsize=14, weight='bold', pad=15)
-    ax1.grid(True, alpha=0.3, linestyle='--')
 
     # 添加数值标签
     for x, y in zip(year_counts.index, year_counts.values):
@@ -273,7 +271,6 @@ def create_timeline_chart(df):
     ax2.set_ylabel('Number of Datasets', fontsize=12, weight='bold')
     ax2.set_title('Dataset Publications by HLA Type', fontsize=14, weight='bold', pad=15)
     ax2.legend(loc='upper left', fontsize=10)
-    ax2.grid(True, alpha=0.3, linestyle='--')
 
     plt.tight_layout()
     output_file = VIS_DIR / "5_timeline.png"
@@ -305,7 +302,6 @@ def create_repository_comparison(df):
     ax2.set_title('HLA Type Distribution by Repository', fontsize=13, weight='bold', pad=15)
     ax2.legend(title='HLA Type', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=9)
     ax2.set_xticklabels(ax2.get_xticklabels(), rotation=45, ha='right')
-    ax2.grid(axis='y', alpha=0.3)
 
     # 3. 数据质量对比
     if 'metadata_quality' in df.columns:
@@ -317,7 +313,6 @@ def create_repository_comparison(df):
         ax3.set_title('Data Quality by Repository', fontsize=13, weight='bold', pad=15)
         ax3.legend(title='Quality', fontsize=9)
         ax3.set_xticklabels(ax3.get_xticklabels(), rotation=45, ha='right')
-        ax3.grid(axis='y', alpha=0.3)
     else:
         ax3.text(0.5, 0.5, 'Quality data not available',
                 ha='center', va='center', fontsize=12, transform=ax3.transAxes)
@@ -337,7 +332,6 @@ def create_repository_comparison(df):
         ax4.set_ylabel('Percentage (%)', fontsize=11, weight='bold')
         ax4.set_title('Datasets Requiring Manual Review', fontsize=13, weight='bold', pad=15)
         ax4.set_xticklabels(review_percentage.index, rotation=45, ha='right')
-        ax4.grid(axis='y', alpha=0.3)
 
         for bar, pct in zip(bars, review_percentage.values):
             height = bar.get_height()
@@ -396,7 +390,6 @@ def create_comprehensive_dashboard(df):
     bars = ax2.bar(hla_counts.index, hla_counts.values, color=colors_list, alpha=0.85)
     ax2.set_title('HLA Type Distribution', fontsize=13, weight='bold')
     ax2.set_ylabel('Count', fontsize=10, weight='bold')
-    ax2.grid(axis='y', alpha=0.3)
     for bar, count in zip(bars, hla_counts.values):
         height = bar.get_height()
         ax2.text(bar.get_x() + bar.get_width()/2., height,
@@ -422,7 +415,6 @@ def create_comprehensive_dashboard(df):
     bars = ax4.bar(sample_main.index, sample_main.values, color=colors[:len(sample_main)], alpha=0.85)
     ax4.set_title('Sample Types (Main Categories)', fontsize=12, weight='bold')
     ax4.set_ylabel('Count', fontsize=10, weight='bold')
-    ax4.grid(axis='y', alpha=0.3)
     for bar, count in zip(bars, sample_main.values):
         height = bar.get_height()
         ax4.text(bar.get_x() + bar.get_width()/2., height,
@@ -449,7 +441,6 @@ def create_comprehensive_dashboard(df):
     ax6.set_xlabel('Year', fontsize=11, weight='bold')
     ax6.set_ylabel('Number of Datasets', fontsize=11, weight='bold')
     ax6.set_title('Dataset Publications Timeline', fontsize=13, weight='bold')
-    ax6.grid(True, alpha=0.3)
 
     # 总标题
     fig.suptitle('HLA Metadata Collection - Comprehensive Dashboard',
