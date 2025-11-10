@@ -1,0 +1,194 @@
+{
+  "accession": "PXD021373",
+  "title": "Identification of sensitiser modified HLA-peptides presented by keratinocytes",
+  "additionalAttributes": [],
+  "projectDescription": "Skin sensitisation following the covalent modification of proteins by low molecular weight chemicals (haptenation) is mediated by cytotoxic T lymphocyte (CTL) recognition of human leukocyte antigen molecules (HLA) presented on the surface of almost all nucleated cells. There are three nonmutually exclusive models for how haptens mediate CTL recognition: direct stimulation by haptenated peptides; hapten modification of HLA leading to an altered HLA-peptide repertoire; or a hapten altered proteome leading to an an altered HLA-peptide repertoire. To address the mechanism in skin, we set out to utilise proteomic analysis of keratinocyte presented antigens following exposure to 2,4-dinitrochlorobenzene (DNCB). We show that following DNCB exposure, cultured keratinocytes present cysteine haptenated (dinitrophenylated) peptides in multiple HLA molecules. In addition, we find that one of the DNCB modified peptides derives from the active site of cytosolic glutathione-S transferase-ω. These results provide support for the hypothesis that a key mechanism of skin sensitisation is stimulation of CTLs by haptenated peptides.",
+  "sampleProcessingProtocol": "Sensitiser exposure of keratinocytes  Cells exposed to sensitiser were cultured for 24 hours in serum free DMEM-F12 culture medium (Gibco) before washing and harvesting as previously described31. Dinitrochlorobenzene (DNCB) (99% purity; MW 202.55 Da) was obtained from Sigma, and DNCB-D3 (99% purity; MW 205.57Da) was obtained from QMX Laboratories.Stock solutions of each chemical were made by dissolving a 50:50 mix, by molar concentration, of deuterated and unlabelled chemical in ethanol to a final concentration 100 mM. DNCB stock solution was added to cells in serum free DMEM-F12 culture medium (Gibco) at a concentration of 10 μM DNCB, 0.1 % ethanol. Viability of cells after exposure to sensitiser was assayed using the Promega CellTiter 96 Non-Radioactive Cell Proliferation Assay, and cell toxicity to sensitiser was assayed using the Promega CytoTox 96 Non-Radioactive Cytotoxicity Assay.  Purification of HLA-I complexes and peptides  The snap frozen cell pellets (1-1.5 x 10^8 cells) were briefly thawed prior to the addition of 8 ml lysis buffer (0.02M Tris, 0.5% (w/v) IGEPAL, 0.25% (w/v) sodium deoxycholate, 0.15mM NaCl, 1mM EDTA, 0.2mM iodoacetamide supplemented with EDTA-free protease inhibitor mix) and briefly mechanically dispersed using a pipette. Samples were left to solubilise for 30 minutes at 4^∘C. Homogenates were clarified for 10 minutes at 2,000g, 4C and then for a further 60 minutes at 13,500g, 4^∘C. 2 mg of anti-MHC-I mouse monoclonal antibodies (W6/32) covalently conjugated to Protein A sepharose (Repligen) were added to the clarified supernatants and incubated with constant agitation for 2h at 4^∘C. The captured HLA-I complex on the beads was washed sequentially with 10 column volumes of low (isotonic, 0.15M NaCl) and high (hypertonic, 0.4M NaCl) TBS washes prior to elution in 10% acetic acid and dried under vacuum. The dried eluate was re-suspended in 500 μL of 0.1% Trifluoroacetic acid (TFA)/1% acetonitrile (ACN) prior to injection into the Thermo UltiMate 3000 HPLC system using a Chromolith HighResolution RP-18 endcapped 100-4.6 HPLC column (Merck) to separate and collect the peptides for mass spectrometry analysis. 0.5 mL buffer A (0.1% TFA). Peptides were eluted with a linear gradient of 2%-30% buffer B(ACN and 0.1% TFA) were collected over 8minutes. Fractions were pooled as odd and even fractions, lyophilized and then re-suspended in 20 μL of 1% Formic acid and split into four samples, two odd and two even, for mass spectrometry analysis.  LC-MS/MS analysis of HLA-I peptides  HLA peptides were separated by an Ultimate 3000 RSLC nano system (Thermo Scientific) using a PepMap C18 EASY-Spray LC column, 2 μm particle size, 75 μm x 75 cm column (Thermo Scientific) in buffer A (0.1% Formic acid) and coupled on-line to an Orbitrap Fusion Tribrid Mass Spectrometer (Thermo Fisher Scientific,UK) with a nano-electrospray ion source. Peptides were eluted with a linear gradient of 3%-30% buffer B(Acetonitrile and 0.1% Formic acid) at a flow rate of 300 nL/min over 110 minutes. Full scans were acquired in the Orbitrap analyser using the Top Speed data dependent mode, preforming a MS scan every 3 second cycle, followed by higher energy collision-induced dissociation (HCD) MS/MS scans. MS spectra were acquired at resolution of 120,000 at 300 m/z, RF lens 60% and an automatic gain control (AGC) ion target value of 4.0e5 for a maximum of 100 ms. MS/MS resolution was 30,000 at 100 m/z. Higher‐energy collisional dissociation (HCD) fragmentation was induced at an energy setting of 28 for peptides with a charge state of 2–4, while singly charged peptides were fragmented at an energy setting of 32 at lower priority. Fragments were analysed in the Orbitrap at 30,000 resolution. Fragmented m/z values were dynamically excluded for 30 seconds.",
+  "dataProcessingProtocol": "Raw spectrum files were analysed using Peaks Studio version 10.0 build 20190129 to the data processed to generate reduced charge state and deisotoped precursor and associated product ion peak lists which were searched against the Uniprot database (42,199 entries, 2017-18-05) and a contaminants list not excluding keratins in unspecific digest mode. Parent mass error tolerance was set a 5ppm and fragment mass error tolerance at 0.03 Da. Variable modifications were set for N-term Acetylation (42.01 Da), Methionine oxidation (15.99 Da), carboxyamidomethylation (57.02 Da) of cysteine, and DNP modification (166.00 Da) of cysteine and lysine. A maximum of three variable modifications per peptide were set. The false discovery rate (FDR) was estimated with decoy-fusion database searches75 and were filtered to 1% FDR.",
+  "projectTags": [],
+  "keywords": [
+    "Human",
+    "Keratinocytes",
+    "Hla",
+    "Dncb",
+    "Peptidome"
+  ],
+  "doi": "10.6019/PXD021373",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2020-09-09",
+  "publicationDate": "2021-01-04",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Alistair",
+      "lastName": "Bailey",
+      "identifier": "1947755",
+      "affiliation": "University of Southampton",
+      "email": "ab604@soton.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0003-0023-8679",
+      "name": "Alistair Bailey",
+      "id": "1947755"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Paul J",
+      "lastName": "Skipp",
+      "identifier": "2152828",
+      "affiliation": "Centre for Proteomic Research B85, Life Sciences Building University of Southampton University Road Highfield Southampton, Hants. SO17 1BJ United Kingdom",
+      "email": "pjss@soton.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Paul J Skipp",
+      "id": "2152828"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001946",
+      "name": "PEAKS Studio"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000312",
+          "name": "keratinocyte"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000312",
+      "name": "Keratinocyte"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Bailey A, Nicholas B, Darley R, Parkinson E, Teo Y, Aleksic M, Maxwell G, Elliott T, Ardern-Jones M, Skipp P. Characterization of the Class I MHC Peptidome Resulting from DNCB Exposure of HaCaT Cells. Toxicol Sci. 2020",
+      "pubmedID": 33372950,
+      "doi": "10.1093/toxsci/kfaa184"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01069",
+      "name": "2",
+      "value": "4-dinitrophenyl modified residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 3061
+}

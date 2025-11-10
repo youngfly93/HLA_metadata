@@ -1,0 +1,166 @@
+{
+  "accession": "PXD023954",
+  "title": "Chicken MHC class II presented Marek's disease virus (MDV) and infectious bursal disease virus (IBDV) antigenic peptides",
+  "additionalAttributes": [],
+  "projectDescription": "Viral diseases pose major threats to humans and other animals, including the billions of chickens that are an important food source as well as a public health concern due to zoonotic pathogens. Unlike humans and other typical mammals, the major histocompatibility complex (MHC) of chickens can confer decisive resistance or susceptibility to many viruses. Examples are Marek's disease virus (MDV) and Infectious bursal disease virus (IBDV). We used a new in vitro infection system and immunopeptidomics to identify peptides presented to T lymphocytes via classical MHC class II molecules.",
+  "sampleProcessingProtocol": "Frozen cells were thawed into 10 mM CHAPS (AppliChem, St. Louis, MO) in PBS (Gibco, Carlsbad, CA) with complete protease inhibitor (Roche, Basel, Switzerland), and class II molecules were isolated by standard immunoaffinity purification using purified monoclonal antibody F21-2 produced in-house and covalently linked to CNBr-activated Sepharose (GE Healthcare, Chalfont St Giles, UK). MHC–peptide complexes were eluted by repeated addition of 0.2% trifluoroacetic acid (TFA, Merck, Whitehouse Station, NJ). Peptides were purified by ultrafiltration using centrifugal filter units (Amicon; Millipore, Billerica, MA), desalted using ZipTip C18 pipette tips (Millipore) and eluted in 35 μl 80% acetonitrile (Merck), 0.2% TFA, then vacuum-centrifuged and resuspended in 25 μl 1% acetonitrile, 0.05% TFA and stored at −20°C.  Peptides were separated by reverse-phase liquid chromatography and analyzed from 2-3 technical replicates, with sample shares of 33% or 50% trapped on a 75 μm × 2 cm trapping column (Acclaim PepMap RSLC; Thermo Fisher) at 4 μl/min for 5.75 min. Peptide separation was performed at 50°C and a flow rate of 175 nl/min on a 50 μm × 25 cm separation column (nano-UHPLC, UltiMate 3000 RSLCnano; Thermo Fisher, Waltham, MA) applying a gradient ranging from 2.4 to 32.0% of acetonitrile over the course of 90 min. Samples were analyzed as previously described using an online-coupled Orbitrap Fusion Lumos mass spectrometer (Thermo Fisher, Waltham, MA), implementing a top-speed CID method with survey scans at 120k resolution and fragment detection in the Orbitrap (OTMS2) at 60k resolution. The mass range was limited to 300–1500 m/z with precursors of charge states ≥2 eligible for fragmentation.",
+  "dataProcessingProtocol": "LC-MS/MS results were processed using Proteome Discoverer (v.1.3 and 1.4; Thermo Fisher) to perform database search using the Sequest search engine (Thermo Fisher) with the chicken and appropriate MDV proteomes as reference database annotated by the UniProtKB/Swiss-Prot (www.uniprot.org), status April 2018. The search was not restricted by enzymatic specificity, and oxidation of methionine residues was allowed as dynamic modification. Precursor mass tolerance was set to 5 ppm, and fragment mass tolerance to 0.02 Da. False discovery rate (FDR) was estimated using the Percolator node and was limited to 5%. Length of peptides was limited to 12–25 amino acids.",
+  "projectTags": [],
+  "keywords": [
+    "Mdv",
+    "Chicken mhc",
+    "Immunopeptidomics",
+    "Mhc class ii",
+    "Ibdv",
+    "Mhc class i"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2021-02-03",
+  "publicationDate": "2021-09-10",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Michael",
+      "lastName": "Ghosh",
+      "identifier": "96010152",
+      "affiliation": "Department of Immunology, Tübingen",
+      "email": "michaelghosh@gmx.de",
+      "country": "Germany",
+      "orcid": "0000-0001-5550-9531",
+      "name": "Michael Ghosh",
+      "id": "96010152"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Stefan",
+      "lastName": "Stevanovic",
+      "identifier": "2207936",
+      "affiliation": "Department of Immunology, Interfaculty Institute for Cell Biology, Tübingen, Germany",
+      "email": "stefan.stevanovic@uni-tuebingen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Stefan Stevanovic",
+      "id": "2207936"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001490",
+      "name": "Percolator"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001413",
+          "name": "primary cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000221",
+          "name": "cell suspension culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9031",
+          "name": "Gallus gallus (Chicken)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9031",
+      "name": "Gallus gallus (chicken)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000221",
+      "name": "Cell suspension culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001413",
+      "name": "Primary cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Halabi S, Ghosh M, Stevanović S, Rammensee HG, Bertzbach LD, Kaufer BB, Moncrieffe MC, Kaspers B, Härtle S, Kaufman J. The dominantly expressed class II molecule from a resistant MHC haplotype presents only a few Marek's disease virus peptides by using an unprecedented binding motif. PLoS Biol. 2021 19(4):e3001057",
+      "pubmedID": 33901176,
+      "doi": "10.1371/journal.pbio.3001057"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    }
+  ],
+  "totalFileDownloads": 2228
+}

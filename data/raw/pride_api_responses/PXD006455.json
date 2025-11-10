@@ -1,0 +1,167 @@
+{
+  "accession": "PXD006455",
+  "title": "HLA-C*05:01 and HLA-C*07:02 from 721.221 cells",
+  "additionalAttributes": [],
+  "projectDescription": "HLA-C expresion varies widely across the different HLA-C alleles. MicroRNA binding can partly explain the differences in HLA-C allele expression however other contributing factors still remain undetermined. Here we use two common HLA-C alleles, HLA-C*05:01 and HLA-C*07:02, to explore differences in expression levels. Using functional, structural and peptide repertoire comparisons we demonstrate that HLA-C expression levels are not only modulated at the RNA level but also at the protein level. This dataset contains RAW data and database search results for HLA-C*05:01 and HLA-C*07:02 from the 721.221 cell line.",
+  "sampleProcessingProtocol": "HLA Class I deficient 721.221 transfected to express either HLA-C*05:01 or HLA-C*07:02 were lysed by using detergent (IGEPAL). HLA were purified by W6/32 antibody affinity followed and peptides seperated by reversed-phase HPLC. Fractipons were pooled and analysed with a a Q Exactive Hybrid Quadrupole-Orbitrap Mass Spectrometer (Thermo Scientific).",
+  "dataProcessingProtocol": "The raw output files were converted to mgf using msconvert (ProteoWizard) and peptides searched with ProteinPilot V5.0 (SCIEX) with the the human UniProtKB/SwissProt database (Feb2016).",
+  "projectTags": [
+    "Human proteome project",
+    "Biology/disease-driven human proteome project (b/d-hpp)",
+    "Biological"
+  ],
+  "keywords": [
+    "Human",
+    "Hla-c",
+    "Hla class i"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-05-05",
+  "publicationDate": "2017-07-03",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jesse",
+      "lastName": "Mobbs",
+      "identifier": "72530105",
+      "affiliation": "Monash University",
+      "email": "jesse.mobbs@monash.edu.au",
+      "country": "Australia",
+      "orcid": "",
+      "name": "Jesse Mobbs",
+      "id": "72530105"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Anthony W",
+      "lastName": "Purcell",
+      "identifier": "70570100",
+      "affiliation": "Professor Anthony W Purcell Deputy Head (Research), Department of Biochemistry and Molecular Biology Head Immunoproteomics Laboratory Monash University, Clayton Campus Clayton 3800 Victoria Australia",
+      "email": "anthony.purcell@monash.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Anthony W Purcell",
+      "id": "70570100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000663",
+      "name": "ProteinPilot Software"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002205",
+      "name": "ProteoWizard msconvert"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Australia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000738",
+          "name": "leukocyte"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000738",
+      "name": "Leukocyte"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Kaur G, Gras S, Mobbs JI, Vivian JP, Cortes A, Barber T, Kuttikkatte SB, Jensen LT, Attfield KE, Dendrou CA, Carrington M, McVean G, Purcell AW, Rossjohn J, Fugger L. Structural and regulatory diversity shape HLA-C protein expression levels. Nat Commun. 2017 Jun 26;8:15924",
+      "pubmedID": 28649982,
+      "doi": "10.1038/ncomms15924"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 2990
+}

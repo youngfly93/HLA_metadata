@@ -1,0 +1,223 @@
+{
+  "accession": "PXD022020",
+  "title": "MHC-I peptidome analysis of human cancer cell lines",
+  "additionalAttributes": [],
+  "projectDescription": "In this study, we sought to identify naturally presented MHC peptides in 8 human cancer cell lines: PANC.1, A.375, SW527, CaSki, PC.3, LNCaP_clone_FGC, MCF.7, and VMRC.LCD. Peptides identified were 8-15 amino acid long with the majority between 8 to 11 amino acids which match known properties of MHC-I presented peptides. Number of identifications differs between cell lines and ranges between 1834-5425 peptides.",
+  "sampleProcessingProtocol": "The mass spectrometry was done by contract by Caprion (Toronto, Canada). PANC.1, A.375, SW527, CaSki, PC.3, LNCaP_clone_FGC, MCF.7, and VMRC.LCD cell lines were cultured and dissociated using cell dissociation buffer (ThermoFisher 13151014).  pMHC complexes were purified from ~300-500 million cells of each cell line by immunoaffinity chromatography using the anti-MHC-I antibody W6/32 from cell lysates.  pMHC complexes were disrupted with mild acid.  The presented peptides were desalted with a mixed cation exchange matrix (MCX) and analyzed by LC-MS/MS in a single injection using nanoflow reverse-phase liquid chromatography (NanoAcquity UPLC, Waters) coupled to a high-resolution mass spectrometer (Q Exactive, Thermo Scientific).",
+  "dataProcessingProtocol": "Mass spectrometry data were analyzed using Elucidator software (Rosetta), Mascot software (Matrix Science) and PEAKS software (Bioinformatics Solutions Inc.) to determine peptide sequences and relative quantity in each sample.",
+  "projectTags": [],
+  "keywords": [
+    "Hla-i",
+    "Lc-ms/ms"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2020-10-16",
+  "publicationDate": "2021-09-09",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Dora",
+      "lastName": "Warshaviak",
+      "identifier": "2176886",
+      "affiliation": "A2 Biotherapeutics",
+      "email": "dwarshaviak@a2biotherapeutics.com",
+      "country": "United States",
+      "orcid": "",
+      "name": "Dora Warshaviak",
+      "id": "2176886"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Alexander",
+      "lastName": "Kamb",
+      "identifier": "2165932",
+      "affiliation": "A2 Biotherapeutics",
+      "email": "akamb@a2biotherapeutics.com",
+      "country": "",
+      "orcid": "",
+      "name": "Alexander Kamb",
+      "id": "2165932"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:2893",
+          "name": "cervix carcinoma"
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:4905",
+          "name": "pancreatic carcinoma"
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1909",
+          "name": "melanoma"
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1612",
+          "name": "breast cancer"
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:2526",
+          "name": "prostate adenocarcinoma"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1612",
+      "name": "Breast cancer"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:2893",
+      "name": "Cervix carcinoma"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:4905",
+      "name": "Pancreatic carcinoma"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1909",
+      "name": "Melanoma"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:2526",
+      "name": "Prostate adenocarcinoma"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Martin AD, Wang X, Sandberg ML, Negri KR, Wu ML, Toledo Warshaviak D, Gabrelow GB, McElvain ME, Lee B, Daris ME, Xu H, Kamb A. Re-examination of MAGE-A3 as a T-cell Therapeutic Target. J Immunother. 2021 44(3):95-105",
+      "pubmedID": 33284140,
+      "doi": "10.1097/cji.0000000000000348"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 806
+}

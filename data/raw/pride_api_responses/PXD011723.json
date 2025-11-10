@@ -1,0 +1,858 @@
+{
+  "accession": "PXD011723",
+  "title": "MS-rescue: A Computational Pipeline to Increase the Quality and Yield of Immunopeptidomics Experiments",
+  "additionalAttributes": [],
+  "projectDescription": "We propose a new pipeline for the refinement of spectrum-peptide assignment, designed specifically for MHC ligand identification. By modeling the peptidome as a collection of a limited number of specificities, corresponding to the MHC alleles of the cell line, our method achieves increased sequencing depth, while at the same time removing potential experimental outliers and contaminants.",
+  "sampleProcessingProtocol": "Jurkat cells were resuspended in 1ml 2x lysis buffer per 108 cells. Lysates were cleared by subsequent centrifugation steps at 500 g for 10 min and then 20,000 g for 60 min. 1 mg per sample of anti-HLA class I antibody (W6/32, ATCC HB-95) was bound and cross-linked to 1 ml Protein A beads (GE healthcare) and used for immunoprecipitation of HLA complexes. In brief, lysates were incubated with the antibody beads over night at 4ºC in 1x lysis buffer and washed subsequently with 10 bed volumes of 50 mM Tris, pH 8.0 containing either 150 mM, 450 mM and finally no salt. Peptides were eluted with 5 ml of 10% acetic acid. Dried peptides were suspended and injected onto a 4.6 x 50 mm ProSwift RP-1S column (Thermo Fisher Scientific). Peptides were separated from larger complex components by elution using a 500 μl/min flow rate over 10 min from 2-34% ACN in 0.1% TFA. Alternate fractions that did not contain the beta-2-microglobulin were pooled and two final fractions were analyzed by nUPLC-MS2.",
+  "dataProcessingProtocol": "Analysis of raw data was performed using Peaks 8.5 software (Bioinformatics Solutions). Sequence interpretation of MS2 spectra was carried out using a database comprising all SwissProt Homo sapiens entries downloaded on  18/5/2017; 42,221 entries. Peptides with a length of less than 7 amino acids were excluded from the analysis results and peptides with a Peaks score of below 5 were ignored.",
+  "projectTags": [
+    "Biology/disease-driven human proteome project (b/d-hpp)",
+    "Human proteome project",
+    "Biomedical",
+    "Technical"
+  ],
+  "keywords": [
+    "Immunopeptidome; hla; lc-ms/ms; netmhcpan; binding prediction"
+  ],
+  "doi": "10.6019/PXD011723",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-11-19",
+  "publicationDate": "2019-01-02",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Nicola",
+      "lastName": "Ternette",
+      "identifier": "87130128",
+      "affiliation": "University of Oxford",
+      "email": "nicola.ternette@ndm.ox.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-9283-0743",
+      "name": "Nicola Ternette",
+      "id": "87130128"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Nicola",
+      "lastName": "Ternette",
+      "identifier": "123120100",
+      "affiliation": "The Jenner Institute Nuffield Department of Medicine University of Oxford",
+      "email": "nicola.ternette@ndm.ox.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Nicola Ternette",
+      "id": "123120100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture",
+          "value": ""
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000084",
+          "name": "T cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000084",
+      "name": "T cell",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Andreatta M, Nicastri A, Peng X, Hancock G, Dorrell L, Ternette N, Nielsen M. MS-rescue: A Computational Pipeline to Increase the Quality and Yield of Immunopeptidomics Experiments. Proteomics. 2018:e1800357",
+      "pubmedID": 30578603,
+      "doi": "10.1002/pmic.201800357"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:359",
+      "name": "Pro->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:989",
+      "name": "Ammonium",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:535",
+      "name": "LeuArgGlyGly",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:276",
+      "name": "AEBS",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:959",
+      "name": "Phosphopropargyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:997",
+      "name": "sulfo+amino",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:40",
+      "name": "Sulfo",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:350",
+      "name": "Trp->Hydroxykynurenin",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:728",
+      "name": "Methylphosphonate",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:44",
+      "name": "Farnesyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:5",
+      "name": "Carbamyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:55",
+      "name": "Glutathione",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:47",
+      "name": "Palmitoyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:734",
+      "name": "Ethanolamine",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:29",
+      "name": "SMA",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:141",
+      "name": "Amidine",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:360",
+      "name": "Pro->Pyrrolidinone",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:45",
+      "name": "Myristoyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:52",
+      "name": "Guanidinyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:926",
+      "name": "ethylamino",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:435",
+      "name": "Methylpyrroline",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:894",
+      "name": "CarboxymethylDTT",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:518",
+      "name": "Diethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:299",
+      "name": "Carboxy",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:767",
+      "name": "Menadione-HQ",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:528",
+      "name": "Methyl+Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:472",
+      "name": "AEC-MAEC",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:953",
+      "name": "Cation:Ni[II]",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:378",
+      "name": "Carboxyethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:950",
+      "name": "Cation:Li",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:530",
+      "name": "Cation:K",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:363",
+      "name": "Isopropylphospho",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:447",
+      "name": "Deoxy",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:34",
+      "name": "Methyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:773",
+      "name": "maleimide",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:351",
+      "name": "Trp->Kynurenin",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:278",
+      "name": "Ethanolyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:30",
+      "name": "Cation:Na",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:10",
+      "name": "Met->Hse",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:977",
+      "name": "Carbofuran",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:126",
+      "name": "Xlink:DTSSP[88]",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:401",
+      "name": "Didehydro",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:37",
+      "name": "Trimethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:931",
+      "name": "Ethyl+Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:43",
+      "name": "HexNAc",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1327",
+      "name": "SulfurDioxide",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:421",
+      "name": "Sulfide",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:825",
+      "name": "Xlink:DFDNB",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:288",
+      "name": "Trp->Oxolactone",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:396",
+      "name": "GlycerylPE",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:39",
+      "name": "Methylthio",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:2",
+      "name": "Amidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:253",
+      "name": "Crotonaldehyde",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:337",
+      "name": "Methylamine",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:23",
+      "name": "Dehydrated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:379",
+      "name": "Hypusine",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:830",
+      "name": "Dihydroxyimidazolidine",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:254",
+      "name": "Delta:H(2)C(2)",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1014",
+      "name": "glycidamide",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:848",
+      "name": "Arg2PG",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:529",
+      "name": "Delta:H(5)C(2)",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:121",
+      "name": "GG",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:374",
+      "name": "Dehydro",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:342",
+      "name": "Amino",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:425",
+      "name": "Dioxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:724",
+      "name": "O-Methylphosphate",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:89",
+      "name": "Iminobiotin",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:381",
+      "name": "Lys->AminoadipicAcid",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:414",
+      "name": "Hydroxymethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:312",
+      "name": "Cysteinyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:3",
+      "name": "Biotin",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:352",
+      "name": "Lys->Allysine",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:736",
+      "name": "BEMAD_C",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:375",
+      "name": "Diphthamide",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:42",
+      "name": "Lipoyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:270",
+      "name": "Cytopiloyne",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:272",
+      "name": "CAF",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:280",
+      "name": "Ethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:213",
+      "name": "ADP-Ribosyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:11",
+      "name": "Met->Hsl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:41",
+      "name": "Hex",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:327",
+      "name": "Delta:H(4)C(2)O(-1)S(1)",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:6",
+      "name": "Carboxymethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:526",
+      "name": "Dethiomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:36",
+      "name": "Dimethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:956",
+      "name": "Cation:Mg[II]",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:727",
+      "name": "O-pinacolylmethylphosphonate",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:178",
+      "name": "DAET",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:729",
+      "name": "O-Isopropylmethylphosphonate",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:122",
+      "name": "Formyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:457",
+      "name": "NDA",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 4155,
+  "otherOmicsLinks": [
+    "pride.project:PXD011794",
+    "pride.project:PXD008151"
+  ]
+}

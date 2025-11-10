@@ -1,0 +1,198 @@
+{
+  "accession": "PXD025073",
+  "title": "Quantitative consequences of protein carriers in immunopeptidomics and tyrosine phosphorylation MS2 analyses",
+  "additionalAttributes": [],
+  "projectDescription": "Evaluating the impact of a carrier proteome on data quality and quantity in multiplexed pTyr and MHC analyses.",
+  "sampleProcessingProtocol": "pMHCs were isolated from SKMEL5 cells with immunoprecipitation using a pan-specific anti-HLA-ABC antibody (W6/32), and peptides further isolated by size exclusion filtration. Samples were labeled with TMT, combined, and analyzed via discovery LC-MS/MS. pTyr samples were lysed, reduced, alkylated, digested with trypsin into peptides, and labeled with TMT. Tyrosine phosphorylated peptides were isolated using two-step enrichment (anti-pTyr immunoprecipitation with 4G10 and PT-66 antibodies and IMAC), and analyzed via discovery LC-MS/MS.",
+  "dataProcessingProtocol": "All data was searched using Proteome Discoverer 2.5 and Mascot 2.4. MHC peptides were filtered according to the following criteria: Search engine rank = 1, ion score >=14, q-value <= 0.05, isolation interference <= 30%. pTyr peptides were filtered according to the following criteria: >= 1 phosphorylated tyrosine, search engine rank = 1, ion score >= 17, isolation interference <= 35%, ptmRS site localization >= 95%.",
+  "projectTags": [],
+  "keywords": [
+    "Mhc",
+    "Phosphorylation",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD025073",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2021-03-29",
+  "publicationDate": "2021-06-01",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Lauren",
+      "lastName": "Stopfer",
+      "identifier": "95870142",
+      "affiliation": "MIT",
+      "email": "lstopfer@mit.edu",
+      "country": "United States",
+      "orcid": "0000-0001-6984-3004",
+      "name": "Lauren Stopfer",
+      "id": "95870142"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Forest",
+      "lastName": "White",
+      "identifier": "2233914",
+      "affiliation": "Department of Biological Engineering, MIT",
+      "email": "fwhite@mit.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Forest White",
+      "id": "2233914"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1003028",
+      "name": "Orbitrap Exploris 480"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000314",
+      "name": "TMT"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000148",
+          "name": "melanocyte"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001253",
+          "name": "skin"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000763",
+          "name": "lung"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001253",
+      "name": "Skin"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000763",
+      "name": "Lung"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000148",
+      "name": "Melanocyte"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Stopfer LE, Conage-Pough JE, White FM. Quantitative consequences of protein carriers in immunopeptidomics and tyrosine phosphorylation MS<sup>2</sup> analyses. Mol Cell Proteomics. 2021:100104",
+      "pubmedID": 34052394,
+      "doi": "10.1016/j.mcpro.2021.100104"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 495
+}

@@ -1,0 +1,181 @@
+{
+  "accession": "PXD024871",
+  "title": "Immunopeptidomics-guided warehouse design for peptide-based immunotherapy in chronic lymphocytic leukemia",
+  "additionalAttributes": [],
+  "projectDescription": "In recent years the clinical success of T cell-based immunotherapy approaches has revolutionized treatment of solid tumors and hematological malignancies. However, still some patients do not respond to available therapies at all, others for limited time only. A promising low side-effect approach is peptide-based immunotherapy, which relies on specific immune recognition of tumor-associated human leucocyte antigen (HLA)-presented peptides. In this study, we developed a workflow for the immunopeptidome-guided design of off-the shelf warehouses for personalized peptide vaccines using the example of chronic lymphocyte leukemia (CLL). The so defined warehouses could provide the basis for different T cell-based immunotherapy approaches such as TCR-engineered T cell transfer or multi-peptide vaccinations. The warehouse approach enables a fast and cost-effective way to provide a personalized T cell-based immunotherapeutic approach. The here defined peptide warehouse is already utilized for a personalized multi-peptide vaccine trial (iVAC-XS15-CLL01, NCT04688385).",
+  "sampleProcessingProtocol": "HLA class I and II molecules were isolated from 61 primary chronic lymphocytic leukemia (CLL) samples by standard immunoaffinity purification as described previously (PMID: 23329485). Pan-HLA class I-specific antibody W6/32 was employed for HLA class I isolation and pan-HLA class II antibody Tü-39 as well as HLA-DR-specific antibody L243 were used for HLA class II isolation. In total, we performed 402 MS measurements of purified peptides by LC-MS/MS analysis using two state-of-the-art mass spectrometers.",
+  "dataProcessingProtocol": "MS data analysis was carried out using Proteome discoverer. Peak lists were searched against the human proteome as comprised in the UniProtKB/Swiss-Prot database using the SEQUEST HT search engine. Mass tolerance for processing was 5 ppm for precursor ions and 0.5 Da for ion trap fragment ions and 0.02 Da for orbitrap fragment ions. No cleavage specificity was selected and the only dynamic modification allowed was oxidized methionine. Peptide confidence was determined using percolator algorithm with a target value of q ≤ 0.05 (5% FDR) for HLA class I and q ≤ 0.01 (1% FDR) for HLA class II. Additional post processing filters were search engine rank = 1 and peptide length of 8-12 amino acids for HLA class I ligands and 8-25 amino acids for HLA class II peptides.",
+  "projectTags": [],
+  "keywords": [
+    "Cll",
+    "Hla",
+    "Peptide warehouse",
+    "Immunopeptidome"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2021-03-19",
+  "publicationDate": "2021-09-10",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Annika",
+      "lastName": "Nelde",
+      "identifier": "108790156",
+      "affiliation": "Department of Peptide-based Immunotherapy, University and University Hospital Tübingen, Tübingen, Germany",
+      "email": "annika.nelde@uni-tuebingen.de",
+      "country": "Germany",
+      "orcid": "0000-0001-8504-8481",
+      "name": "Annika Nelde",
+      "id": "108790156"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Juliane S.",
+      "lastName": "Walz",
+      "identifier": "2227947",
+      "affiliation": "Clinical Collaboration Unit Translational Immunology, German Cancer Consortium (DKTK), Department of Internal Medicine, University Hospital Tübingen, Tübingen, Germany",
+      "email": "juliane.walz@med.uni-tuebingen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Juliane S. Walz",
+      "id": "2227947"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000556",
+      "name": "LTQ Orbitrap XL"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001490",
+      "name": "Percolator"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001025",
+          "name": "peripheral blood mononuclear cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1040",
+          "name": "chronic lymphocytic leukemia"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001025",
+      "name": "Peripheral blood mononuclear cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1040",
+      "name": "Chronic lymphocytic leukemia"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Nelde A, Maringer Y, Bilich T, Salih HR, Roerden M, Heitmann JS, Marcu A, Bauer J, Neidert MC, Denzlinger C, Illerhaus G, Aulitzky WE, Rammensee HG, Walz JS. Immunopeptidomics-Guided Warehouse Design for Peptide-Based Immunotherapy in Chronic Lymphocytic Leukemia. Front Immunol. 2021 12:705974",
+      "pubmedID": 34305947,
+      "doi": "10.3389/fimmu.2021.705974"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 43223
+}

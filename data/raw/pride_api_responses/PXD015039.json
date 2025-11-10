@@ -1,0 +1,195 @@
+{
+  "accession": "PXD015039",
+  "title": "Immunopeptidome of an acute myeloid leukemia cell line THP1",
+  "additionalAttributes": [],
+  "projectDescription": "We report the use of complementary peptide antigen enrichment and comprehensive mass spectrometric acquisition strategies to provide in-depth immunopeptidome data for AML cell line THP1",
+  "sampleProcessingProtocol": "THP1 cells expressing HLA-A*02:01, B*15:11 and C*03:03 were lysed. Following lysis, peptide-HLA complexes were affinity purified by anti-A2 (BB7.2) and anti-Pan HLA Class I antibody (w6/32). Affinity purified HLA molecules and their peptide cargo were separated using reversed-phase chromatography and peptides were subsequently analysed using mass spectrometry Tribrid Fusion.",
+  "dataProcessingProtocol": "Raw data (.RAW from Thermo Tribrid Fusion) was searched using Peaks (v8.5, Bioinformatics Solutions) using following parameters: database: Human proteins from UniProt/SwissProt 15/06/2017; 20,182 entries. Instrument defaults for orbitrap instruments with error tolerance of 10ppm for parent mass and 0.02 Da for fragment mass, Enzyme specificity set to none, following variable modifications: oxidation at Met, deamidation at Asp and Gln and phosphorylation at Ser, Thr and Tyr. Max variable PTM per peptide 3.",
+  "projectTags": [],
+  "keywords": [
+    "Aml",
+    "Cancer",
+    "Hla class i",
+    "Ptm",
+    "Immunopeptidome"
+  ],
+  "doi": "10.6019/PXD015039",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-08-15",
+  "publicationDate": "2020-05-13",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Kirti",
+      "lastName": "Pandey",
+      "identifier": "155740147",
+      "affiliation": "Monash University",
+      "email": "kirti.pandey@monash.edu",
+      "country": "Australia",
+      "orcid": "",
+      "name": "Kirti Pandey",
+      "id": "155740147"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Anthony Wayne",
+      "lastName": "Purcell",
+      "identifier": "155420100",
+      "affiliation": "Deputy Head (Research), Department of Biochemistry and Molecular Biology Head Immunoproteomics Laboratory Infection and Immunity Program Monash Biomedicine Discovery Institute Monash University, Clayton Campus Clayton 3800 Victoria Australia",
+      "email": "anthony.purcell@monash.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Anthony Wayne Purcell",
+      "id": "155420100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Australia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000576",
+          "name": "monocyte",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000221",
+          "name": "cell suspension culture",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:12603",
+          "name": "acute leukemia",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000221",
+      "name": "Cell suspension culture",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000576",
+      "name": "Monocyte",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:12603",
+      "name": "Acute leukemia",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Pandey K, Mifsud NA, Lim Kam Sian TCC, Ayala R, Ternette N, Ramarathinam SH, Purcell AW. In-depth mining of the immunopeptidome of an acute myeloid leukemia cell line using complementary ligand enrichment and data acquisition strategies. Mol Immunol. 2020 123:7-17",
+      "pubmedID": 32387766,
+      "doi": "10.1016/j.molimm.2020.04.008"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 15346,
+  "otherOmicsLinks": [
+    "pride.project:PXD048006"
+  ]
+}

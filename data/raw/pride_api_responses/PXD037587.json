@@ -1,0 +1,193 @@
+{
+  "accession": "PXD037587",
+  "title": "T cells of colorectal cancer patients’ stimulated by neoantigenic and cryptic peptides better recognize autologous tumor cells",
+  "additionalAttributes": [],
+  "projectDescription": "Immunopeptidome analysis of patient-derived colorectal cancer cell lines HROC113 and HROC285 T0 M2 from the HROC collection [Mullins et al. Cancers (Basel). 2019;11(10):1520. doi: 10.3390/cancers11101520] was performed to characterize the natural HLA class I presented ligandome in native as well as IFNγ treated cells.",
+  "sampleProcessingProtocol": "HLA class I molecules were isolated by standard immunoaffinity purification as described previously [Kowalewski et al. Methods Mol Biol. 2013;960:145-157. doi: 10.1007/978-1-62703-218-6_12]. Pan-HLA class I-specific mAb W6/32 [Barnstable et al. Cell. 1978;14(1):9-20. doi: 10.1016/0092-8674(78)90296-9] was employed for HLA class I immunoprecipitation together with cyanogen bromide-activated sepharose columns and subsequently eluted with trifluoroacetic acid. Eluted HLA ligands were purified by ultrafiltration using centrifugal filter units and desalted using ZipTip C18 pipette tips. Subsequently peptides were separated by reversed-phase nanoflow uHPLC using a 75μm × 2cm trapping column and a gradient ranging from 2.4% to 32.0% acetonitrile over the course of 90 minutes.",
+  "dataProcessingProtocol": "raw data files are provided. Files are assigned the respective cell line (HROC113 or HROC285) and treatment (IFNγ or untreated) if applicable. Technical replicates are provided.  HLA class I-eluted peptides were identified using Peptide-PRISM [Erhard et al. Cancer Immunol Res. 2020;8(8):1018–26. doi:10.1158/2326-6066.CIR-19-08866], re-analysis was done using a recently published database of translated open reading frames (ORF) obtained from ribosome profiling data (nuORFdb) [Ouspenskaia et al. Nat Biotechnol. 2022;40(2):209–17. doi:10.1038/s41587-021-633 01021-3]. De novo peptide sequencing was performed with PEAKS X (Bioinformatics Solutions Inc., Waterloo, Canada) [20]. Raw data were refined with the following settings: (i) Merge Options: no merge; (ii) Precursor Options: corrected; (iii) Charge Options: 1-6; (iv) Filter Options: no filter; (v) Process: true; (vi) Default: true; (vii) Associate Chimera: yes; Parent Mass Error Tolerance was set to 10ppm, Fragment Mass Error Tolerance to 0.02Da, and Enzyme to none. The following post-translational modifications were used: Oxidation (M), pyro-Glu from Q (N-term Q), and carbamidomethylation (C) with a maximum of 3 modifications allowed per peptide. Up to 10 de novo sequencing candidates were reported for each identified fragment ion mass spectrum, with their corresponding average local confidence score. As chimeric spectra option of PEAKS X was used, two or more TOP10 candidate lists could possibly be assigned to a single fragment ion spectrum. All de novo sequence candidates were matched against the 6-frame translated human genome (GRCh37) and the 3-frame translated transcriptome (ENSEMBL release 75) using Peptide-PRISM. All detected single nucleotide variants (SNV) and indels obtained from mutation calling were considered for the Peptide-PRISM search. Results were filtered to category-specific <10% false discovery rate (FDR). NetMHCpan 4.0 was used to predict binding affinities for all identified MHC I peptides [Jurtz et al. J Immunol. 2017;199(9):3360–68. doi:10.4049/jimmunol.1700893]. A cut-off of 0.5% rank for strong and 2% rank for weak binders was used. Sequence-specific hydrophobicity indices were calculated using SSRCalc [Krokhin & Spicer. Analytical Chemistry. 2009;81(22):9522–30. doi: 10.1021/ac9016693]. HLA and Var files for HROC113 and HROC285 are provided.",
+  "projectTags": [],
+  "keywords": [
+    "Hla-presented peptides; neoepitope",
+    "Colorectal cancer",
+    "Human",
+    "Hla class i",
+    "Antigen presentation",
+    "Lc-msms"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2022-10-20",
+  "publicationDate": "2023-03-11",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Markus",
+      "lastName": "Löffler",
+      "identifier": "2605947",
+      "affiliation": "University of Tübingen",
+      "email": "markus.loeffler@med.uni-tuebingen.de",
+      "country": "Germany",
+      "orcid": "0000-0003-2513-1317",
+      "name": "Markus Löffler",
+      "id": "2605947"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Hans-Georg",
+      "lastName": "Rammensee",
+      "identifier": "2473166",
+      "affiliation": "Department of Immunology, Interfaculty Institute for Cell Biology, University of Tübingen, Tübingen, Germany",
+      "email": "rammensee@uni-tuebingen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Hans-Georg Rammensee",
+      "id": "2473166"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000269",
+          "name": "colon"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:219",
+          "name": "colon cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000269",
+      "name": "Colon"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:219",
+      "name": "Colon cancer"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Schwarz S, Schmitz J, Löffler MW, Ghosh M, Rammensee HG, Olshvang E, Markel M, Mockel-Tenbrinck N, Dzionek A, Krake S, Arslan B, Kampe KD, Wendt A, Bauer P, Mullins CS, Schlosser A, Linnebacher M. T cells of colorectal cancer patients' stimulated by neoantigenic and cryptic peptides better recognize autologous tumor cells. J Immunother Cancer. 2022 10(12):e005651",
+      "pubmedID": 36460334,
+      "doi": "10.1136/jitc-2022-005651"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 1710
+}

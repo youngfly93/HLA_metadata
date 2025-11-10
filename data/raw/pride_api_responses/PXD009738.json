@@ -1,0 +1,520 @@
+{
+  "accession": "PXD009738",
+  "title": "Immunopeptidomic profiling of HLA-A2-positive triple negative breast cancer",
+  "additionalAttributes": [],
+  "projectDescription": "Here we analysed the immunopeptidomes of 6 HLA-A2-positive triple negative breast cancer (TNBC) samples by nano-ultra performance liquid chromatography tandem mass spectrometry (nUPLC-MS2).",
+  "sampleProcessingProtocol": "Approximately 0.5 cm3 of breast cancer and matching normal tissue biopsy material was homogenized in lysis buffer (1% Igepal, 300 mM sodium chloride, 100 mM Tris, pH 8.0) supplemented with protease inhibitor cocktail (Roche) using a bead beater (Precellys 24 bead-beater, Bertin Technologies) five times for 10 s at 6500 rpm. Lysates were cleared by subsequent centrifugation steps at 300 g for 10 min and then 20,000 g for 60 min. One mg per sample of human anti-HLA class I antibody (W6/32, ATCC HB-95) was bound and cross-linked to 1 ml Protein A beads (GE healthcare) and used for immunoprecipitation of HLA complexes. In brief, lysates were incubated with the antibody beads over night at 4ºC and washed subsequently with 50 mM Tris, pH8.0 containing either 150 mM, 450 mM and finally no salt. Peptides were eluted with 5 ml of 10% acetic acid. Dried peptides were resuspended and injected onto a 4.6 x 50 mm ProSwift RP-1S column (Thermo Fisher Scientific). Peptides were separated from larger complex components by elution using a 500 μl/min flow rate over 10 min from 2-25% ACN in 0.1% TFA. Alternate fractions were pooled and two final fractions were analysed by nUPLC-MS2. HLA peptides eluted from tissues were separated on an Ultimate 3000 RSLCnano system (Thermo Scientific) using a PepMap C18 column, 2 μm particle size, 75 μm x 50 cm (Thermo Scienific) with a 30 min (two technical replicates) and 1h (single run) linear gradient of 3-25% buffer B (0.1% formic acid, 5% DMSO in acetonitrile) in buffer A (0.1% formic acid, 5% DMSO in water) at a flowrate of 250 µl/min. Peptides were introduced using an Easy-Spray source at 2000V and to a Fusion Lumos (Thermo Scientific). The ion transfer tube temperature was set to 305ºC. Full MS spectra were recorded from 300-1500 m/z in the Orbitrap at 120,000 resolution with an AGC target of 400,000. Precursor selection was performed using TopSpeed mode at a cycle time of 2 s. Peptide ions were isolated using an isolation width of 1.2 amu and trapped at a maximal injection time of 120 ms with an AGC target of 300,000. Higher-energy collisional dissociation (HCD) fragmentation was induced at an energy setting of 28 for peptides with a charge state of 2-4, while singly charged peptides were fragmented at an energy setting of 32 at lower priority. Fragments were analysed in the Orbitrap at 30,000 resolution.",
+  "dataProcessingProtocol": "Analysis of raw data was performed using Peaks 8.0 software (Bioinformatics Solutions). Sequence interpretation of MS2 spectra was carried out using databases containing all human SwissProt database entries (03/03/2016, 20210 entries) with the following settings: 5 ppm precursor mass tolerance, 0.03 Da fragment mass tolerance and no enzyme specificity. PTM search with all 485 build-in modifications, and maximally 2 variable modifications per peptide.",
+  "projectTags": [
+    "Breast cancer",
+    "Biology/disease-driven human proteome project (b/d-hpp)",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Hla-a2",
+    "Immunopeptidomics",
+    "Tnbc"
+  ],
+  "doi": "10.6019/PXD009738",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-05-10",
+  "publicationDate": "2018-06-29",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Nicola",
+      "lastName": "Ternette",
+      "identifier": "87130128",
+      "affiliation": "University of Oxford",
+      "email": "nicola.ternette@ndm.ox.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-9283-0743",
+      "name": "Nicola Ternette",
+      "id": "87130128"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Dr Nicola Maria Nathalie",
+      "lastName": "Ternette",
+      "identifier": "103410100",
+      "affiliation": "University of Oxford, The Jenner Inistitute",
+      "email": "nicola.ternette@ndm.ox.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Dr Nicola Maria Nathalie Ternette",
+      "id": "103410100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000149",
+          "name": "breast"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0060081",
+          "name": "triple-receptor negative breast cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000149",
+      "name": "Breast"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0060081",
+      "name": "Triple-receptor negative breast cancer"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Ternette N, Olde Nordkamp MJM, Müller J, Anderson AP, Nicastri A, Hill AVS, Kessler BM, Li D. Immunopeptidomic Profiling of HLA-A2-Positive Triple Negative Breast Cancer Identifies Potential Immunotherapy Target Antigens. Proteomics. 2018 18(12):e1700465",
+      "pubmedID": 29786170,
+      "doi": "10.1002/pmic.201700465"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:39",
+      "name": "Methylthio"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:2",
+      "name": "Amidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:989",
+      "name": "Ammonium"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:276",
+      "name": "AEBS"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:23",
+      "name": "Dehydrated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:254",
+      "name": "Delta:H(2)C(2)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1014",
+      "name": "glycidamide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:997",
+      "name": "sulfo+amino"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:529",
+      "name": "Delta:H(5)C(2)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:121",
+      "name": "GG"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:368",
+      "name": "Cys->Dha"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:350",
+      "name": "Trp->Hydroxykynurenin"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:40",
+      "name": "Sulfo"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:886",
+      "name": "HydroxymethylOP"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:345",
+      "name": "Trioxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:425",
+      "name": "Dioxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:512",
+      "name": "Hex(2)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:5",
+      "name": "Carbamyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:55",
+      "name": "Glutathione"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:951",
+      "name": "Cation:Ca[II]"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:381",
+      "name": "Lys->AminoadipicAcid"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:734",
+      "name": "Ethanolamine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:312",
+      "name": "Cysteinyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:360",
+      "name": "Pro->Pyrrolidinone"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:303",
+      "name": "DeStreak"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:3",
+      "name": "Biotin"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:352",
+      "name": "Lys->Allysine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:518",
+      "name": "Diethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:280",
+      "name": "Ethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:302",
+      "name": "Menadione"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:299",
+      "name": "Carboxy"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:11",
+      "name": "Met->Hsl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:950",
+      "name": "Cation:Li"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:34",
+      "name": "Methyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:429",
+      "name": "PhosphoHex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:773",
+      "name": "maleimide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:278",
+      "name": "Ethanolyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:351",
+      "name": "Trp->Kynurenin"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:30",
+      "name": "Cation:Na"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:977",
+      "name": "Carbofuran"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:401",
+      "name": "Didehydro"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:36",
+      "name": "Dimethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:37",
+      "name": "Trimethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:43",
+      "name": "HexNAc"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:490",
+      "name": "Hep"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:178",
+      "name": "DAET"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:122",
+      "name": "Formyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:793",
+      "name": "Hex(1)HexNAc(1)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:288",
+      "name": "Trp->Oxolactone"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:396",
+      "name": "GlycerylPE"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:200",
+      "name": "Ethanedithiol"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 28742
+}

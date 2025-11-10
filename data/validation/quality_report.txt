@@ -1,0 +1,81 @@
+============================================================
+HLA元数据收集质量报告
+生成时间: 2025-11-10 12:51:49
+============================================================
+
+总数据集数量: 147
+
+数据库分布:
+  PRIDE: 129
+  MassIVE: 10
+  jPOST: 7
+  PeptideAtlas: 1
+
+HLA类型分布:
+  HLA I: 74
+  HLA I/II: 48
+  Non-HLA: 19
+  HLA (需人工确认): 4
+  HLA II: 2
+
+样本类型分布:
+  Cell line: 53
+  Unknown: 31
+  Blood: 20
+  Tissue (Tumor): 11
+  Tissue (Cancer): 11
+  Tissue: 3
+  Blood (Plasma): 2
+  Cell line (hela): 2
+  Tissue (BAL): 2
+  Tissue (Breast): 2
+
+疾病类别分布:
+  Cancer: 42
+  Unknown: 38
+  Healthy: 37
+  Other: 10
+  Neurodegenerative: 9
+  Infectious Disease: 6
+  Method Study: 3
+  Autoimmune Disease: 2
+
+数据质量分布:
+  Medium: 129
+  Low: 18
+
+需要人工审核的数据集: 32
+
+需人工审核的数据集列表:
+  - PXD000394: HLA I
+  - PXD005231: HLA I
+  - PXD007203: HLA I
+  - PXD009936: HLA (需人工确认)
+  - PXD011723: HLA I
+  - PXD020011: HLA I/II
+  - PXD034772: HLA I/II
+  - PXD034820: HLA I
+  - PXD036939: HLA I
+  - PXD037655: HLA I
+  - PXD037843: HLA I
+  - PXD041046: HLA (需人工确认)
+  - PXD043989: HLA I
+  - PXD043999: HLA I/II
+  - PXD006455: HLA I
+  - PXD021177: HLA I
+  - PXD022930: HLA I/II
+  - PXD025073: HLA I
+  - PXD028985: HLA I
+  - PXD034017: HLA I/II
+  - PXD037270: HLA I
+  - PXD005935: HLA I/II
+  - PXD019523: HLA I
+  - PXD025655: HLA I
+  - PXD034429: HLA I
+  - PXD034539: HLA I
+  - PXD039789: HLA I
+  - MSV000091456: Non-HLA
+  - JPST001066: Non-HLA
+  - JPST001070: Non-HLA
+  - JPST001104: Non-HLA
+  - JPST001211: Non-HLA

@@ -1,0 +1,184 @@
+{
+  "accession": "PXD026184",
+  "title": "T1D B lymphocyte cell line Immunopeptidome",
+  "additionalAttributes": [],
+  "projectDescription": "HLA-I and HLA-II immunopeptidome of B cells from healthy control and Type 1 diabetics sharing similar HLA alleles.",
+  "sampleProcessingProtocol": "HLA-I and HLA-II peptides were enriched from B cell lysates sequentially using W6/32 and HB145 antibody-crosslinked protein-A beads. Immunopeptide samples were analyzed using nanoLC-MS/MS under data dependent acquisition mode.",
+  "dataProcessingProtocol": "We employed MaxQuant (version 1.6.10.43) to search and sequence the peak lists against the UniProt database (Human 20412 entries, 2018). The enzyme specificity was set as unspecific. N-terminal acetylation and methionine oxidation were used as variable modifications. Immunopeptidomics analysis was performed applying a false discovery rate (FDR) of 0.01 for peptide identifications and no protein FDR. Possible sequence matches were restricted to 8 to 25 amino acids.",
+  "projectTags": [],
+  "keywords": [
+    "Hla-ii",
+    "B cell",
+    "T1d",
+    "Immunopeptidome",
+    "Hla-i",
+    "Human",
+    "Allele"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2021-05-21",
+  "publicationDate": "2022-02-14",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Qibin ",
+      "lastName": "Zhang",
+      "identifier": "85170100",
+      "affiliation": "UNCG",
+      "email": "q_zhang2@uncg.edu",
+      "country": "United States",
+      "orcid": "0000-0002-6135-8706",
+      "name": "Qibin  Zhang",
+      "id": "85170100"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Qibin",
+      "lastName": "Zhang",
+      "identifier": "2249938",
+      "affiliation": "University of North Carolina at Greensboro",
+      "email": "q_zhang2@uncg.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Qibin Zhang",
+      "id": "2249938"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002523",
+      "name": "Q Exactive HF"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000323",
+      "name": "TIC"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000236",
+          "name": "B cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:9744",
+          "name": "type 1 diabetes mellitus"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000236",
+      "name": "B cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:9744",
+      "name": "Type 1 diabetes mellitus"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Sudhir PR, Lin TD, Zhang Q. HLA Allele-Specific Quantitative Profiling of Type 1 Diabetic B Lymphocyte Immunopeptidome. J Proteome Res. 2022 21(1):250-264",
+      "pubmedID": 34932366,
+      "doi": "10.1021/acs.jproteome.1c00842"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 2501
+}

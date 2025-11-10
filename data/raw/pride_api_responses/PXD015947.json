@@ -1,0 +1,183 @@
+{
+  "accession": "PXD015947",
+  "title": "A Non-interventional Clinical Trial Assessing Immune Responses After Radiofrequency Ablation of Liver Metastases From Colorectal Cancer",
+  "additionalAttributes": [],
+  "projectDescription": "HLA ligandome analysis of colorectal adenocarcinoma tissues obtained from liver metastases (mCRC) as well as adjacent non-malignant liver tissues was performed to characterize the natural HLA class I and class II presented ligands on both mCRC and adjacent liver tissue.",
+  "sampleProcessingProtocol": "Immunopreciptiation of HLA class I and II molecules was performed by described previously standard methods (Kowalewski et al. Methods Mol Biol. 2013; 960:145-157.). For HLA class I immunoprecipitation, pan-HLA class I-specific mAb W6/32 (Barnstable et al. Cell. 1978; 14(1):9-20.) was employed and for HLA class II pan-HLA class II mAb Tü39 (Ziegler et al. Immunobiology. 1986; 171(1-2):77-92.) as well as HLA-DR-specific mAb L243 (Goldman et al. Br J Haematol. 1982; 52(3):411-20.) were used and subsequently eluted in each case, using 0.2% trifluoroacetic acid. Peptide extracts were separated by nanoflow uHPLC using a 50μm × 25 cm column (PepMap RSLC, ThermoFisher) and an acetonitrile gradient ranging from 2.4 to 32.0% over the course of 90 min. Samples were analyzed in up to six technical replicates of each sample, as previously described (Löffler et al. Cancer Res. 2018; 78(16):4627-4641. doi: 10.1158/0008-5472.CAN-17-1745). Eluting peptides were analyzed in an online coupled linear trap quadrupole (LTQ) Orbitrap XL mass spectrometer (ThermoFisher), equipped with a nanoelectron spray ion source, employing a top 5 collision-induced dissociation (CID) fragmentation method. Sample weight of tissues employed for lysis and HLA ligand isolation is provided in Table 1 in (Löffler et al. Front. Immunol. 2019; 10:2526. doi: 10.3389/fimmu.2019.02526).",
+  "dataProcessingProtocol": "The Mascot search engine (Mascot 2.2.04, Matrix Science, Boston, MA) was used to search the human proteome contained in the Swiss-Prot database (20,279 reviewed protein sequences, as of September 2013) without any enzymatic restriction (required Mascot ion score ≥20; search engine rank: 1). As a dynamic modification oxidized methionine was allowed. The false discovery rate was estimated with the Percolator algorithm (Käll et al. Nat Methods. 2007; 4(11):923-5. https://doi.org/10.1038/nmeth1113) and set to 5%. Peptide lengths for HLA class I-eluted peptides were limited from 8 to 12 amino acids (required charge state: 2–3) and for HLA class II-eluted peptides from 9 to 25 amino acids (required charge state: 2–5). Protein inference was disabled, allowing for multiple protein annotations of peptides. Files are labelled according to identifiers (IRISS) given in Table 1 in (Löffler et al. Front. Immunol. 2019; 10:2526. doi: 10.3389/fimmu.2019.02526). Files are categorized according to assessed sample materials as Tumor (metastatic colorectal adenocarcinoma; bulk tissue; malignant), NMT (liver; bulk tissue; non-malignant). Technical replicates are labelled as Rep#.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Neoplasia",
+    "Cancer",
+    "Hla-ligandomics",
+    "Hla",
+    "Colorectal adenocarcinoma",
+    "Colon cancer",
+    "Peptide",
+    "Hla-restricted peptide",
+    "Hla-ligand",
+    "Colon",
+    "Metastasis"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-12-06",
+  "publicationDate": "2019-12-11",
+  "submitters": [
+    {
+      "title": "Miss",
+      "firstName": "Lena",
+      "lastName": "Mühlenbruch",
+      "identifier": "157850142",
+      "affiliation": "1 Department of Immunology, Interfaculty Institute for Cell Biology, Tübingen, Germany\r\n2 German Cancer Consortium (DKTK), DKFZ Partner Site Tübingen, Tübingen, Germany",
+      "email": "lena.muehlenbruch1@gmail.com",
+      "country": "Germany",
+      "orcid": "",
+      "name": "Lena Mühlenbruch",
+      "id": "157850142"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Hans-Georg",
+      "lastName": "Rammensee",
+      "identifier": "171310100",
+      "affiliation": "University of Tübingen, Interfaculty Institute for Cell Biology, Department of Immunology, Auf der Morgenstelle 15, 72076 Tuebingen, Germany",
+      "email": "rammensee@uni-tuebingen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Hans-Georg Rammensee",
+      "id": "171310100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000556",
+      "name": "LTQ Orbitrap XL"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000759",
+          "name": "liver"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:219",
+          "name": "colon cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000759",
+      "name": "Liver"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:219",
+      "name": "Colon cancer"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Löffler MW, Nussbaum B, Jäger G, Jurmeister PS, Budczies J, Pereira PL, Clasen S, Kowalewski DJ, Mühlenbruch L, Königsrainer I, Beckert S, Ladurner R, Wagner S, Bullinger F, Gross TH, Schroeder C, Sipos B, Königsrainer A, Stevanović S, Denkert C, Rammensee HG, Gouttefangeas C, Haen SP. A Non-interventional Clinical Trial Assessing Immune Responses After Radiofrequency Ablation of Liver Metastases From Colorectal Cancer. Front Immunol. 2019 10:2526",
+      "pubmedID": 31803175,
+      "doi": "10.3389/fimmu.2019.02526"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 9341
+}

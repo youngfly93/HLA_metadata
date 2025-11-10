@@ -1,0 +1,178 @@
+{
+  "accession": "PXD006215",
+  "title": "The Behçet’s Disease associated Hap10 variant of ERAP1 generates a low affinity HLA-B*51 peptidome through differential processing of two subpeptidomes",
+  "additionalAttributes": [],
+  "projectDescription": "HLA-B*51, the main risk factor for Behçet’s disease (BD), binds two main subpeptidomes consisting of low affinity peptides with Ala as their second amino acid and higher affinity peptides with Pro at this position. A low activity variant of ERAP1, Hap10, is uniquely associated with BD susceptibility in epistasis with HLA-B*51. The peptidome presented by HLA-B*51:08 in a cell line expressing Hap10 was compared with the HLA-B*51:01 peptidome from a cell line expressing higher activity variants of ERAP1. The differences due to ERAP1 could be clearly distinguished from those due to subtype polymorphism. The latter should not affect disease susceptibility, since both HLA-B*51 subtypes are associated with BD. In the lower activity, BD-associated, ERAP1 context longer peptides were generated, the Pro2 subpeptidome was significantly reduced, and the Ala2 subpeptidome was correspondingly increased and showed a higher frequency of ERAP1-susceptible P1 residues. These effects are readily explained by the low activity of the disease-associated Hap10 variant, and together resulted in a significantly altered HLA-B*51 peptidome of lower affinity. The differences between both B*51 subtypes affected residue usage at various internal positions of the peptide ligands, including P3, where B*51:01 showed preference for aromatic residues whereas B*51:08 preferred smaller and polar ones. The profound effects of the BD-associated Hap10 haplotype on the nature and affinity of HLA-B*51/peptide complexes could significantly alter T-cell and NK cell recognition, providing a basis for the joint association of ERAP1 and HLA-B*51 to BD.",
+  "sampleProcessingProtocol": "The immunopurification of HLA-bound peptides from 109 BCH-30 cells was performed at  4ºC as in previously described [33] with minor modifications. Cells were lysed in 150 mM NaCl, 20 mM Tris-HCl, pH 7.5, 1% Igepal CA-630 (Sigma-Aldrich) and a mixture of protease inhibitors (Roche, Mannheim, Germany). After centrifugation, the supernatant was passed through a column containing 1mg W6/32 bound to CNBr-activated Sepharose 4B (GE Healthcare, Buckinghamshire UK) and washed with 40 column volumes each of 20 mM Tris-HCl,  pH 8.0containing: 1) 150 mM NaCl, 2) 400 mM NaCl, 3) 150 mM NaCl, and 4) 80 column volumes of buffer  without NaCl. Peptides were eluted with 1% trifluoroacetic acid (Sigma-Aldrich), filtered through Vivaspin 2, cutoff 5,000 Da (Sartorius Stedim Biotech, Gottingen, Germany), and concentrated in a SpeedVac. The peptide-containing fractions were pooled and dried. Three  preparations were independently obtained from the same cell amounts, to provide for  biological replicates.",
+  "dataProcessingProtocol": "Each sample was analyzed in a Q-Exactive-Plus mass spectrometer (Thermo-Fisher  Scientific, Waltham, MA, USA). The peptides were resolved using 7-40% acetonitrile  gradients with 0.1% formic acid for 180 min and 0.15 µL/min on a capillary column pressure-packed with Reprosil C18-Aqua (Dr. Maisch, GmbH, Ammerbuch-Entringen, Germany). The  dynamic exclusion was set to 20 sec; the selected masses were fragmented from the survey scan of mass to charge ratio (m/z) 300-1,800 AMU at resolution of 70,000. MS/MS  spectra were acquired starting at m/z 200 with a resolution of 17,500. The target value  was set to 1x105 andthe isolation window to 1.8 m/z. The maximum injection time was set to 100 ms and normalized collision energy to 25 eV. Peptide sequences were assigned using  the MaxQuant software (version 1.5.0.25) with the Andromeda search engine and  the human UniProt/Swiss-Prot database (release 2014_02, 20,270 entries) under the  following parameters: precursor ion mass and fragment mass tolerance 20 ppm, false  discovery rate (FDR) 0.01 and peptide-spectrum matching (PSM) FDR 0.05, oxidation (Met),  acetyl (protein N-terminus) and Gln to Pyro-Glu as variable modifications. Identifications derived from the reverse database and known contaminants were eliminated.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Behçet's disease",
+    "Erap1",
+    "Hla-b*51",
+    "Antigen processing"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-30",
+  "publicationDate": "2018-10-24",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Eilon",
+      "lastName": "Barnea",
+      "identifier": "69510114",
+      "affiliation": "Technion",
+      "email": "eilonb@tx.technion.ac.il",
+      "country": "Israel",
+      "orcid": "",
+      "name": "Eilon Barnea",
+      "id": "69510114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Arie",
+      "lastName": "Admon",
+      "identifier": "67880100",
+      "affiliation": "Technion – Israel Institute of Technology",
+      "email": "admon@technion.ac.il",
+      "country": "",
+      "orcid": "",
+      "name": "Arie Admon",
+      "id": "67880100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000312",
+      "name": "Label free"
+    }
+  ],
+  "countries": [
+    "Israel"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:4",
+          "name": "disease"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:4",
+      "name": "Disease"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Guasp P, Barnea E, González-Escribano MF, Jiménez-Reinoso A, Regueiro JR, Admon A, López de Castro JA. The Behçet's disease-associated variant of the aminopeptidase ERAP1 shapes a low-affinity HLA-B*51 peptidome by differential subpeptidome processing. J Biol Chem. 2017 292(23):9680-9689",
+      "pubmedID": 28446606,
+      "doi": "10.1074/jbc.M117.789180"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    }
+  ],
+  "totalFileDownloads": 524
+}

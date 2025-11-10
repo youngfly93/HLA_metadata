@@ -1,0 +1,143 @@
+{
+  "accession": "PXD007203",
+  "title": "MHC-I peptidome analysis of human foreskin fibroblasts",
+  "additionalAttributes": [],
+  "projectDescription": "Ribosome profiling (Ribo-seq) recently revealed the expression of thousands of short open reading frames (sORFs) in eukaryotic cells. They encode for a class of instable peptides, which evade experimental validation by whole-proteome mass spectrometry. Here, we show that computational elimination of experimental noise from Ribo-seq data unravels fundamental new aspects of sORF biology. Based on the revised annotation of cellular sORFs, we show that sORF-derived peptides are efficiently incorporated into MHC-I. sORFs thus encode a novel class of stress-responsive antigens in human cells. Our findings have broad implications on the functional, regulatory and immunogenic role of sORFs in fundamental cellular processes like infection and cancer.",
+  "sampleProcessingProtocol": "HLA class I ligands were isolated from 1ml cell pellets of mock treated or HCMV-infected HF99-7 human foreskin fibroblasts (HF99-7, HLA-A*01:01, A*03:01, B*08:01, B*51:01, C*07:01, C*01:02) by standard immunoaffinity purification using the pan-HLA class I-specific mAb W6/32. Sample shares of 20% were analyzed in technical triplicates by LC-MS/MS. Peptides were separated by nanoflow HPLC (RSLCnano, Thermo Fisher Scientific) using a 50 μm x 25 cm Acclaim PepMap C18 column (Thermo Fisher Scientific) and a linear gradient ranging from 2.4% to 32.0% acetonitrile over the course of 90 min. Eluted peptides were analyzed in an online-coupled Orbitrap Fusion Lumos mass spectrometer (Thermo Fisher Scientific) using a data dependent  “top speed” collision-induced dissociation fragmentation method.  FT MS2 spectra for 2+ and 3+ precursors of 400-650 m/z were acquired at 30k resolution with AGC target values of 7e4 and maximum injection times of 150ms. Normalized collision energy was set to 35%, dynamic exclusion time was set to 7s.",
+  "dataProcessingProtocol": "All mass spectrometry data were analyzed using MaxQuant 1.5.8.3 by using the same set of parameters as in Bassani-Sternberg et al. (Mol. Cell. Proteomics 2015). with the exception that we used a sequence database composed of the human proteome from Ensembl v75, the HCMV proteome (NC_006273) and translated ORFs identified by PRICE, Rp-Bp or ORF-RATER in any of the HSV-1 or HCMV data set. We here considered only cellular ORFs and used a FDR of 1% using the target-decoy approach based on “reverted” proteins implemented in MaxQuant.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Human",
+    "Hff",
+    "Peptidome",
+    "Mhc-i"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-07",
+  "publicationDate": "2018-04-05",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Florian",
+      "lastName": "Erhard",
+      "identifier": "79750114",
+      "affiliation": "Institut für Virologie und Immunbiologie, Julius-Maximilians-Universität Würzburg",
+      "email": "florian.erhard@uni-wuerzburg.de",
+      "country": "Germany",
+      "orcid": "0000-0002-3574-6983",
+      "name": "Florian Erhard",
+      "id": "79750114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Stefan",
+      "lastName": "Stevanović",
+      "identifier": "78090100",
+      "affiliation": "University of Tübingen Interfaculty Institute for Cell Biology Department of Immunology Auf der Morgenstelle 15 D-72076 Tübingen, Germany",
+      "email": "stefan.stevanovic@uni-tuebingen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Stefan Stevanović",
+      "id": "78090100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001413",
+          "name": "primary cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001413",
+      "name": "Primary cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Erhard F, Halenius A, Zimmermann C, L'Hernault A, Kowalewski DJ, Weekes MP, Stevanovic S, Zimmer R, Dölken L. Improved Ribo-seq enables identification of cryptic translation events. Nat Methods. 2018",
+      "pubmedID": 29529017,
+      "doi": "10.1038/nmeth.4631"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 1072
+}

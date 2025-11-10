@@ -1,0 +1,174 @@
+{
+  "accession": "PXD041046",
+  "title": "SAPrIm, A Semi-Automated Protocol for mid-throughput Immunopeptidomics",
+  "additionalAttributes": [],
+  "projectDescription": "Human leukocyte antigen (HLA) molecules play a crucial role in the development of adaptive immune responses and therefore have been of major interest in the development of immunotherapies such as cancer vaccines and chimeric antigen receptor (CAR) T cells. Hence, a comprehensive understanding and profiling of the immunopeptidome is required to foster growth for these personalised solutions. We herein describe a novel immunopeptidomics workflow involving the Kingfisher platform (Thermo Scientific) to isolate immunopeptidomes with anti-HLA antibodies coupled to a proprietary hyper-porous protein A microparticle (MagReSyn®), and a modified variable window data independent acquisition (DIA) method. Using the workflow, we were able to identify ~1500 peptides in as low as 5e6 cells. Overall, the robustness of this workflow will be very important for the future of the immunopeptidome profiling, especially for smaller sample types, and will be a useful tool for the development of immunotherapies and other precision medicine approaches.",
+  "sampleProcessingProtocol": "The mass spectrometer was operated in  data-independent mode (DIA) mode. All samples were analysed on a Q-Exactive HF mass spectrometer (ThermoFischer Scientific) coupled online to a RSLC nano HPLC (Ultimate 3000 UHPLC, ThermoFischer Scientific). The samples were injected onto a 100 μm, 2 cm nanoviper Pepmap100 trap column, eluted and separation performed on a RSLC nano column 75 μm x 50 cm, Pepmap100 C18 analytical column (ThermoFisher Scientific). The separation was performed at a flow rate of 250 nl/min by a gradient of 0.1% formic acid in water (solvent A) and 80% acetonitrile/0.1% formic acid (solvent B).  The eluent was nebulised and ionised using a nano electrospray source (ThermoFisher Scientific) with a distal coated fused silica emitter (Trajan). The capillary voltage was set at 1.7 kV. MS1 scan range from 370 to 2,000 m/z with a resolution of 60,000 (at m/z 200) using an AGC target of 1 x 106, a maximum ion injection time of 50 ms and 22 variable window DIA MS/MS scans in the orbitrap (Supplementary Table 1); Each MS2 scan was acquired at a resolution of 30,000 (at m/z 200) using an AGC target of 2 x 105 with a stepped normalised collision energy (27) and the overlap between consecutive MS/MS scans was set to 1 m/z.",
+  "dataProcessingProtocol": "Spectral libraries were generated in Spectronaut (version 16.2 - Biognosys)",
+  "projectTags": [],
+  "keywords": [
+    "Immunopeptidomics",
+    "Human leukocyte antigen",
+    "Kingfisher"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2023-03-23",
+  "publicationDate": "2023-05-22",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Terry",
+      "lastName": "Lim",
+      "identifier": "2400795",
+      "affiliation": "Monash University",
+      "email": "terry.lim@monash.edu",
+      "country": "Australia",
+      "orcid": "",
+      "name": "Terry Lim",
+      "id": "2400795"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Pouya",
+      "lastName": "Faridi",
+      "identifier": "2553106",
+      "affiliation": "1. Monash Proteomics and Metabolomics Facility, Department of Biochemistry and Molecular Biology, Monash Biomedicine Discovery Institute, Monash University, Clayton, Victoria, Australia  2. School of Clinical Sciences, Department of Medicine, Monash University, Clayton, Victoria, Australia",
+      "email": "pouya.faridi@monash.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Pouya Faridi",
+      "id": "2553106"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002523",
+      "name": "Q Exactive HF"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001327",
+      "name": "Spectronaut"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    }
+  ],
+  "countries": [
+    "Australia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1612",
+          "name": "breast cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1612",
+      "name": "Breast cancer"
+    }
+  ],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    }
+  ],
+  "totalFileDownloads": 1026
+}

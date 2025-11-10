@@ -1,0 +1,207 @@
+{
+  "accession": "PXD015726",
+  "title": "Reanalysis of NOD mouse insulin granule and secreted peptidome data",
+  "additionalAttributes": [],
+  "projectDescription": "Data from a previous publication from our lab (Nature 2018 Aug; 560 (7716): 107-111) were reanalyzed by performing a multiround search against a Uniprot-Mouse database followed by an in silico database of hybrid insulin peptides.",
+  "sampleProcessingProtocol": "Samples were prepared and analyzed by nLC-MS/MS (Orbitrap Fusion Lumos) with spectral acquisition for both MS and MS/MS in the Orbitrap as previously described (PXD009919).",
+  "dataProcessingProtocol": "Data files were processed and searched using PEAKS X. A multiround search was employed; data files were first searched against a Uniprot-Mouse database with no enzyme specificity, with parent ion tolerance of 10 ppm and a fragment ion tolerance of 0.01 Da. Variable modifications were oxidation (M), deamidation (NQ) and trioxidation (C). Unassigned spectra were searched against an in silico HIP database from the Haskins lab.",
+  "projectTags": [],
+  "keywords": [
+    "Mouse",
+    "Hybrid insulin peptides",
+    "Type 1 diabetes"
+  ],
+  "doi": "10.6019/PXD015726",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-10-07",
+  "publicationDate": "2020-03-11",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Cheryl",
+      "lastName": "Lichti",
+      "identifier": "106360100",
+      "affiliation": "Washington University",
+      "email": "clichti@wustl.edu",
+      "country": "United States",
+      "orcid": "0000-0003-4099-4954",
+      "name": "Cheryl Lichti",
+      "id": "106360100"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Cheryl",
+      "lastName": "Lichti",
+      "identifier": "162140100",
+      "affiliation": "Department of Pathology and Immunology Bursky Center for Human Immunology and Immunotherapy Programs Washington University in St. Louis 660 S. Euclid Ave, Campus Box 8118 St. Louis, MO 63110",
+      "email": "clichti@wustl.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Cheryl Lichti",
+      "id": "162140100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture",
+          "value": ""
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "GO:0030141",
+          "name": "secretory granule",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000783",
+          "name": "pancreatic islet beta cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:9744",
+          "name": "type 1 diabetes mellitus",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "GO:0030141",
+      "name": "Secretory granule",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000783",
+      "name": "Pancreatic islet beta cell",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:9744",
+      "name": "Type 1 diabetes mellitus",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Wan X, Vomund AN, Peterson OJ, Chervonsky AV, Lichti CF, Unanue ER. The MHC-II peptidome of pancreatic islets identifies key features of autoimmune peptides. Nat Immunol. 2020",
+      "pubmedID": 32152506,
+      "doi": "10.1038/s41590-020-0623-7"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:345",
+      "name": "Trioxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 1502,
+  "otherOmicsLinks": [
+    "px:PXD015408",
+    "pride.project:PXD015408"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "accession": "PXD010450",
+  "title": "The HLA ligandome landscape of chronic myeloid leukemia delineates novel T-cell epitopes for immunotherapy",
+  "additionalAttributes": [],
+  "projectDescription": "Anti-leukemia immunity plays an important role for disease control and maintenance of tyrosine kinase inhibitor (TKI)-free remission in chronic myeloid leukemia (CML). Antigen-specific immunotherapy holds promise to strengthen immune control in CML, but requires the identification of CML-associated targets. In this study, we used a mass spectrometry-based approach to identify naturally presented HLA class I- and class II-presented peptides in 20 primary CML samples. Comparative HLA ligandome profiling using a comprehensive dataset of different hematological benign specimen delineated a novel panel of frequently expressed CML-exclusive peptides. These non-mutated target antigens are of particular relevance since our extensive data-mining approach demonstrated absence of naturally presented BCR-ABL- and ABL-BCR-derived HLA-presented peptides and the lack of frequent tumor-exclusive presentation of predescribed cancer/testis and leukemia-associated antigens. Functional characterization revealed spontaneous T-cell responses against the newly identified CML-associated peptides in CML patients and their ability to de novo induce multifunctional and cytotoxic antigen-specific T cells in healthy volunteers and CML patients. This characterizes these antigens as prime candidates for T cell-based immunotherapy approaches that may prolong TKI-free survival and even mediate cure of CML patients.",
+  "sampleProcessingProtocol": "HLA class I and II molecules were isolated from 21 primary chronic myeloid leukemia (CML) samples by standard immunoaffinity purification as described previously (PMID: 23329485). Pan-HLA class I-specific mAb W6/32 was employed for HLA class I isolation and pan-HLA class II mAb Tü-39 as well as HLA-DR-specific mAb L243 were used for HLA class II isolation. In total, we performed 152 MS measurements of purified peptides by LC-MS/MS analysis using a state-of-the-art mass spectrometer.",
+  "dataProcessingProtocol": "MS data analysis was carried out using Proteome discoverer. Peak lists were searched against the human proteome as comprised in the UniProtKB/Swiss-Prot database using Mascot search engine. Mass tolerance for processing was 5 ppm for precursor ions and 0.5 Da for fragment ions. No cleavage specificity was selected and the only dynamic modification allowed was oxidized methionine. Peptide confidence was determined using percolator algorithm with a target value of q ≤ 0.05 (5% FDR) for HLA class I and q ≤ 0.01 (1% FDR) for HLA class II. Additional post processing filters were search engine rank = 1 and peptide length of 8-12 amino acids for HLA class I ligands and 8-25 amino acids for HLA class II peptides.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Mass spectrometry",
+    "Chronic myeloid leukemia",
+    "Immunopeptidome"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-07-17",
+  "publicationDate": "2018-12-11",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Annika",
+      "lastName": "Nelde",
+      "identifier": "108790156",
+      "affiliation": "Department of Peptide-based Immunotherapy, University and University Hospital Tübingen, Tübingen, Germany",
+      "email": "annika.nelde@uni-tuebingen.de",
+      "country": "Germany",
+      "orcid": "0000-0001-8504-8481",
+      "name": "Annika Nelde",
+      "id": "108790156"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Juliane S.",
+      "lastName": "Walz",
+      "identifier": "110440100",
+      "affiliation": "Department of Hematology and Oncology, University of Tübingen, Germany",
+      "email": "juliane.walz@med.uni-tuebingen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Juliane S. Walz",
+      "id": "110440100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000556",
+      "name": "LTQ Orbitrap XL"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001025",
+          "name": "peripheral blood mononuclear cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:8552",
+          "name": "chronic myeloid leukemia"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001025",
+      "name": "Peripheral blood mononuclear cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:8552",
+      "name": "Chronic myeloid leukemia"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Bilich T, Nelde A, Bichmann L, Roerden M, Salih HR, Kowalewski DJ, Schuster H, Tsou CC, Marcu A, Neidert MC, Lübke M, Rieth J, Schemionek M, Brümmendorf TH, Vucinic V, Niederwieser D, Bauer J, Märklin M, Peper JK, Klein R, Kohlbacher O, Kanz L, Rammensee HG, Stevanović S, Walz JS. The HLA ligandome landscape of chronic myeloid leukemia delineates novel T-cell epitopes for immunotherapy. Blood. 2018",
+      "pubmedID": 30530751,
+      "doi": "10.1182/blood-2018-07-866830"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 25520
+}

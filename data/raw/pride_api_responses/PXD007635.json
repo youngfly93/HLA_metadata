@@ -1,0 +1,191 @@
+{
+  "accession": "PXD007635",
+  "title": "The immunopeptidomic landscape of ovarian carcinoma",
+  "additionalAttributes": [],
+  "projectDescription": "Immunopeptidome analysis of ovarian carcinoma tissues was performed to characterize the HLA class I and class II presented ligandome of this malignancy.",
+  "sampleProcessingProtocol": "HLA class I and II molecules were isolated by standard immunoaffinity purification as described previously (PMID: 23329485). Pan-HLA class I-specific mAb W6/32 was employed for HLA class I isolation and pan-HLA class II mAb Tü39 as well as HLA-DR-specific mAb L243 were used for HLA class II isolation. Between 0.5 g and 3 g of tissue samples were employed for lysis and HLA ligand isolation.",
+  "dataProcessingProtocol": "MS data analysis was carried out using Proteome discoverer. Peak lists were searched against the human proteome as comprised in the UniProtKB/Swiss-Prot database using Mascot search engine. Mass tolerance for processing was 5 ppm for precursor ions and 0.5 Da for fragment ions. No cleavage specificity was selected and the only dynamic modification allowed was oxidized methionine. Peptide confidence was determined using percolator algorithm with a target value of q ≤ 0.05 (5% FDR). Additional post processing filters were search engine rank = 1 and peptide length of 8-12 amino acids for HLA class I ligands and 12-25 amino acids for HLA class II ligands.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Hla",
+    "Ovarian cancer",
+    "Immunopeptidome"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-09-04",
+  "publicationDate": "2017-11-02",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Heiko",
+      "lastName": "Schuster",
+      "identifier": "79670144",
+      "affiliation": "University Tuebingen",
+      "email": "heiko.schuster85@googlemail.com",
+      "country": "Germany",
+      "orcid": "",
+      "name": "Heiko Schuster",
+      "id": "79670144"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Hans-Georg",
+      "lastName": "Rammensee",
+      "identifier": "80340100",
+      "affiliation": "Department of Immunology, Institute of Cell Biology, University of Tübingen, 72076 Tübingen, Germany.",
+      "email": "rammensee@uni-tuebingen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Hans-Georg Rammensee",
+      "id": "80340100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0002729",
+          "name": "ovarian serous carcinoma cell"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:2144",
+          "name": "malignant neoplasm of ovary"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0002729",
+      "name": "Ovarian serous carcinoma cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:2144",
+      "name": "Malignant neoplasm of ovary"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Schuster H, Peper JK, Bösmüller HC, Röhle K, Backert L, Bilich T, Ney B, Löffler MW, Kowalewski DJ, Trautwein N, Rabsteyn A, Engler T, Braun S, Haen SP, Walz JS, Schmid-Horch B, Brucker SY, Wallwiener D, Kohlbacher O, Fend F, Rammensee HG, Stevanović S, Staebler A, Wagner P. The immunopeptidomic landscape of ovarian carcinomas. Proc Natl Acad Sci U S A. 2017",
+      "pubmedID": 29093164,
+      "doi": "10.1073/pnas.1707658114"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 103759,
+  "otherOmicsLinks": [
+    "bioproject:PRJNA398141"
+  ]
+}

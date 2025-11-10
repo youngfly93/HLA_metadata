@@ -1,0 +1,162 @@
+{
+  "accession": "PXD009531",
+  "title": "Unveiling the Peptide Motifs of HLA-C and HLA-G from Naturally Presented Peptides and Generation of Binding Prediction Matrices",
+  "additionalAttributes": [],
+  "projectDescription": "The classical HLA-C and the nonclassical HLA-E and HLA-G molecules play important roles both in the innate and adaptive immune system. Starting already during embryogenesis and continuing throughout our lives, these three Ags exert major functions in immune tolerance, defense against infections, and anticancer immune responses. Despite these important roles, identification and characterization of the peptides presented by these molecules has been lacking behind the more abundant HLA-A and HLA-B gene products. In this study, we elucidated the peptide specificities of these HLA molecules using a comprehensive analysis of naturally presented peptides.",
+  "sampleProcessingProtocol": "The 15 most frequently expressed HLA-C alleles as well as HLA-E*01:01 and HLA-G*01:01 were transfected into lymphoblastoid C1R cells expressing low endogenous HLA. Identification of naturally presented peptides was performed by immunoprecipitation of HLA and subsequent analysis of HLA-bound peptides by liquid chromatographic tandem mass spectrometry.",
+  "dataProcessingProtocol": "Data was processed against the human proteome included in the Swiss-Prot database (http://www.uniprot.org, release September 27, 2013; containing 20,279 reviewed protein sequences) applying the SequestHT algorithm (46) in the Proteome Discoverer (version 1.3; Thermo Fisher) software.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Hla-e",
+    "Hla-g",
+    "Binding prediction; peptide motifs",
+    "Hla-c",
+    "Lc-msms"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-04-18",
+  "publicationDate": "2018-04-20",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Michael",
+      "lastName": "Ghosh",
+      "identifier": "96010152",
+      "affiliation": "Department of Immunology, Tübingen",
+      "email": "michaelghosh@gmx.de",
+      "country": "Germany",
+      "orcid": "0000-0001-5550-9531",
+      "name": "Michael Ghosh",
+      "id": "96010152"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Stefan",
+      "lastName": "Stevanovic",
+      "identifier": "101110100",
+      "affiliation": "Department of Immunology, Interfaculty Institute for Cell Biology, Tübingen, Germany",
+      "email": "stefan.stevanovic@uni-tuebingen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Stefan Stevanovic",
+      "id": "101110100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000738",
+          "name": "leukocyte"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000221",
+          "name": "cell suspension culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000221",
+      "name": "Cell suspension culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000738",
+      "name": "Leukocyte"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Di Marco M, Schuster H, Backert L, Ghosh M, Rammensee HG, Stevanović S. Unveiling the Peptide Motifs of HLA-C and HLA-G from Naturally Presented Peptides and Generation of Binding Prediction Matrices. J Immunol. 2017 199(8):2639-2651",
+      "pubmedID": 28904123,
+      "doi": "10.4049/jimmunol.1700938"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 8325
+}

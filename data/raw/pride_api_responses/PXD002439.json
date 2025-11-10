@@ -1,0 +1,240 @@
+{
+  "accession": "PXD002439",
+  "title": "HLA-DR peptides from human BAL and EBV-transformed B cells",
+  "additionalAttributes": [],
+  "projectDescription": "Optimization of the protocols for isolation HLA-DR (MHCII) peptides from human BAL.",
+  "sampleProcessingProtocol": "BAL cells and EBV-transformed B cells were lysed, total membranes were isolated and solubilized using dodecyl maltoside. HLA-DR peptide complexes were isolated by immunoprecipitation. Peptides were eluted and purified using SXC and C18 stage tips, and analyzed by LTQ Velos Orbitrap (using CID), Q Exactive or Q Exactive plus.",
+  "dataProcessingProtocol": "Mass lists were generated using Mascot Distiller and used to search the human complete proteome from Uniprot. The following parameters were used: precursor tolerance: 5 ppm; fragment tolerance: 0.25 Da (Velos) or 0.02 Da (Q Exactive); Enzyme specificity: none; No fixed modifications; Oxidition (M), deamidation (N/Q), pyroGlu (N-term Q) as variable modifications. Mascot scores were adjusted using Percolator.",
+  "projectTags": [
+    "Biomedical",
+    "Technical",
+    "Human proteome project",
+    "Biology/disease-driven human proteome project (b/d-hpp)",
+    "Human immuno-peptidome project (hupo-hipp)"
+  ],
+  "keywords": [
+    "Bal",
+    "Sarcoidosis",
+    "Hla-dr peptides"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-05-02",
+  "publicationDate": "2016-08-08",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jimmy",
+      "lastName": "Ytterberg",
+      "identifier": "23600154",
+      "affiliation": "Department of Medicine, Solna, Karolinska Institutet, Stockholm, Sweden",
+      "email": "jimmy.ytterberg@sobi.com",
+      "country": "Sweden",
+      "orcid": "0000-0002-1485-2314",
+      "name": "Jimmy Ytterberg",
+      "id": "23600154"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Roman A.",
+      "lastName": "Zubarev",
+      "identifier": "44580100",
+      "affiliation": "Division of Chemistry I, Department of Medical Biochemistry & Biophysics Karolinska Institutet Stockholm, Sweden",
+      "email": "Roman.Zubarev@ki.se",
+      "country": "",
+      "orcid": "",
+      "name": "Roman A. Zubarev",
+      "id": "44580100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Sweden"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000236",
+          "name": "B cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000155",
+          "name": "bronchoalveolar lavage"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000235",
+          "name": "macrophage"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:11335",
+          "name": "sarcoidosis"
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:2797",
+          "name": "idiopathic interstitial pneumonia"
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0050156",
+          "name": "idiopathic pulmonary fibrosis"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000235",
+      "name": "Macrophage"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000236",
+      "name": "B cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000155",
+      "name": "Bronchoalveolar lavage"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0050156",
+      "name": "Idiopathic pulmonary fibrosis"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:11335",
+      "name": "Sarcoidosis"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:2797",
+      "name": "Idiopathic interstitial pneumonia"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Heyder T, Kohler M, Tarasova NK, Haag S, Rutishauser D, Rivera NV, Sandin C, Mia S, Malmström V, Wheelock ÅM, Wahlström J, Holmdahl R, Eklund A, Zubarev RA, Grunewald J, Ytterberg AJ. Approach for identifying HLA-DR bound peptides from scarce clinical samples. Mol Cell Proteomics. 2016 Jul 24. pii: mcp.M116.060764",
+      "pubmedID": 27452731
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 6239
+}

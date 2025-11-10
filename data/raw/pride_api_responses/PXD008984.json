@@ -1,0 +1,187 @@
+{
+  "accession": "PXD008984",
+  "title": "Identification of changes in the LNZ308 HLA immunopeptidome after virotherapy, irradiation and chemotherapy",
+  "additionalAttributes": [],
+  "projectDescription": "Glioblastoma is an aggressive incurable primary malignant brain tumor. Measles virus (MeV) therapy is a promising upcoming treatment strategy with proven preclinical efficacy and clinical safety. Using RNA Sequencing and immunopeptidome analyses, we aimed at identifying a synergistic combination regimen of MeV with conventional therapeutic strategies for glioblastoma patients, i.e. radiotherapy and temozolomide or lomustine, and to understand the underlying molecular mechanism.",
+  "sampleProcessingProtocol": "Isolation of HLA ligands  Cells subjected to treatment regimens as mentioned above were harvested at 96 h, washed twice with cold phosphate buffered saline (PBS; Lonza), frozen at -80°C with subsequent iosolation of HLA class I molecules using standard immunoaffinity purification. In brief, cell pellets were lysed in 10 mM 3-[(3-Cholamidopropyl)-Dimethylammonio]-1-Propanesulfonate (CHAPS; Applichem, Gatersleben, Germany)/PBS (Lonza) containing protease inhibitor (Roche, Basel, Switzerland). HLA molecules were purified using the pan-HLA class I–specific monoclonal W6/32 Ab, which is covalently linked to CNBr-activated Sepharose (GE Healthcare, Little Chalfont, U.K.). Repeated addition of 0.2% trifluoroacetic acid (Merck Millipore) eluted HLA molecules and peptides. The peptides were isolated employing ultrafiltration with centrifugal filter units (Merck Millipore), extracted and desalted using ZipTip C18 pipette tips (Merck Millipore). Peptides were then eluted in 35 µL acetonitrile (Merck Millipore)/0.1% trifluoroacetic acid, vacuum centrifuged to 5 µL, and resuspended in 25 µL of 1% acetonitrile/0.05% trifluoroacetic acid. Finally, the peptide solutions were stored at -20 ̊C until analysis by LC-MS/MS.   Analysis of HLA Ligands by LC-MS/MS Peptide were separated using reversed-phase liquid chromatography (nanoUHPLC, UltiMate 3000 RSLCnano, Dionex) and analysed in an on-line coupled LTQ Orbitrap XL hybrid mass spectrometer (Thermo Fisher Scientific). In five technical replicates volumes of 5 μL peptide solution (sample shares of 20%) were injected onto a 75 μm × 2 cm trapping column (Acclaim PepMap RSLC, Dionex) at 4 μL/min for 5.75 min. Peptide separation was performed at 50°C with a flow rate of 175 nL/min on a 50 μm × 50 cm separation column (Acclaim PepMap RSLC, Dionex) applying a gradient ranging from 2.4 to 32.0% of ACN over the course of 140 min. Eluted peptides were ionized by nanospray ionization and analyzed in the mass spectrometer implementing a top 5 collision induced dissociation (CID) method generating fragment spectra for the five most abundant precursor ions in the survey scans. For HLA class I ligands, the mass range was limited to 400–650 m/z with charge states 2+ and 3+ selected for fragmentation and the resolution was set to 60,000.",
+  "dataProcessingProtocol": "Database Search and Spectral Annotation Data was processed against the LNZ308 proteome derived from RNA sequencing and the oncolytic measles virus proteome (UniProt) applying the SequestHT algorithm in the Proteome Discoverer 1.3 (Thermo Fisher Scientific) software. Precursor mass tolerance was set to 5 ppm, fragment mass tolerance was set to 0.5 Da and oxidized methionine was allowed as a dynamic modification. Percolator assisted false discovery rate (FDR) calculation was set at a target value of q ≤ 0.05 (5% FDR). Peptide spectrum matches with q≤ 0.05 were ﬁltered according to additional orthogonal parameters to ensure spectral quality and validity. Peptide lengths were limited to 8–12 aa. HLA annotation was performed using NetMHCpan-3 based on the HLA class I typing of LNZ308.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Oncolytic virotherapy",
+    "Glioblastoma",
+    "Lcms",
+    "Personalized immunotherapy",
+    "Immunopeptidome"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-02-19",
+  "publicationDate": "2018-02-19",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Michael",
+      "lastName": "Ghosh",
+      "identifier": "96010152",
+      "affiliation": "Department of Immunology, Tübingen",
+      "email": "michaelghosh@gmx.de",
+      "country": "Germany",
+      "orcid": "0000-0001-5550-9531",
+      "name": "Michael Ghosh",
+      "id": "96010152"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Prof. Dr. Stefan",
+      "lastName": "Stevanović",
+      "identifier": "95620100",
+      "affiliation": "Department of Immunology, Interfaculty Institute for Cell Biology, Tübingen, Germany",
+      "email": "stefan.stevanovic@uni-tuebingen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Prof. Dr. Stefan Stevanović",
+      "id": "95620100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1319",
+          "name": "brain cancer"
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:3073",
+          "name": "brain glioblastoma multiforme"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:3073",
+      "name": "Brain glioblastoma multiforme"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1319",
+      "name": "Brain cancer"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Rajaraman S, Canjuga D, Ghosh M, Codrea MC, Sieger R, Wedekink F, Tatagiba M, Koch M, Lauer UM, Nahnsen S, Rammensee HG, Mühlebach MD, Stevanovic S, Tabatabai G. Measles Virus-Based Treatments Trigger a Pro-inflammatory Cascade and a Distinctive Immunopeptidome in Glioblastoma. Mol Ther Oncolytics. 2019 12:147-161",
+      "pubmedID": 30775418,
+      "doi": "10.1016/j.omto.2018.12.010"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    }
+  ],
+  "totalFileDownloads": 2562,
+  "otherOmicsLinks": [
+    "geo:GSE111247"
+  ]
+}

@@ -1,0 +1,37 @@
+======================================================================
+疾病类型智能推断报告
+======================================================================
+
+总数据集: 147
+成功推断: 22
+仍为Unknown: 38
+推断覆盖率: 16.8%
+
+推断来源分布:
+  description: 14
+  title: 8
+
+======================================================================
+疾病类型新分布:
+======================================================================
+
+Unknown                                 :  38 ( 25.9%)
+Healthy/Control                         :  37 ( 25.2%)
+Multiple sclerosis                      :   7 (  4.8%)
+Melanoma                                :   6 (  4.1%)
+Colon cancer                            :   5 (  3.4%)
+Breast cancer                           :   4 (  2.7%)
+Method development (no specific disease):   3 (  2.0%)
+Meningioma                              :   2 (  1.4%)
+Behçet's disease                        :   2 (  1.4%)
+Cervix carcinoma                        :   2 (  1.4%)
+Lung cancer                             :   2 (  1.4%)
+Influenza                               :   2 (  1.4%)
+Ankylosing spondylitis                  :   2 (  1.4%)
+Tuberculosis                            :   2 (  1.4%)
+Malignant neoplasm of ovary             :   1 (  0.7%)
+Acute leukemia                          :   1 (  0.7%)
+Lung cancer; Melanoma                   :   1 (  0.7%)
+Birdshot chorioretinopathy              :   1 (  0.7%)
+Hepatocellular carcinoma                :   1 (  0.7%)
+Lung adenocarcinoma; Melanomatosis      :   1 (  0.7%)

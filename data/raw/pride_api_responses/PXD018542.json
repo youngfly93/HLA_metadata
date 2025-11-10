@@ -1,0 +1,217 @@
+{
+  "accession": "PXD018542",
+  "title": "LC-MSMS of primary AML class I immunopeptidome (ERE-derived MAPs identification approach)",
+  "additionalAttributes": [],
+  "projectDescription": "The development of therapeutic anticancer vaccines calls for the identification of tumor-specific antigens (TSAs). Though a combination of four cutting-edge proteogenomic approaches, we performed a deep exploration of the MHC-I presented peptides (MAPs) of 19 acute myeloid leukemia (AML) patients and identified various TSAs that could serve for the design of an anti-AML vaccine.",
+  "sampleProcessingProtocol": "Diagnostic AML samples (cryovials of DMSO-frozen leukemic blasts) were obtained from the Banque de cellules leucémiques du Québec program (BCLQ, bclq.org). One hundred million cells of each AML sample were thawed (1 min in 37°C water bath) and resuspended in 48 ml of 4°C PBS. Two million cells (1 ml) were pelleted and resuspended in 1 ml Trizol for RNA-Sequencing while the remaining 98 million were pelleted and snap-frozen in liquid nitrogen for mass spectrometry analyses. Cells from 14H124 patient were expanded in NSG mice and a one tumor having a size >1 cm³ was collected and snap frozen for MS analyses.",
+  "dataProcessingProtocol": "All liquid chromatography (LC)-MS/MS (LC-MS/MS) data were searched against the relevant personalized databases (built with four different protocols, based on RNA-seq data of each AML specimen) using PEAKS X (Bioinformatics Solution Inc.). For peptide identification, tolerance was set at 10 ppm and 0.01 Da for precursor and fragment ions, respectively. The occurrences of oxidation (M) and deamidation (NQ) were set as variable modifications. Following peptide identification, a list of unique peptides was obtained for each sample and a false discovery rate (FDR) of 5% was applied on the peptide scores. Binding affinities to the sample’s HLA alleles were predicted with NetMHC 4.0 and only 8 to 11-amino-acid-long peptides with a percentile rank ≤ 2% were used for further annotation.  Database building for ERE-derived MAPs identification approach:  The sample’s reads were aligned on the human reference genome (GRCh38.88) using STAR with default parameters. Using the intersect function of BEDtools, reads were separated in two datasets of reads entirely mapping in either ERE sequences or canonical genes. Reads of the ERE reads dataset were discarded if their sequences were also present in the canonical reads dataset. Unmapped reads, secondary alignments and low-quality reads were then discarded from the ERE reads dataset with samtools view. Remaining ERE reads were then in silico translated into ERE polypeptides in all possible reading frames. ERE polypeptides were spliced at the location of stop codons, downstream sequences were discarded and only upstream sequences of ≥8 amino acids (i.e. the minimal length of a MAP) were kept. The resulting ERE proteome was then concatenated with the respective sample’s personalized canonical proteome.",
+  "projectTags": [],
+  "keywords": [
+    "Aml",
+    "Lc-msms",
+    "Immunopeptidome",
+    "Mhc class i"
+  ],
+  "doi": "10.6019/PXD018542",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2020-04-14",
+  "publicationDate": "2021-03-19",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Courcelles",
+      "lastName": "Mathieu",
+      "identifier": "650152",
+      "affiliation": "IRIC",
+      "email": "mathieu.courcelles@umontreal.ca",
+      "country": "Canada",
+      "orcid": "0000-0001-5961-8858",
+      "name": "Courcelles Mathieu",
+      "id": "650152"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Pierre",
+      "lastName": "Thibault",
+      "identifier": "189500100",
+      "affiliation": "Institute for Research in Immunology and Cancer, Department of Biochemistry, Department of Chemistry, Université de Montréal, Québec, Canada H3T 1J4",
+      "email": "pierre.thibault@umontreal.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Pierre Thibault",
+      "id": "189500100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002523",
+      "name": "Q Exactive HF",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000141",
+          "name": "bone marrow",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000089",
+          "name": "blood",
+          "value": ""
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000842",
+          "name": "mononuclear cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:9119",
+          "name": "acute myeloid leukemia",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000089",
+      "name": "Blood",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000842",
+      "name": "Mononuclear cell",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000141",
+      "name": "Bone marrow",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:9119",
+      "name": "Acute myeloid leukemia",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Ehx G, Larouche JD, Durette C, Laverdure JP, Hesnard L, Vincent K, Hardy MP, Thériault C, Rulleau C, Lanoix J, Bonneil E, Feghaly A, Apavaloaei A, Noronha N, Laumont CM, Delisle JS, Vago L, Hébert J, Sauvageau G, Lemieux S, Thibault P, Perreault C. Atypical acute myeloid leukemia-specific transcripts generate shared and immunogenic MHC class-I-associated epitopes. Immunity. 2021 54(4):737-752.e10",
+      "pubmedID": 33740418,
+      "doi": "10.1016/j.immuni.2021.03.001"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 13762,
+  "otherOmicsLinks": [
+    "pride.project:PXD018543",
+    "pride.project:PXD018541",
+    "pride.project:PXD018539",
+    "pride.project:PXD018540"
+  ]
+}

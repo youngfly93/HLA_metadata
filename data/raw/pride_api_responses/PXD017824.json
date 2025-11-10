@@ -1,0 +1,199 @@
+{
+  "accession": "PXD017824",
+  "title": "Thermostability profiling of MHC-bound peptides: a new dimension in immunopeptidomics and design of immunotherapeutics.",
+  "additionalAttributes": [],
+  "projectDescription": "The features of peptide antigens that contribute to their immunogenicity are poorly understood. Although the stability of peptide-MHC (pMHC) is known to be important, current assays assess this interaction only for peptides in isolation and not in the context of natural antigen processing and presentation2–4. Here, we present a novel method which provides a comprehensive and unbiased measure of pMHC stability for thousands of individual ligands detected simultaneously by mass spectrometry (MS). The method allows rapid assessment of intra- and inter-allelic differences in pMHC stability and reveals broader profiles of stability than previously appreciated. The additional dimensionality of the data facilitated the training of a model which improved the prediction of peptide immunogenicity, specifically of cancer neoepitopes. This assay can be applied to any cells bearing MHC or MHC-like molecules, offering insight into not only the endogenous immunopeptidome, but also that of neoepitopes and pathogen-derived sequences.",
+  "sampleProcessingProtocol": "We used the HLA-A and -B-negative C1R cell line modified to express high levels of either HLA-A*02:01 or HLA-B*07:02. The pHLA complexes were immunoaffinity purified from the cell lysate supernatant using either the HLA-A*02:01-specific antibody BB7.2 or the pan-HLAI antibody W6/32 crosslinked to protein A sepharose (antibody to protein ratio of 10mg/mL). Bound complexes were eluted with 10% acetic acid, and the eluted peptides, class I heavy chain and β2-microglobulin (β2m) were fractionated using HPLC. Fractions were pooled and run on a Q-Exactive Plus Hybrid Quadrupole Orbitrap. For DDA analysis, 6 μl of each concentrated fraction pool was loaded onto a Dionex Acclaim PepMap100 200-mm C18 Nano-Trap Column with 100-μm internal diameter (5-μm particle size, 300-Å pore size) in buffer A (2% v/v acetonitrile, 0.1% v/v formic acid in water) at a flow rate of 15 μl/min. Peptides were separated on a Dionex Acclaim RSLC PepMap RSLC C18 column (50-cm length, 75-μm internal diameter, 2-μm particle size, 100-Å pore size) and subsequently eluted at a flow rate of 250 nl/min over an increasing gradient of buffer B (80% v/v acetonitrile, 0.1% v/v formic acid in water) of 2.5-7.5% over 3 min, 7.5-37.5% over 120 min, 37.5-42.5% over 3 min, 42.5-99% over 5 min and 99% over 6 min after which the gradient dropped to 2.5% buffer B over 1 min, before re-equilibrating at 2.5% for 20 min. Data were collected in positive mode with an MS1 resolution of 70,000 and scan range 375-1,575 m/z and an MS2 resolution of 17,500 with scan range 200-2,000 m/z. The top 20 ions of charge state 2-5 per cycle were chosen for MS/MS with a dynamic exclusion of 15s.",
+  "dataProcessingProtocol": "PEAKS Studio ® (v.10) was used to process the DDA-MS data from nine fraction pools of HLA-eluted peptides resulting from immunoprecipitation of 8x108 C1R cells5. DDA data files were imported with Instrument set to Orbitrap, Fragmentation HCD and no digestion enzyme. Precursor and fragment mass tolerances of 10 ppm and 0.02 Da, respectively, were selected, and the DDA spectra were searched against the human UniprotKB database (v2019-08) with iRT peptide sequences used as contaminant database. Analysis was carried out with oxidation [+15.99] and deamidation [+0.98] set as variable peptide modifications, with a maximum of three modifications per peptide. A false discovery rate (FDR), determined based on a target-decoy database, of 1% was used to generate the HLA-specific spectral libraries in PEAKS.",
+  "projectTags": [],
+  "keywords": [
+    "Mhc",
+    "Thermostability",
+    "Immunopeptidome"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2020-03-02",
+  "publicationDate": "2020-11-30",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Emma",
+      "lastName": "Jappe",
+      "identifier": "1808875",
+      "affiliation": "Evaxion Biotech, Technical University of Denmark",
+      "email": "emja@evaxion-biotech.com",
+      "country": "Denmark",
+      "orcid": "0000-0002-6717-9477",
+      "name": "Emma Jappe",
+      "id": "1808875"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Anthony Wayne",
+      "lastName": "Purcell",
+      "identifier": "182910100",
+      "affiliation": "Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, Monash University, Clayton, VIC 3800, Australia",
+      "email": "anthony.purcell@monash.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Anthony Wayne Purcell",
+      "id": "182910100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002523",
+      "name": "Q Exactive HF",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001946",
+      "name": "PEAKS Studio"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Denmark"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000089",
+          "name": "blood",
+          "value": ""
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000236",
+          "name": "B cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000089",
+      "name": "Blood",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000236",
+      "name": "B cell",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Jappe EC, Garde C, Ramarathinam SH, Passantino E, Illing PT, Mifsud NA, Trolle T, Kringelum JV, Croft NP, Purcell AW. Thermostability profiling of MHC-bound peptides: a new dimension in immunopeptidomics and aid for immunotherapy design. Nat Commun. 2020 11(1):6305",
+      "pubmedID": 33298915,
+      "doi": "10.1093/nar/gky1106"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 2250,
+  "otherOmicsLinks": [
+    "pride.project:PXD017839"
+  ]
+}

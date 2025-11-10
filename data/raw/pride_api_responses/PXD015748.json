@@ -1,0 +1,169 @@
+{
+  "accession": "PXD015748",
+  "title": "Mapping the HLA ligandome landscape of acute myeloid leukemia: a targeted approach toward peptide-based immunotherapy",
+  "additionalAttributes": [],
+  "projectDescription": "Identification of physiologically relevant peptide vaccine targets calls for the direct analysis of the entirety of naturally presented human leukocyte antigen (HLA) ligands, termed the HLA ligandome. In this study, we implemented this direct approach using immunoprecipitation and mass spectrometry to define acute myeloid leukemia (AML)-associated peptide vaccine targets. Mapping the HLA class I ligandomes of 15 AML patients and 35 healthy controls, more than 25 000 different naturally presented HLA ligands were identified. Target prioritization based on AML exclusivity and high presentation frequency in the AML cohort identified a panel of 132 LiTAAs (ligandome-derived tumor-associated antigens), and 341 corresponding HLA ligands (LiTAPs (ligandome-derived tumor-associated peptides)) represented subset independently in >20% of AML patients. Functional characterization of LiTAPs by interferon-γ ELISPOT (Enzyme-Linked ImmunoSpot) and intracellular cytokine staining confirmed AML-specific CD8+ T-cell recognition. Of note, our platform identified HLA ligands representing several established AML-associated antigens (e.g. NPM1, MAGED1, PRTN3, MPO, WT1), but found 80% of them to be also represented in healthy control samples. Mapping of HLA class II ligandomes provided additional CD4+ T-cell epitopes and potentially synergistic embedded HLA ligands, allowing for complementation of a multipeptide vaccine for the immunotherapy of AML.",
+  "sampleProcessingProtocol": "HLA class I molecules were isolated from 15 primary acute myeloid leukemia (AML) samples by standard immunoaffinity purification as described previously (PMID: 23329485). Pan-HLA class I-specific mAb W6/32 was employed for HLA class I isolation. In total, we performed 73 MS measurements of purified peptides by LC-MS/MS analysis using an LTQ Orbitrap XL hybrid mass spectrometer.",
+  "dataProcessingProtocol": "MS data analysis was carried out using Proteome discoverer. Peak lists were searched against the human proteome as comprised in the UniProtKB/Swiss-Prot database using Mascot search engine. Mass tolerance for processing was 5 ppm for precursor ions and 0.5 Da for fragment ions. No cleavage specificity was selected and the only dynamic modification allowed was oxidized methionine. Peptide confidence was determined using percolator algorithm with a target value of q ≤ 0.05 (5% FDR). Additional post processing filters were search engine rank = 1 and peptide length of 8-12 amino acids.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Acute myeloid leukemia",
+    "Lc-msms"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-10-09",
+  "publicationDate": "2019-10-14",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Annika",
+      "lastName": "Nelde",
+      "identifier": "108790156",
+      "affiliation": "Department of Peptide-based Immunotherapy, University and University Hospital Tübingen, Tübingen, Germany",
+      "email": "annika.nelde@uni-tuebingen.de",
+      "country": "Germany",
+      "orcid": "0000-0001-8504-8481",
+      "name": "Annika Nelde",
+      "id": "108790156"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Juliane S. Walz (neé",
+      "lastName": "Stickel)",
+      "identifier": "162350100",
+      "affiliation": "Department of Hematology and Oncology, University of Tübingen, Tübingen, Germany",
+      "email": "juliane.walz@med.uni-tuebingen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Juliane S. Walz (neé Stickel)",
+      "id": "162350100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001025",
+          "name": "peripheral blood mononuclear cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:9119",
+          "name": "acute myeloid leukemia"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001025",
+      "name": "Peripheral blood mononuclear cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:9119",
+      "name": "Acute myeloid leukemia"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Berlin C, Kowalewski DJ, Schuster H, Mirza N, Walz S, Handel M, Schmid-Horch B, Salih HR, Kanz L, Rammensee HG, Stevanović S, Stickel JS. Mapping the HLA ligandome landscape of acute myeloid leukemia: a targeted approach toward peptide-based immunotherapy. Leukemia. 2015 29(3):647-659",
+      "pubmedID": 25092142,
+      "doi": "10.1038/leu.2014.233"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 9084
+}

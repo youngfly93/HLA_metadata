@@ -1,0 +1,178 @@
+{
+  "accession": "PXD008572",
+  "title": "C1R.B*58:01 MHC class I immunopeptidome LC-MSMS",
+  "additionalAttributes": [],
+  "projectDescription": "Characterisation of peptide ligands of Major histocompatibility class (MHC) I isolated by immunoaffinity purification from the C1R (Class I reduced) B-lymphoblastoid cell line, transfected with the MHC class I allele HLA-B*58:01.",
+  "sampleProcessingProtocol": "Snap frozen pellets of 10^9 C1R.B*58:01 cells were lysed by a mixture of detergent (NP-40) and mechanical lysis. The MHC complexes were isolated from the lysate using solid phase bound W6/32 monoclonal antibody and eluted with 10% acetic acid. MHC/peptide mixtures were fractioned by RP-HPLC and peptide containing fractions vacuum concentrated prior to reconstitution in 0.1% Formic acid. Peptides were analysed in positive mode by an AB SCIEX 5600 TripleTOF mass spectrometer equipped with a Nanospray III ion source. Data were collected from 3 pellets. Where material allowed, residual samples were diluted 1 in 3 with 0.1% formic acid and re-analysed, including exclusion lists.",
+  "dataProcessingProtocol": "Peptide spectra were assigned using Protein PilotTM Software 5.0 (SCIEX), searching against the reviewed human proteome (swiss-prot accessed November 2017) with the following parameters:  Sample Type - Identification, Cys. Alkylation - None, Digestion - None, Instrument - TripleTOF 5600, ID Focus - Biological modifications, Search Effort – Thorough, FDR Analysis – Yes. Confidences corresponding to a 5% FDR for Distinct peptides in Protein PilotTM search files:\r\n110910_mB5801_2017uniprotPilot5 – 96.5, 110910_mB5801ex_2017uniprotPilot5 – 96.6, 111203_mB5801_2017uniprotPilot5 – 95.7, 111203_mB5801ex_2017uniprotPilot5 – 95.7, 120225_mB5801_2017uniprotPilot5 – 96.5, 120225_mB5801ex_2017uniprotPilot5 – 96.8",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Hla-b*58:01",
+    "Lc-msms",
+    "Mhc",
+    "Immunopeptidome"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-01-02",
+  "publicationDate": "2018-10-24",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Patricia",
+      "lastName": "Illing",
+      "identifier": "88720198",
+      "affiliation": "Department of Biochemistry and Molecular Biology & Infection and Immunity Program, Biomedicine Discovery Institute, Monash University, Clayton, Victoria 3800, Australia",
+      "email": "patricia.illing@monash.edu",
+      "country": "Australia",
+      "orcid": "0000-0002-3870-0796",
+      "name": "Patricia Illing",
+      "id": "88720198"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Anthony W.",
+      "lastName": "Purcell",
+      "identifier": "91230100",
+      "affiliation": "Infection and Immunity Program and Department of Biochemistry and Molecular Biology, Monash Biomedicine Discovery Institute, Monash University, Clayton, Victoria 3800, Australia",
+      "email": "anthony.purcell@monash.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Anthony W. Purcell",
+      "id": "91230100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Australia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000221",
+          "name": "cell suspension culture",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000221",
+      "name": "Cell suspension culture",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Illing PT, Pymm P, Croft NP, Hilton HG, Jojic V, Han AS, Mendoza JL, Mifsud NA, Dudek NL, McCluskey J, Parham P, Rossjohn J, Vivian JP, Purcell AW. HLA-B57 micropolymorphism defines the sequence and conformational breadth of the immunopeptidome. Nat Commun. 2018 9(1):4693",
+      "pubmedID": 30410026,
+      "doi": "10.1038/s41467-018-07109-w"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00428",
+      "name": "dihydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00704",
+      "name": "dehydrated residue",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 2333,
+  "otherOmicsLinks": [
+    "pride.project:PXD008571",
+    "px:PXD008570",
+    "px:PXD008571",
+    "pride.project:PXD009850",
+    "pride.project:PXD008570"
+  ]
+}

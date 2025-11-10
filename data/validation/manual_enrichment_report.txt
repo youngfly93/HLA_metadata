@@ -1,0 +1,128 @@
+======================================================================
+手动补充数据报告
+======================================================================
+
+一、补充概况
+----------------------------------------------------------------------
+手动填写数据集: 38
+成功更新数据集: 31
+
+二、改进统计
+----------------------------------------------------------------------
+
+HLA类型:
+  优化前: 4 Unknown
+  优化后: 4 Unknown
+  改善: 0个
+
+疾病类型:
+  优化前: 38 Unknown
+  优化后: 24 Unknown
+  改善: 14个
+
+样本类型:
+  优化前: 36 Unknown
+  优化后: 31 Unknown
+  改善: 5个
+
+三、详细更改
+----------------------------------------------------------------------
+
+PXD001898:
+  • Disease: Unknown → Ankylosing spondylitis; Cancer
+
+PXD008570:
+  • Disease: Unknown → Ankylosing spondylitis; Multiple sclerosis
+
+PXD009531:
+  • Disease: Unknown → Ankylosing spondylitis; Cancer
+
+PXD009935:
+  • Disease: Unknown → Ankylosing spondylitis
+
+PXD012348:
+  • Sample: Unknown → Tissue (BAL)
+
+PXD013831:
+  • Disease: Unknown → Ankylosing spondylitis; Cancer
+
+PXD019643:
+  • Disease: Unknown → Healthy
+
+PXD002439:
+  • Sample: Unknown → Cell line (EBV-transformed B cells)
+
+PXD002951:
+  • Disease: Unknown → Ankylosing spondylitis
+
+PXD004023:
+  • Disease: Unknown → Ankylosing spondylitis; Cancer
+
+PXD006534:
+  • Sample: Unknown → Tissue (BAL)
+
+PXD008571:
+  • Disease: Unknown → Ankylosing spondylitis; Multiple sclerosis
+
+PXD008572:
+  • Disease: Unknown → Ankylosing spondylitis; Multiple sclerosis
+
+PXD012308:
+  • Disease: Unknown → Ankylosing spondylitis; Cancer
+
+PXD015646:
+  • Disease: Unknown → Ankylosing spondylitis; Tuberculosis
+  • Sample: Unknown → Cell line (THP-1)
+
+PXD015726:
+  • Sample: Unknown → Tissue (Pancreas)
+
+PXD023954:
+  • Disease: Unknown → Ankylosing spondylitis; Marek disease; Infectious bursal disease
+
+PXD034773:
+  • Disease: Unknown → Ankylosing spondylitis; Cancer
+
+MSV000080527:
+  • Disease: Unknown → Unknown
+
+MSV000081439:
+  • Disease: Unknown → Unknown
+
+MSV000082648:
+  • Disease: Unknown → Unknown
+
+MSV000084172:
+  • Disease: Unknown → Unknown
+
+MSV000084442:
+  • Disease: Unknown → Unknown
+
+MSV000087225:
+  • Disease: Unknown → Unknown
+
+MSV000087743:
+  • Disease: Unknown → Unknown
+
+MSV000083991:
+  • Disease: Unknown → Unknown
+
+MSV000090437:
+  • Disease: Unknown → Unknown
+
+JPST001068:
+  • Disease: Unknown → Unknown
+
+JPST001069:
+  • Disease: Unknown → Unknown
+
+JPST001072:
+  • Disease: Unknown → Unknown
+
+PASS00211:
+  • Disease: Unknown → Unknown
+
+四、数据质量提升
+----------------------------------------------------------------------
+总改善字段数: 19
+新的Unknown比例: 16.3%

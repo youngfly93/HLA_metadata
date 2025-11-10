@@ -1,0 +1,158 @@
+{
+  "accession": "PXD009936",
+  "title": "Determinants of the cellular immunopeptidome – cellular proteome",
+  "additionalAttributes": [],
+  "projectDescription": "Mass spectrometry analysis of the immunopeptidome after TNF/IFN stimulation",
+  "sampleProcessingProtocol": "Cellular lysates were subjected to MS/MS analysis on a QE instrument",
+  "dataProcessingProtocol": "tryptic digests with default parameters. Masses were searched against the human proteome database from UniprotKB",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Immunopeptidomics",
+    "Hla"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-05-28",
+  "publicationDate": "2018-10-22",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Assaf",
+      "lastName": "Kacen",
+      "identifier": "98210109",
+      "affiliation": "Weizmann Institute of Science",
+      "email": "assaf.kacen@weizmann.ac.il",
+      "country": "Israel",
+      "orcid": "",
+      "name": "Assaf Kacen",
+      "id": "98210109"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Yifat",
+      "lastName": "Merbl",
+      "identifier": "105440100",
+      "affiliation": "Weizmann Institute of Science",
+      "email": "yifat.merbl@weizmann.ac.il",
+      "country": "",
+      "orcid": "",
+      "name": "Yifat Merbl",
+      "id": "105440100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000312",
+      "name": "Label free"
+    }
+  ],
+  "countries": [
+    "Israel"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00408",
+      "name": "mono N-acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 551
+}

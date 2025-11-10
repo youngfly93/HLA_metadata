@@ -1,0 +1,72 @@
+[
+  {
+    "dataset_id":"MSV000080527",
+    "repository":"MassIVE",
+    "manual_review":true,
+    "note":"ppx package not installed - requires manual extraction",
+    "pride_url":"https:\/\/massive.ucsd.edu\/ProteoSAFe\/dataset.jsp?task=MSV000080527"
+  },
+  {
+    "dataset_id":"MSV000081439",
+    "repository":"MassIVE",
+    "manual_review":true,
+    "note":"ppx package not installed - requires manual extraction",
+    "pride_url":"https:\/\/massive.ucsd.edu\/ProteoSAFe\/dataset.jsp?task=MSV000081439"
+  },
+  {
+    "dataset_id":"MSV000082648",
+    "repository":"MassIVE",
+    "manual_review":true,
+    "note":"ppx package not installed - requires manual extraction",
+    "pride_url":"https:\/\/massive.ucsd.edu\/ProteoSAFe\/dataset.jsp?task=MSV000082648"
+  },
+  {
+    "dataset_id":"MSV000084172",
+    "repository":"MassIVE",
+    "manual_review":true,
+    "note":"ppx package not installed - requires manual extraction",
+    "pride_url":"https:\/\/massive.ucsd.edu\/ProteoSAFe\/dataset.jsp?task=MSV000084172"
+  },
+  {
+    "dataset_id":"MSV000084442",
+    "repository":"MassIVE",
+    "manual_review":true,
+    "note":"ppx package not installed - requires manual extraction",
+    "pride_url":"https:\/\/massive.ucsd.edu\/ProteoSAFe\/dataset.jsp?task=MSV000084442"
+  },
+  {
+    "dataset_id":"MSV000087225",
+    "repository":"MassIVE",
+    "manual_review":true,
+    "note":"ppx package not installed - requires manual extraction",
+    "pride_url":"https:\/\/massive.ucsd.edu\/ProteoSAFe\/dataset.jsp?task=MSV000087225"
+  },
+  {
+    "dataset_id":"MSV000087743",
+    "repository":"MassIVE",
+    "manual_review":true,
+    "note":"ppx package not installed - requires manual extraction",
+    "pride_url":"https:\/\/massive.ucsd.edu\/ProteoSAFe\/dataset.jsp?task=MSV000087743"
+  },
+  {
+    "dataset_id":"MSV000091456",
+    "repository":"MassIVE",
+    "manual_review":true,
+    "note":"ppx package not installed - requires manual extraction",
+    "pride_url":"https:\/\/massive.ucsd.edu\/ProteoSAFe\/dataset.jsp?task=MSV000091456"
+  },
+  {
+    "dataset_id":"MSV000083991",
+    "repository":"MassIVE",
+    "manual_review":true,
+    "note":"ppx package not installed - requires manual extraction",
+    "pride_url":"https:\/\/massive.ucsd.edu\/ProteoSAFe\/dataset.jsp?task=MSV000083991"
+  },
+  {
+    "dataset_id":"MSV000090437",
+    "repository":"MassIVE",
+    "manual_review":true,
+    "note":"ppx package not installed - requires manual extraction",
+    "pride_url":"https:\/\/massive.ucsd.edu\/ProteoSAFe\/dataset.jsp?task=MSV000090437"
+  }
+]

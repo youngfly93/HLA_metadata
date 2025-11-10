@@ -1,0 +1,191 @@
+{
+  "accession": "PXD027182",
+  "title": "Neuroblastoma HLA class I Immunopeptidomics",
+  "additionalAttributes": [],
+  "projectDescription": "We surveyed the immunopeptidome of neuroblastoma tumors to identify tumor-specific targets derived from non-mutated self proteins originating from core-regulatory circuit proteins.",
+  "sampleProcessingProtocol": "HLA class I molecules were isolated using standard immunoaffinity purification as described previously. In brief, cell pellets were lysed in 10 mM CHAPS/PBS (AppliChem/Lonza) containing 1x protease inhibitor (Complete; Roche). Mouse MHC molecules were removed using a 1 h immunoaffinity purification with H-2K-specific mAb 20-8-4S, covalently linked to CNBr-activated sepharose (GE Healthcare). Remaining HLA molecules were purified overnight using the pan-HLA class I-specific mAb W6/32 or a mix of the pan-HLA class II-specific mAb Tü39 and the HLA-DR-specific mAb L243, covalently linked to CNBr-activated. MHC-peptide complexes were eluted by repeated addition of 0.2% trifluoroacetic acid (Merck). Elution fractions E1-E4 were pooled, and free MHC ligands were isolated by ultrafiltration using centrifugal filter units (Amicon; Merck Millipore). MHC ligands were extracted and desalted from the filtrate using ZipTip C18 pipette tips (Merck Millipore). Extracted peptides were eluted in 35 µl of acetonitrile (Merck)/0.1% trifluoroacetic acid, centrifuged to complete dryness and resuspended in 25 µl of 1% acetonitrile/0.05% trifluoroacetic acid. Samples were stored at -20°C until analysis by LC-MS/MS.",
+  "dataProcessingProtocol": "Data was processed against the human proteome as comprised in the Swiss-Prot database (www.uniprot.org, release: May 27th 2021; 20,395 reviewed protein sequences contained) using the SequestHT algorithm (3) in the Proteome Discoverer (v2.1, Thermo Fisher Scientific) software. Precursor mass tolerance was set to 5 ppm, fragment mass tolerance to 0.02 Da. Search was not restricted to an enzymatic specificity. Oxidized methionine was allowed as a dynamic modification. False discovery rate (FDR) was determined by the Percolator algorithm based on processing against a decoy database consisting of shuffled sequences. FDR was set to 1%. Peptide lengths were limited to 8-14 amino acids for MHC class I.",
+  "projectTags": [],
+  "keywords": [
+    "Tumor antigens",
+    "Neuroblastoma immunopeptidomics",
+    "Hla class i",
+    "Phox2b"
+  ],
+  "doi": "10.6019/PXD027182",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2021-07-08",
+  "publicationDate": "2021-08-11",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Mark",
+      "lastName": "Yarmarkovich",
+      "identifier": "2310711",
+      "affiliation": "Children's Hospital of Philadelphia",
+      "email": "yarm@pennmedicine.upenn.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Mark Yarmarkovich",
+      "id": "2310711"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "John M.",
+      "lastName": "Maris",
+      "identifier": "2267921",
+      "affiliation": "Children's Hospital of Philadelphia Division of Oncology and Center for Childhood Cancer Research USA",
+      "email": "maris@chop.edu",
+      "country": "",
+      "orcid": "",
+      "name": "John M. Maris",
+      "id": "2267921"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001490",
+      "name": "Percolator"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000671",
+          "name": "kidney"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001413",
+          "name": "primary cell"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000007",
+          "name": "early embryonic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:769",
+          "name": "neuroblastoma"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000007",
+      "name": "Early embryonic cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000671",
+      "name": "Kidney"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001413",
+      "name": "Primary cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:769",
+      "name": "Neuroblastoma"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Yarmarkovich M, Marshall QF, Warrington JM, Premaratne R, Farrel A, Groff D, Li W, di Marco M, Runbeck E, Truong H, Toor JS, Tripathi S, Nguyen S, Shen H, Noel T, Church NL, Weiner A, Kendsersky N, Martinez D, Weisberg R, Christie M, Eisenlohr L, Bosse KR, Dimitrov DS, Stevanovic S, Sgourakis NG, Kiefel BR, Maris JM. Cross-HLA targeting of intracellular oncoproteins with peptide-centric CARs. Nature. 2021 599(7885):477-484",
+      "pubmedID": 34732890,
+      "doi": "10.1038/s41586-021-04061-6"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 11685
+}

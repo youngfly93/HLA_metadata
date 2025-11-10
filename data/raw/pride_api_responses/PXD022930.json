@@ -1,0 +1,194 @@
+{
+  "accession": "PXD022930",
+  "title": "Temperature induced change of the HLA ligandome",
+  "additionalAttributes": [],
+  "projectDescription": "Temperature induced change of the HLA ligandome and proteome in B-cells",
+  "sampleProcessingProtocol": "Proteome LC-MS/MS analysis  The data was acquired with an UHPLC 1290 system (Agilent) coupled to a Q-Exactive HF mass spectrometer (Thermo Fischer Scientific). The peptides were trapped (Dr Maisch Reprosil C18, 3µM, 2cm x 100µM) for 5min in solvent A (0.1% formic acid in water) before being separated on an analytical column (Agilent Poroshell, EC-C18, 2.7µM, 50cm x 75µM). Solvent B consisted of 0.1% formic acid in 80% acetonitrile. The gradient was as follows: 5min trapping, followed by 155min gradient from 10% to 36% solvent B. Subsequently, 10min of washing with 100% solvent B and 10min re-equilibration with 100% solvent A. The mass spectrometer operated in data-dependent mode. Full scan MS spectra from m/z 375-1600 were acquired at a resolution of 60,000 to a target value of 3x106 or a maximum injection time of 20ms. MS/MS spectra were acquired at a resolution of 15,000.The top 15 most intense precursors with a charge state of 2+ to 5 were chosen for fragmentation. HCD fragmentation was performed at 27% normalized collision energy on selected precursors with 16s dynamic exclusion at a 1.4m/z isolation window after accumulation to 1x106 ions or a maximum injection time of 50ms.  Ligandome LC-MS/MS analysis  The data was acquired with an UHPLC 1290 system (Agilent) coupled to an Orbitrap Fusion Lumos Tribrid mass spectrometer (Thermo Fischer Scientific). Peptides were trapped (Dr Maisch Reprosil C18, 3 μM, 2 cm × 100 μM) for 5 min in solvent A (0.1% formic acid in water) before being separated on an analytical column (Agilent Poroshell, EC-C18, 2.7 μm, 50 cm × 75 μm). Solvent B consisted of 0.1% formic acid in 80% acetonitrile. The gradient was as follows: first 5min of trapping, followed by 90min gradient from 7% to 35% solvent B. Subsequently 10min of washing with 100% solvent B and 10min re-equilibration with 100% solvent A. The mass spectrometer operated in data-dependent mode. Full scan MS spectra from m/z 400-650 (HLA class I) or m/z 300-1500 (HLA class II) were acquired at a resolution of 60,000 after accumulation to a target value of 4x105 or a maximum injection time of 50ms (HLA class I) or 250ms (HLA class II). Tandem mass spectrometry (MS/MS) spectra were acquired at a resolution of 15,000. Up to three most intense precursors with a charge state of 2 or 3starting at m/z 100 (HLA class I) or charge state 2 to 5 (HLA class II) were chosen for fragmentation. EThcD fragmentation was performed at 35% normalized collision energy on selected precursors with 18s dynamic exclusion (HLA class I) or 60s dynamic exclusion (HLA class II) after accumulation of 5x104 ions or a maximum injection time of 250ms (HLA class I) or 1500ms (HLA class II).",
+  "dataProcessingProtocol": "Proteome data analysis  Raw files were searched using MaxQuant version 1.6.10 and the Andromeda search engine against the human Uniprot database (20431 entries, downloaded in December 2019) edited with the JY-specific HLA proteins. Enzyme specificity was set to trypsin and up to 2 missed cleavages were allowed. Cysteine carbamidomethylation was set as fixed modification. Methionine oxidation and N-terminal acetylation were set as variable modifications. False discovery rate (FDR) was restricted to 1% in both protein and peptide quantification. For quantitative comparisons, label-free quantification (based on unique + razor peptides) with “match between runs” enabled. For HLA protein quantification, the label-free quantification was based on unique peptides only. Data normalization and statistics were performed with Perseus version 1.6.7.0. Gene ontology (GO) analysis was performed with Database for Annotation, Visualization and Integrated Discovery version 6.8 (DAVID, https://david.ncifcrf.gov/). The data was visualized with Graphpad Prism 8.0.  Ligandome data analysis  Raw files were searched using Sequest HT in Proteome Discoverer 2.2 against the Swiss-Prot human database (20258 entries, downloaded in February 2018) edited with JY specific HLA proteins and 20 most abundant FBS contaminants (PMID: 17022666). The search was set to unspecific with a minimum precursor mass of 797Da to a maximum precursor mass of 1950Da (HLA class I) or a minimum precursor mass of 350Da to a maximum precursor mass of 5000Da (HLA class II). The identified peptides were filtered against 1% FDR using the percolator algorithm, 5% peptide FDR and Xcorr >1. Cysteine cysteinylation and methionine oxidation were set as variable modifications. From the identified peptides, FBS contaminants were removed. Binding affinity of HLA class I peptide ligands was predicted with NetMHCpan-4.0 (PMID: 28978689) with a binder cutoff at rank 2. Binding affinity of HLA class II ligands was predicted with NetMHCIIpan-4.0 (PMID: 32308001) with a binder cutoff of <1000nM. Alignments were made using the msa R package. The data was visualized with Graphpad Prism 8.0.   Experimental design and statistical rationale  For each sample (n=1), three technical replicates were measured. Proteome LFQ intensities were extracted by MaxQuant and were Log2 transformed in Perseus before analysis. The proteome identifications were filtered for at least 2 valid values in at least one of the conditions. Missing values were imputed based on a normal distribution, enabling statistical analysis of the data. Pairwise comparisons were performed using a student’s t-test (two-sided). We considered changes significant with a P-value < 0.05.",
+  "projectTags": [
+    "Epic-xs",
+    "Human immuno-peptidome project (hupo-hipp) (b/d-hpp)",
+    "Biology/disease-driven human proteome project (b/d-hpp)",
+    "Human proteome project"
+  ],
+  "keywords": [
+    "Hla class ii ligandome",
+    "Hla class i ligandome",
+    "Immunopeptidome",
+    "Proteome",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD022930",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2020-12-04",
+  "publicationDate": "2021-05-07",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Laura",
+      "lastName": "Demmers",
+      "identifier": "116730179",
+      "affiliation": "Utrecht University",
+      "email": "l.c.demmers@uu.nl",
+      "country": "Netherlands",
+      "orcid": "",
+      "name": "Laura Demmers",
+      "id": "116730179"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Wei",
+      "lastName": "Wu",
+      "identifier": "2189907",
+      "affiliation": "Biomolecular Mass Spectrometry and Proteomics, Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Padualaan 8, 3584 CH Utrecht, the Netherlands  Netherlands Proteomics Centre, Padualaan 8, 3584 CH Utrecht, the Netherlands",
+      "email": "w.wu1@uu.nl",
+      "country": "",
+      "orcid": "",
+      "name": "Wei Wu",
+      "id": "2189907"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002523",
+      "name": "Q Exactive HF"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002337",
+      "name": "Andromeda"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001490",
+      "name": "Percolator"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Netherlands"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000236",
+          "name": "B cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000221",
+          "name": "cell suspension culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000221",
+      "name": "Cell suspension culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000236",
+      "name": "B cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Demmers LC, Wu W, Heck AJR. HLA class II presentation is specifically altered at elevated temperatures in the B-lymphoblastic cell line JY. Mol Cell Proteomics. 2021:100089",
+      "pubmedID": 33933681,
+      "doi": "10.1016/j.mcpro.2021.100089"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 1876
+}

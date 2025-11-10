@@ -1,0 +1,153 @@
+{
+  "accession": "PXD028985",
+  "title": "Influenza-derived peptide presentation by HLA-A*11:01",
+  "additionalAttributes": [],
+  "projectDescription": "Analysis of the immunopeptidome of Human Leukocyte Antigen (HLA)-A*11:01 during influenza infection. Analyses were performed using the Class I reduced C1R cell line transfected with the HLA class I allele HLA-A*11:01.",
+  "sampleProcessingProtocol": "Cells were infected with Influenza A virus (A/X31) or Influenza B virus (B/Malaysia/2506/04). Cells were lysed and HLA-I molecules were isolated using the pan HLA-I antibody W6/32. HLA-bound peptides were acid eluted, fractionated by RP-HPLC, vacuum concentrated and reconstituted in 0.1% formic acid. Peptides were analysed by LC-MS/MS on a Q-Exactive Plus Hybrid Quadrupole Orbitrap (Thermo Fisher Scientific) coupled to a Dionex UltiMate 3000 RSLCnano system (Thermo Fisher Scientific).",
+  "dataProcessingProtocol": "Data were searched using PEAKS 8.5 (Bioinformatics Solutions Inc.) database search against the reviewed human proteome (uniprot April 2016) in addition to the proteome and 6 frame translated nucleotide sequence of either A/X31 or B/Malaysia/2506/04.  A contaminant database of common LC-MS/MS contaminants was employed. False Discovery Rate (FDR) analysis was performed by decoy-fusion. For initial searches the following settings were employed: Instrument – OrbiTrap (Orbi-Orbi), Fragment – HCD, Parent Mass Error Tolerance - 10.0 ppm, Fragment Mass Error Tolerance - 0.02 Da, Precursor Mass Search Type - monoisotopic, Enzyme - None, Variable Modifications - Oxidation (M) 15.99 and Deamidation (NQ) 0.98, Max Variable PTM Per Peptide - 3. A second search against the human + A/X31 database was also performed incorporating additional variable modifications: Oxidation (M) 15.99, Deamidation (NQ) 0.98, Dioxidation (M) 31.99, Dihydroxy (YWFRKPC) 31.99, Cysteine oxidation to cysteic acid (C) 47.98.",
+  "projectTags": [],
+  "keywords": [
+    "Lc-msms",
+    "Hla",
+    "Influenza",
+    "Immunopeptidome"
+  ],
+  "doi": "10.6019/PXD028985",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2021-10-07",
+  "publicationDate": "2022-02-15",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Patricia",
+      "lastName": "Illing",
+      "identifier": "88720198",
+      "affiliation": "Department of Biochemistry and Molecular Biology & Infection and Immunity Program, Biomedicine Discovery Institute, Monash University, Clayton, Victoria 3800, Australia",
+      "email": "patricia.illing@monash.edu",
+      "country": "Australia",
+      "orcid": "0000-0002-3870-0796",
+      "name": "Patricia Illing",
+      "id": "88720198"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Anthony W.",
+      "lastName": "Purcell",
+      "identifier": "2297963",
+      "affiliation": "Infection and Immunity Program & Department of Biochemistry and Molecular Biology, Biomedicine Discovery Institute, Monash University, Clayton 3800, Victoria, Australia",
+      "email": "anthony.purcell@monash.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Anthony W. Purcell",
+      "id": "2297963"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002634",
+      "name": "Q Exactive Plus"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Australia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000089",
+          "name": "blood"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000089",
+      "name": "Blood"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Habel JR, Nguyen AT, Rowntree LC, Szeto C, Mifsud NA, Clemens EB, Loh L, Chen W, Rockman S, Nelson J, Davies J, Miller A, Tong SYC, Rossjohn J, Gras S, Purcell AW, Hensen L, Kedzierska K, Illing PT. HLA-A*11:01-restricted CD8+ T cell immunity against influenza A and influenza B viruses in Indigenous and non-Indigenous people. PLoS Pathog. 2022 18(3):e1010337",
+      "pubmedID": 35255101,
+      "doi": "10.1371/journal.ppat.1010337"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00428",
+      "name": "dihydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 2780
+}

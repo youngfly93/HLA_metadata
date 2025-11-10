@@ -1,0 +1,192 @@
+{
+  "accession": "PXD004023",
+  "title": "The immunopeptidome presents a selected portion of the human genome with distinct features to CD8 T cells",
+  "additionalAttributes": [],
+  "projectDescription": "Using proteogenomics, we identified and analyzed 25,172 major histocompatibility complex class I-associated peptides (MAPs) isolated from B lymphocytes of 18 individuals who collectively expressed 27 HLA-A,B allotypes. While 58% of genes were the source of 1-64 MAPs per gene, 42% of genes were not represented in the immunopeptidome. Overall, we estimate the immunopeptidome presented by 27 HLA-A,B allotypes covered only 17% of exomic sequences expressed in subjects’ cells. We identified several features of transcripts and proteins that enhance MAP production. From these data we built a logistic regression model that predicts with high accuracy whether a gene from our dataset or from independent datasets would generate MAPs. Our results show preferential selection of MAPs from a limited repertoire of gene products with distinct features. The notion that the immune system can monitor MAPs covering only a fraction of the protein coding genome has profound implications in autoimmunity and cancer immunology.",
+  "sampleProcessingProtocol": "MAPs were eluted from B-LCL and sequenced by mass spectrometry as previously described : Granados,D.P. et al. Impact of genomic polymorphism on the repertoire of human MHC class I-associated peptides. Nat Commun 5, 3600 (2014) & Granados,D.P. et al. Proteogenomic-based discovery of minor histocompatibility antigens with suitable features for immunotherapy of hematologic cancers. Leukemia (2016)",
+  "dataProcessingProtocol": "Peptides were identified with PEAKS®7 using subject-specific sequence databases. The following parameters were used for each search: mass tolerances for precursor ( 5 p.p.m.), fragment ions (0.02 Da), no enzyme specificity, variable modifications  cysteinylation, phosphorylation (Ser, Thr and Tyr), oxidation (Met) and deamidation (Asn, Gln).",
+  "projectTags": [
+    "Biomedical",
+    "Human immuno-peptidome project (hupo-hipp)",
+    "Human proteome project",
+    "Biology/disease-driven human proteome project (b/d-hpp)"
+  ],
+  "keywords": [
+    "Human",
+    "Lc-msms",
+    "B lymphoblast",
+    "Hla-a",
+    "Hla-b",
+    "B cell",
+    "B-lcl",
+    "Immunopeptidome",
+    "Mhc class i"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-04-20",
+  "publicationDate": "2016-12-13",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Courcelles",
+      "lastName": "Mathieu",
+      "identifier": "650152",
+      "affiliation": "IRIC",
+      "email": "mathieu.courcelles@umontreal.ca",
+      "country": "Canada",
+      "orcid": "0000-0001-5961-8858",
+      "name": "Courcelles Mathieu",
+      "id": "650152"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Pierre",
+      "lastName": "Thibault",
+      "identifier": "43910100",
+      "affiliation": "Institute for Research in Immunology and Cancer, Department of Biochemistry, Department of Chemistry, Université de Montréal, Québec, Canada H3T 1J4",
+      "email": "pierre.thibault@umontreal.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Pierre Thibault",
+      "id": "43910100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000236",
+          "name": "B cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000236",
+      "name": "B cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Pearson H, Daouda T, Granados DP, Durette C, Bonneil E, Courcelles M, Rodenbrock A, Laverdure JP, Côté C, Mader S, Lemieux S, Thibault P, Perreault C. MHC class I-associated peptides derive from selective regions of the human genome. J Clin Invest. 2016 Dec 1;126(12):4690-4701",
+      "pubmedID": 27841757,
+      "doi": "10.1172/JCI88590"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00765",
+      "name": "cysteinylation (disulfide with free L-cysteine)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 31431
+}

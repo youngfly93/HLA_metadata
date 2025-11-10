@@ -1,0 +1,224 @@
+{
+  "accession": "PXD017407",
+  "title": "Multiplexed relative and absolute quantitative immunopeptidomics reveals MHC I repertoire alterations induced by CDK4/6 inhibition",
+  "additionalAttributes": [],
+  "projectDescription": "Major histocompatibility complex (MHC) class I peptides play a critical role in immune cell recognition and can trigger an antitumor immune response in cancer. Surface MHC levels can be modulated by anticancer agents, altering immunity. However, understanding the peptide repertoire response to treatment remains challenging and is limited by quantitative mass spectrometry-based strategies lacking robust normalization controls.  We describe a novel approach that leverages recombinant heavy isotope-coded peptide MHCs (hipMHCs) and multiplex isotope tagging to quantify peptide repertoire alterations using low sample input. HipMHCs improve quantitative accuracy of peptide repertoire changes by normalizing for variation across analyses and enable absolute quantification using internal calibrants to determine copies per cell of MHC antigens, which can inform targeted and combination immunotherapy design. Applying this platform to profile the immunopeptidome response to CDK4/6 inhibition and Interferon gamma, known modulators of antigen presentation, uncovered treatment-specific alterations, connecting the intracellular response to extracellular immune presentation.",
+  "sampleProcessingProtocol": "Endogenous MHC peptides and heavy isotope (+7 L) labeled MHC peptides were isolated using immunoprecipitation and size exclusion filtration, depending on the analysis type were labeled with TMT and sample cleanup was performed using SP3. For MS analysis, peptides were resuspended in 0.1% acetic acid and loaded onto a C18 trapping column and connected in series to an analytical capillary column with an integrated electrospray emitter. Peptides were analyzed on a Thermo Q Exactive HF-X Hybrid Quadrupole-Orbitrap mass spectrometer.",
+  "dataProcessingProtocol": "All mass spectra were analyzed with Proteome Discoverer (PD, version 2.2) and searched using Mascot (version 2.4) against the human SwissProt database. No enzyme was used, and variable modifications included oxidized methionine for all analyses and phosphorylated serine, threonine, and tyrosine for cell treatment analyses. Treatment analyses were also searched against a previously published catalog of over 40,000 predicted antigenic mutations in cancer cell lines. Heavy leucine containing peptides were searched for separately with heavy leucine (+7), c-terminal amidation, and methionine oxidation as dynamic modifications against a custom database of the synthetic peptide standards. All analyses were filtered with the following criteria: search engine rank =1, isolation interference ≤ 30%, and length between 8 and 15 amino acids. Label free & TMT labeled analyses were filtered with and percolator q-value ≤ 0.05. Area under the curve (AUC) quantitation was performed using the minora feature detector in PD with match between runs enabled and filtered for ion score ≥ 20. For targeted, absolute quantification analyses, total ion count (TIC) values for each scan and peak intensities were extracted using Skyline (version 19.1.0.193).",
+  "projectTags": [],
+  "keywords": [
+    "Lc-m"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2020-02-05",
+  "publicationDate": "2020-06-04",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Lauren",
+      "lastName": "Stopfer",
+      "identifier": "95870142",
+      "affiliation": "MIT",
+      "email": "lstopfer@mit.edu",
+      "country": "United States",
+      "orcid": "0000-0001-6984-3004",
+      "name": "Lauren Stopfer",
+      "id": "95870142"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Forest",
+      "lastName": "White",
+      "identifier": "179020100",
+      "affiliation": "Massachusetts Institute of Technology",
+      "email": "fwhite@mit.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Forest White",
+      "id": "179020100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002523",
+      "name": "Q Exactive HF"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000922",
+      "name": "Skyline"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000314",
+      "name": "TMT"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000148",
+          "name": "melanocyte"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1319",
+          "name": "brain cancer"
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1612",
+          "name": "breast cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000148",
+      "name": "Melanocyte"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1612",
+      "name": "Breast cancer"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1319",
+      "name": "Brain cancer"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Stopfer LE, Mesfin JM, Joughin BA, Lauffenburger DA, White FM. Multiplexed relative and absolute quantitative immunopeptidomics reveals MHC I repertoire alterations induced by CDK4/6 inhibition. Nat Commun. 2020 11(1):2760",
+      "pubmedID": 32488085,
+      "doi": "10.1038/s41467-020-16588-9"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01720",
+      "name": "TMT6plex-126 reporter+balance reagent acylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00674",
+      "name": "amidated residue"
+    }
+  ],
+  "totalFileDownloads": 7928
+}

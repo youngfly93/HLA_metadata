@@ -1,0 +1,201 @@
+{
+  "accession": "PXD005084",
+  "title": "HLA-I peptidomes and phosphopeptidomes (B*40, B*27, B*07, B*39)",
+  "additionalAttributes": [],
+  "projectDescription": "As aberrant phosphorylation is a hallmark of tumor cells, the display of tumor-specific phosphopeptides by Human Leukocyte Antigen (HLA) class I molecules can be exploited in the treatment of cancer by T-cell-based immunotherapy. Yet, the characterization and prediction of HLA-I phospholigands is challenging as the molecular determinants of the presentation of such post-translationally modified peptides are not fully understood. Here, we employed a peptidomic workflow to identify phosphorylated ligands associated with HLA-B*40, -B*27, -B*39 and -B*07. Remarkably, these phosphopeptides showed similar molecular features. Besides the specific anchor motifs imposed by the binding groove of each allotype, the predominance of phosphorylation at peptide position 4 (P4) became strikingly evident, as was the enrichment of basic residues at P1. This molecular understanding of the presentation of phosphopeptides by HLA-B molecules can help in predicting tumor-specific neo-antigens that arise from aberrant phosphorylation in cancer cells.",
+  "sampleProcessingProtocol": "Lysates of the GR cell line (HLA-B*27 and -B*07 positive) or stable transfectants of HLA-B*40 and -B*39 in the HMy2-C1R (C1R) cell line were subjected to immunoprecipitation with the mAb W6/32, acid extraction of the bound peptide pool and phosphopeptide enrichment before LC-MS/MS analysis. In other experiments, the proteome of the C1R-B*40 cell line was trypsin-digested and subjected to phosphopeptide enrichment before LC-MS/MS analysis.",
+  "dataProcessingProtocol": "Raw MS/MS data were converted to mgf files with Peakview 1.2 (AB SCiex) and searched against a concatenated target-decoy database containing the 88,266 Uniprot entries of the Homo sapiens complete proteome set (as of November 5, 2013) and their corresponding reverse sequences. Five independent search engines were used: MASCOT (version 2.4.0), OMSSA (version 2.1.9), X!Tandem2 (version 2013-02-01-1), X!Tandem2 with k-score plugin (version 2.3-7806) and Myrimatch (version 2.2.140). The datasets corresponding to HLA-I-bound peptides were searched without enzyme restriction and with an MS tolerance of 0.01 Da and an MS/MS tolerance of 0.02 Da. The following variable modifications were considered: oxidation of methionine, protein N-terminal acetylation, pyroglutamic acid formation from N-terminal glutamine or glutamic acid and phosphorylation of serine, threonine and tyrosine. For the analysis of the phosphoproteome of C1R-B*40 cells, trypsin was selected as enzyme allowing up to 2 missed cleavages. The variable modifications specified were: oxidation of methionine, protein N-terminal acetylation, pyroglutamic acid formation from N-terminal glutamine or glutamic acid and phosphorylation of serine, threonine and tyrosine. The individual outputs of the search engines were combined by converting each engine-specific scoring scheme to a common probability-based scale as previously described (Ramos-Fernández et al. Mol Cell Proteomics. 2008.7(9):1748-54). The p-values of the peptide-spectrum matches were computed based on score distribution models and identifications were filtered at a FDR ≤ 1% at the peptide level.",
+  "projectTags": [
+    "Prime-xs project",
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Phosphopeptidome",
+    "Mhc",
+    "Peptidome",
+    "Hla"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-10-03",
+  "publicationDate": "2016-12-12",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Miguel",
+      "lastName": "Marcilla",
+      "identifier": "450180",
+      "affiliation": "Proteomics Unit - Dpt. of Macromolecular Structures - Spanish National Biotechnolgy Centre (CNB-CSIC)",
+      "email": "mmarcilla@cnb.csic.es",
+      "country": "Spain",
+      "orcid": "0000-0001-9171-5076",
+      "name": "Miguel Marcilla",
+      "id": "450180"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Alberto",
+      "lastName": "Paradela",
+      "identifier": "55430100",
+      "affiliation": "Proteomics Unit. Spanish National Biotechnology Centre (CNB-CSC). Madrid. Spain.",
+      "email": "alberto.paradela@cnb.csic.es",
+      "country": "",
+      "orcid": "",
+      "name": "Alberto Paradela",
+      "id": "55430100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002417",
+      "name": "Orbitrap Fusion ETD"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001585",
+      "name": "MyriMatch"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001475",
+      "name": "OMSSA"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000738",
+          "name": "leukocyte"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000221",
+          "name": "cell suspension culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0050523",
+          "name": "adult T-cell leukemia"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000221",
+      "name": "Cell suspension culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000738",
+      "name": "Leukocyte"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0050523",
+      "name": "Adult t-cell leukemia"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Alpízar A, Marino F, Ramos-Fernández A, Lombardía M, Jeko A, Pazos F, Paradela A, Santiago C, Heck AJ, Marcilla M. A molecular basis for the presentation of phosphorylated peptides by HLA-B antigens. Mol Cell Proteomics. 2016 Dec 5. pii: mcp.M116.063800",
+      "pubmedID": 27920218
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    }
+  ],
+  "totalFileDownloads": 1082
+}

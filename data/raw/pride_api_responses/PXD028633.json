@@ -1,0 +1,182 @@
+{
+  "accession": "PXD028633",
+  "title": "Isolation of mouse and human MHC class I- and II-associated peptides for the analysis of immunopeptidomes by mass spectrometry",
+  "additionalAttributes": [],
+  "projectDescription": "Immunopeptidomics is an emerging field that fuels and guides the development of vaccines and immunotherapies. More specifically, it refers to the science of investigating the composition of peptides presented by major histocompatibility complex (MHC) class I and class II molecules using mass spectrometry (MS) technology platforms. Among all the steps in a MS-based immunopeptidomic workflow, sample preparationis critically important for capturing high-quality data of therapeutic relevance. Here, we describe step-by-step instructions to isolate MHC class I and II-associated peptides by immunoaffinity purification from quality control (QC) samples. Our QC samples are MHC class I and class II peptides isolated from mouse (EL4 and A20) and human (JY) cell lines. We thoroughly describe the various reagents and specfic antibodies that are used too isolate MHC-associated peptides from these cell lines, including the steps to verify the beads-binding efficiency of the antibody and the elution efficiency of the MHC-peptide complexes from the beads. QC samples generated using the described protocol can be used to establish and standardize immunopeptidomic workflow, as well as to benchmark new protocols. We anticipate that the visualized protocol provided in this report will represent a great starting point for any non-expert in addition to foster the instra- and inter-laboratory reproducibility of the sample preparation procedure in immunopeptidomics.",
+  "sampleProcessingProtocol": "Antibodies (anti-MHC I and anti-MHC-II) were coupled to sepharose CNBr-activated beads. Cells were lysed using 0.5% chaps buffer. Acidic elution of MHC-peptide complexes using 1% TFA followed by desalting and elution of MHC peptides using 28% ACN/0.1% TFA.",
+  "dataProcessingProtocol": "Data files from the three injections/sample are processed using PEAKS X software (Peaks Pro V10.6, Bioinformatics Solutions, Waterloo, ON) using the mouse and human databases (UniProtKB/Swiss-Prot (2019_09)). ‘Unspecified enzyme digestion’ is selected for the enzyme parameter and mass tolerances on precursor and fragment ions are 10 ppm and 0.01 Da, respectively. Variable modifications are deamidation (NQ) and oxidation (M). All other search parameters are the default values. Final peptide lists are filtered using ALC of 80% and with a false discovery rate (FDR) of 1 % using the PEAKS software. To visualize the data and assess their overall quality, composition and MHC-specificity, MhcVizPipe (MVP) software tool (https://github.com/CaronLab/MhcVizPipe) was used.",
+  "projectTags": [],
+  "keywords": [
+    "Mhc class i associated peptides",
+    "Mass spectrometry",
+    "Human",
+    "Immunopeptidome",
+    "Mhc class ii associated peptides",
+    "Mouse"
+  ],
+  "doi": "10.6019/PXD028633",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2021-09-20",
+  "publicationDate": "2021-12-07",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "isabelle",
+      "lastName": "sirois",
+      "identifier": "2358732",
+      "affiliation": "Centre de recherche Hôpital Sainte-Justine",
+      "email": "isabelle.sirois.phd@gmail.com",
+      "country": "Canada",
+      "orcid": "",
+      "name": "isabelle sirois",
+      "id": "2358732"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Etienne",
+      "lastName": "Caron",
+      "identifier": "2295934",
+      "affiliation": "1CHU Sainte-Justine Research Center, Montreal, QC H3T 1C5, Canada  2 Department of Pathology and cellular biology, Faculty of Medicine, Universite de Montreal, QC H3T 1J4, Canada",
+      "email": "Etienne.caron@umontral.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Etienne Caron",
+      "id": "2295934"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1003029",
+      "name": "Orbitrap Eclipse"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000084",
+          "name": "T cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000084",
+      "name": "T cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Kovalchik KA, Ma Q, Wessling L, Saab F, Despault J, Kubiniok P, Hamelin DJ, Faridi P, Li C, Purcell AW, Jang A, Paramithiotis E, Tognetti M, Reiter L, Bruderer R, Lanoix J, Bonneil É, Courcelles M, Thibault P, Caron E, Sirois I. MhcVizPipe: A Quality Control Software for Rapid Assessment of Small- to Large-Scale Immunopeptidome Data Sets. Mol Cell Proteomics. 2021:100178",
+      "pubmedID": 34798331,
+      "doi": "10.1016/j.mcpro.2021.100178"
+    },
+    {
+      "referenceLine": "Sirois I, Isabelle M, Duquette JD, Saab F, Caron E. Immunopeptidomics: Isolation of Mouse and Human MHC Class I- and II-Associated Peptides for Mass Spectrometry Analysis. J Vis Exp. 2021(176)",
+      "pubmedID": 34723952,
+      "doi": "10.3791/63052"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 2793
+}

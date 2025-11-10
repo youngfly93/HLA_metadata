@@ -1,0 +1,148 @@
+{
+  "accession": "PXD037270",
+  "title": "Proteogenomic identification of Hepatitis B virus (HBV) genotype-specific HLA-I restricted peptides from HBV-positive patient liver tissues",
+  "additionalAttributes": [],
+  "projectDescription": "The presentation of virus-derived peptides by HLA class I molecules on the surface of an infected cell and the recognition of these HLA-peptide complexes by, and subsequent activation of, CD8+ cytotoxic T cells provides an important mechanism for immune protection against viruses. Recent advances in proteogenomics have allowed researchers to discover a growing number of unique HLA-restricted viral peptides, resulting in a rapidly expanding repertoire of targets for immunotherapeutics (i.e. bispecific antibodies, engineered T-cell receptors (TCRs), chimeric antigen receptor T-cells (CAR-Ts)) to infected tissues. However, genomic variability between viral strains, such as Hepatitis-B virus (HBV), in combination with differences in patient HLA alleles, make it difficult to develop therapeutics against these targets. To address this challenge, we developed a novel proteogenomics approach for generating patient-specific databases that enable the identification of viral peptides based on the viral transcriptomes sequenced from individual patient liver samples. We also utilized DNA sequencing of patient samples to identify HLA genotypes and assist in target selection. Liver samples from 48 HBV infected patients, primarily from Asia, were examined to reconstruct patient-specific HBV genomes, identify regions within the human chromosomes targeted by HBV integrations and obtain a comprehensive view of HBV peptide epitopes using our HLA class-I (HLA-I) immunopeptidomics discovery platform. Two previously reported HLA associated HBV-derived peptides, HLA-A02 binder FLLTRILTI (S194-202) from the large surface antigen and HLA-A11 binder STLPETTVVRR (C141-151) from the capsid protein were validated by our discovery platform, but both were detected at a very low frequencies. In addition, we identified and validated, using heavy peptide analogues, novel strain-specific HBV-HLA associated peptides, such as GSLPQEHIVQK (P606-616) and variants. Overall, our novel approach can guide the development of bispecific antibody, TCR-T, or CAR-T based therapeutics for the treatment of HBV-related HCC and inform vaccine development.",
+  "sampleProcessingProtocol": "All HCC patient tissues were purchased from BioIVT in fresh frozen form. The tissues were pulverized using SPEX SamplePrep Freezer/ Mill Dual-Chamber Cryogenix Grinder in liquid nitrogen, and lysed in ice-cold lysis buffer (1% NP-40, 150 mM NaCl, 50 mM Tris-HCl pH 8.0 and 10 mM EDTA pH 8.0) supplemented with HALT protease and phosphatase inhibitors on ice using sonication. The pre-cleared tissue lysate was passed through a column packed with 1 ml of HLA Class-I (W6/32) beads bed under gravity. The column was subsequently washed with Seppro Dilution Buffer and 20 mM Tris-HCl pH 8, and HLA-peptide complexes were eluted with 0.1 M glycine pH 2.7. The glycine elute was loaded onto the C18 Sep-Pak, followed by selective elution of peptides by 30% ACN/ 0.1% TFA. The peptides were further cleaned up by ziptip (C18 resin), and analysed by nano-LC-MS/MS. HLA peptides were loaded onto a nanoViper Acclaim PepMap100 C18 trap column and separated using a nanoViper Acclaim PepMap RSLC C18 column (75 μm i.d. × 25 cm, 2 μm, 100 Å, Thermo) heated to 40 °C and retrofitted with a New Objective SilicaTip (7 cm). The gradient was delivered by an EASY-nLC 1200 HPLC system (Thermo) at 300 nL/min. The following 120-minute elution gradient with mobile phase A (Water/ 0.1% formic acid) and B (80% Acetonitrile/ 0.1% formic acid) was used: 3% B at 3 min, linear to 35% B at 100 min, and linear to 45% B at 123 min. The peptides eluted from the column were ionized via Flex ion source at 1.9 kV and analyzed by the Thermo Fusion Lumos Tribrid mass spectrometer (Thermo) using Xcalibur 4.1.31.9 (Thermo).",
+  "dataProcessingProtocol": "All mass spectrometry raw files were searched against a consolidated database of human UniProtKB (homo sapiens) and HBV protein sequences, obtained from RNAseq of patient liver samples, with PEAKS DB search engine. PEAKSX+ (PEAKS Studio 10.5, Bioinformatics Solutions Inc.) was used for De novo-assisted database search with precursor mass tolerance of 8 ppm, and fragment ion tolerance of 0.02 Da. Enzyme selectivity was set to none, and methionine oxidation as the only variable modification with two maximum allowed modifications per peptide. The search was performed with a 5% false-discovery rate (FDR) at peptide level, and peptides were further filtered based on -logP score of 20.",
+  "projectTags": [],
+  "keywords": [
+    "Proteogenomics",
+    "Hepatocellular carcinoma",
+    "Hepatitis b",
+    "Human leukocyte antigen (hla)",
+    "Immunopeptidomics"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2022-10-10",
+  "publicationDate": "2023-01-03",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Mayank",
+      "lastName": "Srivastava",
+      "identifier": "2573961",
+      "affiliation": "Regeneron Pharmaceuticals",
+      "email": "mayanks211@gmail.com",
+      "country": "United States",
+      "orcid": "",
+      "name": "Mayank Srivastava",
+      "id": "2573961"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Robert",
+      "lastName": "Salzler",
+      "identifier": "2465125",
+      "affiliation": "Regeneron Pharmaceuticals, Tarrytown, NY",
+      "email": "Robert.Salzler@regeneron.com",
+      "country": "",
+      "orcid": "",
+      "name": "Robert Salzler",
+      "id": "2465125"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001946",
+      "name": "PEAKS Studio"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000759",
+          "name": "liver"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000759",
+      "name": "Liver"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Srivastava M, Copin R, Choy A, Zhou A, Olsen O, Wolf S, Shah D, Rye-Weller A, Chen L, Chan N, Coppola A, Lanza K, Negron N, Ni M, Atwal GS, Kyratsous CA, Olson W, Salzler R. Proteogenomic identification of Hepatitis B virus (HBV) genotype-specific HLA-I restricted peptides from HBV-positive patient liver tissues. Front Immunol. 2022 13:1032716",
+      "pubmedID": 0,
+      "doi": "10.3389/FIMMU.2022.1032716"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    }
+  ],
+  "totalFileDownloads": 10863
+}

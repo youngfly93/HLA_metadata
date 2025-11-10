@@ -1,0 +1,173 @@
+{
+  "accession": "PXD005935",
+  "title": "HLA DR1 and DR15 ligands isolated from transgenic mice",
+  "additionalAttributes": [],
+  "projectDescription": "Dominant protection from HLA-associated autoimmune disease is conferred by antigen specific regulatory T cells. Susceptibility and protection against human T cell mediated autoimmune diseases, including type I diabetes, multiple sclerosis and Goodpasture’s disease, is associated with particular Human Leukocyte Antigen (HLA) alleles. However, the mechanisms underpinning such HLA-mediated effects on self-tolerance, and the interplay with the responding autoreactive T cell repertoires, remain unclear. To address this central question, we investigated the molecular mechanism of Goodpasture’s disease, an HLA-linked autoimmune renal disorder characterized by an immunodominant CD4+ T cell self-epitope derived from the alpha3 chain of Type IV collagen (alpha3135-145). While HLA-DR15 confers a markedly increased disease risk (odds ratio 8.5), the protective HLA-DR1 allele (odds ratio 0.3) is dominantly protective in trans with HLA-DR15 (odds ratio 1.4). This dataset contains RAW data and database search results identifying the HLA-bound peptides from transgenic mice expressing either human HLA-DR1 or -DR15.",
+  "sampleProcessingProtocol": "Lymph nodes and spleens from transgenic mice expressing either human HLA-DR1 or -DR15 were harvested and subjected to cryogenic milling and subsequently lysed using CA-640 (IGEPAL). HLA-DR complexes were affinity purified using LB3.1 antibody followed by fractionation of peptides by offline reversed phase chromatography. The fractions were pooled, subjected to centrifugal evaporation, and analysed on Thermo Q-Exactive+ mass spectrometer.",
+  "dataProcessingProtocol": "Raw data was converted to mgf using msconvert and searched using ProteinPilot (Sciex) software with following parameters: digestion: none; Cys alkylation: none; Instrument: OrbiMS (sub-ppm), OrbiMS/MS, Biological modifications: on; database: mouse SwissProt Reviewed v2016_11",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Mouse",
+    "Dr15",
+    "Goodpasture’s disease",
+    "Dr1",
+    "Hla class ii"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-02-20",
+  "publicationDate": "2017-05-04",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Sri",
+      "lastName": "Ramarathinam",
+      "identifier": "48680144",
+      "affiliation": "Monash University",
+      "email": "sri.ramarathinam@monash.edu",
+      "country": "Australia",
+      "orcid": "0000-0002-2787-1282",
+      "name": "Sri Ramarathinam",
+      "id": "48680144"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Anthony W",
+      "lastName": "Purcell",
+      "identifier": "65080100",
+      "affiliation": "Professor Anthony W Purcell Deputy Head (Research), Department of Biochemistry and Molecular Biology Head Immunoproteomics Laboratory Monash University, Clayton Campus Clayton 3800 Victoria Australia",
+      "email": "anthony.purcell@monash.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Anthony W Purcell",
+      "id": "65080100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000663",
+      "name": "ProteinPilot Software"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002205",
+      "name": "ProteoWizard msconvert"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Australia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001281",
+          "name": "spleen"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000784",
+          "name": "lymph node"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001281",
+      "name": "Spleen"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000784",
+      "name": "Lymph node"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ooi JD, Petersen J, Tan YH, Huynh M, Willett ZJ, Ramarathinam SH, Eggenhuizen PJ, Loh KL, Watson KA, Gan PY, Alikhan MA, Dudek NL, Handel A, Hudson BG, Fugger L, Power DA, Holt SG, Coates PT, Gregersen JW, Purcell AW, Holdsworth SR, La Gruta NL, Reid HH, Rossjohn J, Kitching AR. Dominant protection from HLA-linked autoimmunity by antigen-specific regulatory T cells. Nature. 2017 May 3",
+      "pubmedID": 28467828,
+      "doi": "10.1038/nature22329"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 2413
+}

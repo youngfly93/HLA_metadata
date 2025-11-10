@@ -1,0 +1,58 @@
+[
+  {
+    "dataset_id":"JPST001066",
+    "repository":"jPOST",
+    "manual_review":true,
+    "note":"No public API - requires manual web extraction",
+    "pride_url":"https:\/\/repository.jpostdb.org\/entry\/JPST001066"
+  },
+  {
+    "dataset_id":"JPST001068",
+    "repository":"jPOST",
+    "manual_review":true,
+    "note":"No public API - requires manual web extraction",
+    "pride_url":"https:\/\/repository.jpostdb.org\/entry\/JPST001068"
+  },
+  {
+    "dataset_id":"JPST001069",
+    "repository":"jPOST",
+    "manual_review":true,
+    "note":"No public API - requires manual web extraction",
+    "pride_url":"https:\/\/repository.jpostdb.org\/entry\/JPST001069"
+  },
+  {
+    "dataset_id":"JPST001070",
+    "repository":"jPOST",
+    "manual_review":true,
+    "note":"No public API - requires manual web extraction",
+    "pride_url":"https:\/\/repository.jpostdb.org\/entry\/JPST001070"
+  },
+  {
+    "dataset_id":"JPST001072",
+    "repository":"jPOST",
+    "manual_review":true,
+    "note":"No public API - requires manual web extraction",
+    "pride_url":"https:\/\/repository.jpostdb.org\/entry\/JPST001072"
+  },
+  {
+    "dataset_id":"JPST001104",
+    "repository":"jPOST",
+    "manual_review":true,
+    "note":"No public API - requires manual web extraction",
+    "pride_url":"https:\/\/repository.jpostdb.org\/entry\/JPST001104"
+  },
+  {
+    "dataset_id":"JPST001211",
+    "repository":"jPOST",
+    "manual_review":true,
+    "note":"No public API - requires manual web extraction",
+    "pride_url":"https:\/\/repository.jpostdb.org\/entry\/JPST001211"
+  },
+  {
+    "dataset_id":"PASS00211",
+    "repository":"PeptideAtlas",
+    "manual_review":true,
+    "note":"No public API - requires manual web extraction",
+    "pride_url":"http:\/\/www.peptideatlas.org\/PASS\/PASS00211"
+  }
+]

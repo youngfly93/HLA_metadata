@@ -1,0 +1,186 @@
+{
+  "accession": "PXD023044",
+  "title": "IFNγ modulates the immunopeptidome of triple negative breast cancer cells by enhancing and diversifying antigen processing and presentation.",
+  "additionalAttributes": [],
+  "projectDescription": "Peptide vaccination remains a viable approach to induce T-cell mediated killing of tumours. To identify potential T-cell targets for Triple-Negative Breast Cancer (TNBC) vaccination, we examined the effect of the pro-inflammatory cytokine interferon-γ (IFNγ) on the transcriptome, proteome and immunopeptidome of the TNBC cell line MDA-MB-231. Using high resolution mass spectrometry, we identified a total of 84,131 peptides from 9,647 source proteins presented by human leukocyte antigen (HLA)-I and HLA-II alleles. Treatment with IFNγ resulted in a remarkable remoulding of the immunopeptidome, with only a 34% overlap between untreated and treated cells across the HLA-I immunopeptidome, and expression of HLA-II only on treated cells. IFNγ increased the overall number, diversity and abundance of the immunopeptidome, as well as the proportion of coverage of source antigens. The suite of peptides displayed under conditions of IFNγ treatment included many known tumour associated antigens, with the HLA-II repertoire sampling 265 breast cancer associated antigens absent from those sampled by HLA-I. Quantitative analysis of the transcriptome (10,248 transcripts) and proteome (6783 proteins) of these cells revealed 229 proteins and transcripts were commonly differentially expressed, most of which involved in downstream targets of IFNγ signalling including components of the antigen processing machinery such as tapasin and HLA. However, these changes in protein expression did not explain the dramatic modulation of the immunopeptidome following IFNγ treatment.  These results demonstrate the high degree of plasticity in the immunopeptidome TNBC cells following cytokine stimulation and provide evidence that under pro-inflammatory conditions a greater variety of HLA-I and HLA-II vaccine targets are unveiled to the immune system. This has important implications for the development of personalised cancer vaccination strategies.",
+  "sampleProcessingProtocol": "HLA-I and -II peptides were eluted from MDA-MB-231 cells prior or after treatment with IFNγ in three biological replicates as described in Purcell et al 2019 from 5x108 cells (29). Cells were lysed in 0.5% IGEPAL, 50 mM Tris-HCl pH 8.0, 150 mM NaCl supplemented with protease inhibitors (Complete Protease Inhibitor Cocktail Tablet; Roche Molecular Biochemicals) for 45 min at 4 °C. Lysates underwent ultracentrifugation at 40,000g and HLA-I and -II complexes were purified using identical antibodies listed above. The HLA peptide bound molecules were then eluted from the affinity column with 5 column volumes of 10% acetic acid. The eluted HLA-I and -II peptide complexes were loaded onto a 4.6 mm internal diameter x 50 mm monolithic C18 RP-HPLC column (Chromolith Speed Rod; Merck) at a flow rate of 1 ml/min using an EttanLC HPLC system (GE Healthcare) with buffer A (0.1% trifluoroacetic acid (TFA)) and buffer B (80% ACN / 0.1% TFA) as mobile phases as described in",
+  "dataProcessingProtocol": "Using a Dionex UltiMate 3000 RSLCnano system equipped with a Dionex UltiMate 3000 RS autosampler, the samples were loaded via an Acclaim PepMap 100 trap column (100 µm x 2 cm, nanoViper, C18, 5 µm, 100Å; Thermo Scientific) onto an Acclaim PepMap RSLC analytical column (75 µm x 50 cm, nanoViper, C18, 2 µm, 100Å; Thermo Scientific). The peptides were separated by increasing concentrations of 80% ACN / 0.1% FA at a flow of 250 nl/min for 65 min and analysed with a QExactive Plus mass spectrometer (Thermo Scientific). In each cycle, a full ms1 scan (resolution: 70.000; AGC target: 3e6; maximum IT: 120 ms; scan range: 375-1800 m/z) preceded up to 12 subsequent ms2 scans (resolution: 17.500; AGC target: 1e5; maximum IT: 120 ms; isolation window: 1.8 m/z; scan range: 200-2000 m/z; NCE: 27).",
+  "projectTags": [],
+  "keywords": [
+    "Hla",
+    "Breast cancer",
+    "Immunopeptidomics"
+  ],
+  "doi": "10.6019/PXD023044",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2020-12-10",
+  "publicationDate": "2021-05-13",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Pouya",
+      "lastName": "Faridi",
+      "identifier": "81350174",
+      "affiliation": "Monash University",
+      "email": "pouya.faridi@monash.edu",
+      "country": "Australia",
+      "orcid": "0000-0002-2712-3356",
+      "name": "Pouya Faridi",
+      "id": "81350174"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Anthony",
+      "lastName": "Purcell",
+      "identifier": "2189953",
+      "affiliation": "Deputy Head (Research), Department of Biochemistry and Molecular Biology Head Immunoproteomics Laboratory Infection and Immunity Program Room 214, level 2, 15 Innovation Walk Monash Biomedicine Discovery Institute Monash University, Clayton Campus Clayton 3800 Victoria Australia",
+      "email": "anthony.purcell@monash.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Anthony Purcell",
+      "id": "2189953"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Australia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture",
+          "value": ""
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1612",
+          "name": "breast cancer",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1612",
+      "name": "Breast cancer",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Goncalves G, Mullan KA, Duscharla D, Ayala R, Croft NP, Faridi P, Purcell AW. IFNγ Modulates the Immunopeptidome of Triple Negative Breast Cancer Cells by Enhancing and Diversifying Antigen Processing and Presentation. Front Immunol. 2021 12:645770",
+      "pubmedID": 0,
+      "doi": "10.3389/FIMMU.2021.645770"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 18275,
+  "otherOmicsLinks": [
+    "pride.project:PXD023038"
+  ]
+}

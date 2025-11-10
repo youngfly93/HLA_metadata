@@ -1,0 +1,175 @@
+{
+  "accession": "PXD001898",
+  "title": "Global proteogenomic analysis of human MHC I peptides derived from non­canonical reading frames",
+  "additionalAttributes": [],
+  "projectDescription": "Using high­throughput mass spectrometry, we probed the six­reading­frame translation of human B cells’ transcriptome. We report that about 10% of MHC I­associated peptides (MAPs) derive  from non­canonical reading frames. These so­called cryptic MAPs originate from allegedly non- coding genomic sequences and from out­of­frame translation. Their biogenesis and properties  differ in many ways from those of conventional MAPs. Thus, cryptic MAPs come from very  short proteins with atypical C­termini, and they are coded by transcripts bearing long UTRs  selectively enriched in destabilizing elements. Cryptic MAPs increase the complexity of the  immunopeptidome and represent an heretofore unexploited source of potential tumor­specific  epitopes. In a more general context, the features of cryptic MAPs suggest that mRNA instability  is instrumental in the biogenesis of MAPs. Associated RNA-seq accession: GSE67174 .",
+  "sampleProcessingProtocol": "MAPs were eluted from B-LCL and sequenced by mass spectrometry as previously described : Granados,D.P. et al. Impact of genomic polymorphism on the repertoire of human MHC class I-associated peptides. Nat Commun 5, 3600 (2014)",
+  "dataProcessingProtocol": "Mascot search engine (Matrix Science) was used in combination with custom databases including reverse sequences. Mass tolerance on the precursor and fragment ions were set to 5 p.p.m and 0.02 Da, respectively. Searches were performed without enzyme specificity and cysteinylation, phosphorylation (on Ser, Thr and Tyr), oxidation (Met) and deamidation (Asn, Gln) were used as variable modifications. Following each database search, we converted raw files to peptide maps containing m/z values, charge state, retention time and intensity above detection threshold (≥ 8,000) using ProteoProfile (http://proteomics.iric.ca/tools/ProteoProfile/). Peptide maps were further aligned to derive a list of peptides identified by each database as well as their abundance across the four replicates.",
+  "projectTags": [
+    "Biological",
+    "Human immuno-peptidome project (hupo-hipp)",
+    "Human proteome project",
+    "Biology/disease-driven human proteome project (b/d-hpp)"
+  ],
+  "keywords": [
+    "Proteogenomic cryptic mhc lc-msms maps"
+  ],
+  "doi": "10.6019/PXD001898",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-03-10",
+  "publicationDate": "2016-01-28",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Olivier",
+      "lastName": "Caron-Lizotte",
+      "identifier": "19200109",
+      "affiliation": "University of Montreal - IRIC",
+      "email": "olivier.caron-lizotte@umontreal.ca",
+      "country": "Canada",
+      "orcid": "",
+      "name": "Olivier Caron-Lizotte",
+      "id": "19200109"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Olivier",
+      "lastName": "Caron-Lizotte",
+      "identifier": "18300100",
+      "affiliation": "IRIC - University of Montreal",
+      "email": "olivier.caron-lizotte@umontreal.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Olivier Caron-Lizotte",
+      "id": "18300100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000236",
+          "name": "B cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000236",
+      "name": "B cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Laumont CM, Daouda T, Laverdure JP, Bonneil É, Caron-Lizotte O, Hardy MP, Granados DP, Durette C, Lemieux S, Thibault P, Perreault C. Global proteogenomic analysis of human MHC class I-associated peptides derived from non-canonical reading frames. Nat Commun. 2016 Jan 5;7:10238",
+      "pubmedID": 26728094,
+      "doi": "10.1038/ncomms10238"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00765",
+      "name": "cysteinylation (disulfide with free L-cysteine)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 3355,
+  "otherOmicsLinks": [
+    "geo:GSE67174"
+  ]
+}

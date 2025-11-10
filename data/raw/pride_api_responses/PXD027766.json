@@ -1,0 +1,214 @@
+{
+  "accession": "PXD027766",
+  "title": "Mapping the soluble human leukocyte antigen peptidome of pleural effusions reveals lung and tumor-associated antigens",
+  "additionalAttributes": [],
+  "projectDescription": "Soluble HLA (sHLA) molecules released to the plasma, carry their original peptide cargo and provide insight into the protein synthesis and degradation schemes of their source cells and tissues. Other body fluids, such as pleural effusions, may also contain sHLA-peptide complexes, and can potentially serve as a source of tumor antigens since these fluids are drained from the tumor microenvironment. Thus, we developed a methodology for purifying and analysing large pleural effusion sHLA class I peptidomes of patients inflicted with malignancies or benign diseases. The cleared pleural fluids, the cell pellets present in the pleural effusions, and the primary tumor cells cultured from cancer patients’ effusions, were used for immunoaffinity purification of the HLA molecules. The recovered HLA peptides were analyzed by capillary chromatography coupled to tandem mass spectrometry and the resulting LC-MS/MS data was analyzed with the MaxQuant software tool. Large HLA peptidomes were obtained by the analysis of the pleural effusions. The majority of peptides identified from the pleural effusions were defined as HLA ligands that fit the patients’ HLA consensus sequence motifs. The membranal and soluble HLA peptidomes of each individual patient were somewhat similar to each other. Many of the HLA peptides were derived from known tumor-associated antigens, lung-related proteins, and VEGF pathway proteins. Thus, the pleural effusion HLA peptidome of patients with malignant tumors can serve as a rich source of biomarkers for tumor diagnosis and personalized immunotherapy.",
+  "sampleProcessingProtocol": "HLA molecules were immunoaffinity-purified from the benign and malignant pleural effusions (10-400 ml) and from the available patient plasma sample (10 ml). Briefly, pleural or plasma fluids were centrifuged for 40 min, at 47,808 xg (Sorvall RC 6 Plus centrifuge, Thermo Fisher Scientific, Waltham, MA), 4℃), and the HLAs in the supernatant were subjected to immunoaffinity purification using pan-HLA-A, -B, and -C monoclonal antibodies (W6/32) covalently bound to Protein A-Sepharose beads (A2S Technologies, Yavne, Israel). HLA molecules with their bound peptides were eluted using 5 column volumes of 1% trifluoroacetic acid (TFA) and loaded on disposable C18 microcolumns (Harvard Apparatus, Holliston, MA). The HLA peptides were recovered by passing 30% acetonitrile in 0.1% TFA over the column, while the HLA molecules and associated proteins were eluted with 80% acetonitrile in 0.1% TFA. The peptide fraction was then dried by vacuum centrifugation, reconstituted in a minimal volume of 0.1% TFA, loaded on C18 StageTips and eluted with 80% acetonitrile in 0.1% TFA. Samples were dried again by vacuum centrifugation and reconstituted with 0.1% formic acid. Samples were analyzed by capillary chromatography and tandem mass spectrometry (LC-MS/MS). Similarly, the membranal HLA peptidomes were recovered after solubilizing the cell pellets in lysis buffer containing a mild detergent for 45 min at 4℃ before loading on the immunoaffinity column. The lysis buffer contained 0.25% sodium deoxycholate, 0.2 mM iodoacetamide, 1 mM EDTA, 1:200 protease inhibitors cocktail (Sigma-Aldrich, St. Louis, MO), 1 mM PMSF, and 1% octyl-D-glucopyranoside (Sigma-Aldrich) in cold PBS. HLA purification efficacy was confirmed by western blot using 10% of the 80% acetonitrile sample with the anti-pan HLA class I antibody (ab126237, Abcam, Cambridge, UK), followed by incubation with peroxidase-conjugated anti-rabbit IgG (Jackson ImmunoResearch, West Grove, PA). The chemoluminescence was detected using the WesternBright ECL substrate kit (Advansta, Menlo Park, CA) and developed using the ImageQuant LAS4000 digital imaging system (GE Healthcare Life Sciences, Pittsburgh, PA). LC-MS/MS analyses of the HLA-bound peptides were performed with a Q-Exactive-Plus mass spectrometer fitted with an Easy nLC 1000 nano-capillary UHPLC (Thermo-Fisher Scientific) as in [20], with slight modifications. Peptides were loaded on a reversed-phase capillary column of about 30 cm long, 75 µM inner diameter, home-packed with 3.5 µM silica RepriSil-Pur C-18-AQ resin (Dr. Maisch GmbH, Ammerbuch-Entringen, Germany). Elution was performed with a linear gradient of 5-35% of acetonitrile in 0.1% formic acid, for 2 hours, at a flow rate of 0.15 μl/min. The top 10 most intense ions in each full-MS spectrum, with single to triple-charged states, were selected for fragmentation by high-energy collision dissociation (HCD). No fragmentation was performed on peptides with unassigned precursor ion charge states, or charge states of four and above. The normalized collision energy was set to 25%. Full-scan MS spectra were acquired at a resolution of 70,000 at 200 m/z, with a target value of 3×106 ions. For MS2 the resolution was 17,500 at 200 m/z with a target value 1×10^5. The intensity threshold was set at 6.7×10^3. Maximum injection time of the fragmented masses for both MS1 and MS2 was set to 150 msec. The tryptic peptides from the 80% acetonitrile fraction described above were analyzed in a Q-Exactive-Plus mass spectrometer (Thermo Fisher Scientific) fitted with a capillary HPLC (Dionex UltiMate 3000 RSLCnano Pump). The tryptic peptides were eluted using a linear gradient of acetonitrile in 0.1% formic acid. The flow rate of the gradient program was 0.15 μl/min, for 2 h. The 10 most intense ions from the first scan event were fragmented by high collision disassociation (HCD), at a relative collision energy of 25. Resolution and target values for both MS1 and MS2 were as described for the HLA peptidome. The intensity threshold was set at 1.7×104. Maximum injection time of the fragmented masses was set to 20 msec for MS1 and 60 msec for MS2.",
+  "dataProcessingProtocol": "Mass spectrometry data were analyzed by MaxQuant version 1.6.10.43 and searched with the Andromeda search engine using the human UniProt database (https://www.uniprot.org/; downloaded on June 2019, containing 74,416 entries). We also included a list of mutations available from some patients to identify possibly mutated peptides (yet, no mutated peptides were identified). All samples derived from each patient were analyzed together with the MaxQuant’s match-between-runs option allowed per patient. Mass tolerance of 4.5 ppm for the precursor masses and 20 ppm for the fragments were allowed. Minimal peptide length was seven amino acids. To maximize the number of identified HLA ligands, both 0.05 and 0.01 false discovery rates (FDR) were applied for the peptide spectrum matches. Methionine oxidation, N-acetylation and carbamidomethylation were accepted as variable modifications. For 0.01 FDR, N-deamidation was accepted as another variable modification. Using 0.05 FDR increased the numbers of HLA ligands by about two-fold. The resulting peptide lists were filtered to discard peptides identified in the reverse database, and common contaminants. Peptides were considered potential HLA class I ligands if they were 8-14 amino-acids-long and matched the HLA allele consensus motifs of each patient, based on their tissue typing and online analysis with the NetMHCpan 4.1 server (http://www.cbs.dtu.dk/services/NetMHCpan/). Peptides that were ranked ≤2 were included in the subsequent data analyses.The raw MS files of the tryptically-digested 80% acetonitrile fractions were also analyzed by MaxQuant version 1.6.10.43 and searched with the Andromeda search engine [21] using the human UniProt database (https://www.uniprot.org/; downloaded on June 2019). To improve identification rates, each patient’s sample was analyzed separately and the protein sequences of the HLA allomorphs were removed from the database. Only the patient-specific HLA amino acid sequences were inserted as a separate FASTA file obtained from the IPD-IMGT/HLA database (https://www.ebi.ac.uk/ipd/imgt/hla/). The search settings were trypsin-specific, with FDR set to 0.01 and decoy mode to revert. Methionine oxidation and N-acetylation were accepted as variable modifications, while carbamidomethylation was accepted as a fixed modification. Intensity-based absolute quantification (iBAQ) was used to quantify the levels of purified HLA-peptide complexes.",
+  "projectTags": [],
+  "keywords": [
+    "Tumor antigens",
+    "Immunopeptisome",
+    "Pleural effusion",
+    "Cancer/testis antigens",
+    "Hla peptidome",
+    "Lung cancer",
+    "Lc-ms/ms"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2022-02-21",
+  "publicationDate": "2022-05-25",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Dganit",
+      "lastName": "Melamed Kadosh",
+      "identifier": "61040110",
+      "affiliation": "Technion",
+      "email": "sdganit@tx.technion.ac.il",
+      "country": "Israel",
+      "orcid": "0009-0003-0552-4815",
+      "name": "Dganit Melamed Kadosh",
+      "id": "61040110"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Arie",
+      "lastName": "Admon",
+      "identifier": "2355982",
+      "affiliation": "Faculty of Biology, Technion-Israel Institute of Technology, Haifa, Israel",
+      "email": "admon@technion.ac.il",
+      "country": "",
+      "orcid": "",
+      "name": "Arie Admon",
+      "id": "2355982"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002337",
+      "name": "Andromeda"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000312",
+      "name": "Label free"
+    }
+  ],
+  "countries": [
+    "Israel"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0003080",
+          "name": "pleural fluid"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CLO:0000001",
+          "name": "cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:3908",
+          "name": "non-small cell lung carcinoma"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0003080",
+      "name": "Pleural fluid"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CLO:0000001",
+      "name": "Cell line cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:3908",
+      "name": "Non-small cell lung carcinoma"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Khazan-Kost S, Cafri G, Melamed Kadosh D, Mooshayef N, Chatterji S, Dominissini D, Manor S, Zisser B, Broday L, Talalai E, Shemer A, Zadok O, Ofek E, Onn A, Admon A, Peled M. Soluble HLA peptidome of pleural effusions is a valuable source for tumor antigens. J Immunother Cancer. 2022 10(5):e003733",
+      "pubmedID": 35580925,
+      "doi": "10.1136/jitc-2021-003733"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 11968
+}

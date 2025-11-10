@@ -1,0 +1,209 @@
+======================================================================
+SysteMHC交叉验证报告
+======================================================================
+
+一、数据集重叠分析
+----------------------------------------------------------------------
+我们的数据集总数: 147
+在SysteMHC中的数据集: 88 (59.9%)
+不在SysteMHC中: 59
+
+二、不在SysteMHC中的数据集分布
+----------------------------------------------------------------------
+总数: 59
+
+按数据库分布:
+  PRIDE: 54
+  jPOST: 4
+  MassIVE: 1
+
+按HLA类型分布:
+  HLA I: 39
+  HLA I/II: 13
+  Non-HLA: 5
+  HLA (需人工确认): 2
+
+三、在SysteMHC中但疾病类型为Unknown的数据集
+----------------------------------------------------------------------
+数量: 27
+
+建议手动查找的数据集:
+
+PXD001898
+  HLA类型: HLA I
+  样本类型: Tissue (Tumor)
+  标题: Global proteogenomic analysis of human MHC I peptides derive...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD008570
+  HLA类型: HLA I
+  样本类型: Cell line
+  标题: C1R.B*57:01 MHC class I immunopeptidome LC-MSMS...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD009531
+  HLA类型: HLA I
+  样本类型: Tissue (Cancer)
+  标题: Unveiling the Peptide Motifs of HLA-C and HLA-G from Natural...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD009935
+  HLA类型: HLA (需人工确认)
+  样本类型: Unknown
+  标题: Determinants of the cellular immunopeptidome -cellular pepti...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD013831
+  HLA类型: HLA I
+  样本类型: Tissue (Cancer)
+  标题: the landscape of phosphorylated HLA-I ligands...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD019643
+  HLA类型: HLA I/II
+  样本类型: Blood
+  标题: The HLA-Ligand-Atlas. A resource of natural HLA ligands pres...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD002951
+  HLA类型: HLA I/II
+  样本类型: Blood
+  标题: Sampling from proteome to HLA-DR ligandome...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD004023
+  HLA类型: HLA I
+  样本类型: Blood
+  标题: The immunopeptidome presents a selected portion of the human...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD008571
+  HLA类型: HLA I
+  样本类型: Cell line
+  标题: C1R.B*57:03 MHC class I immunopeptidome LC-MSMS...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD008572
+  HLA类型: HLA I
+  样本类型: Cell line
+  标题: C1R.B*58:01 MHC class I immunopeptidome LC-MSMS...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD012308
+  HLA类型: HLA I/II
+  样本类型: Tissue (Cancer)
+  标题: Deep motif deconvolution of HLA-II peptidomes...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD015646
+  HLA类型: HLA I/II
+  样本类型: Unknown
+  标题: Immunopeptidomics of Bacillus Calmette-Guérin (BCG)-infected...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD023954
+  HLA类型: HLA I/II
+  样本类型: Cell line
+  标题: Chicken MHC class II presented Marek's disease virus (MDV) a...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PXD034773
+  HLA类型: HLA I/II
+  样本类型: Tissue (Cancer)
+  标题: Machine learning predictions of MHC-II specificities reveal ...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+MSV000080527
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+MSV000081439
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+MSV000082648
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+MSV000084172
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+MSV000084442
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+MSV000087225
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+MSV000087743
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+MSV000083991
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+MSV000090437
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+JPST001068
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+JPST001069
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+JPST001072
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+PASS00211
+  HLA类型: Non-HLA
+  样本类型: Unknown
+  标题: nan...
+  SysteMHC链接: https://systemhc.sjtu.edu.cn/datasets
+
+四、使用SysteMHC补充数据的建议
+----------------------------------------------------------------------
+1. 访问 https://systemhc.sjtu.edu.cn/datasets
+2. 搜索上述数据集ID
+3. 查看详细的HLA等位基因信息
+4. 查看疾病类型和样本信息
+5. 更新我们的元数据表格
+
+五、SysteMHC的优势
+----------------------------------------------------------------------
+• 专注于HLA/MHC免疫肽组学
+• 包含详细的HLA等位基因信息
+• 提供样本统计和图表
+• 可下载光谱库
+• 与PRIDE、MassIVE等数据库关联
+

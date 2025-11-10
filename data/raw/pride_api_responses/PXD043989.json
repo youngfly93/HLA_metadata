@@ -1,0 +1,133 @@
+{
+  "accession": "PXD043989",
+  "title": "Immunopeptidomics-based identification of naturally presented non-canonical circRNA-derived peptides",
+  "additionalAttributes": [],
+  "projectDescription": "Circular RNAs (circRNAs) are covalently closed non-coding RNAs lacking the 5’ cap and the poly-A tail. Nevertheless, it has been demonstrated that certain circRNAs can undergo active translation. Therefore, aberrantly expressed circRNAs in human cancers could be an unexplored source of tumor-specific antigens, potentially mediating anti-tumor T cell responses. This study presents an immunopeptidomics workflow with a specific focus on generating a circRNA-specific protein fasta reference. The main goal of this workflow is to streamline the process of identifying and validating human leukocyte antigen (HLA) bound peptides potentially originating from circRNAs. We increased the analytical stringency of our workflow by retaining peptides identified independently by two mass spectrometry search engines and/or by applying a group-specific FDR for canonical-derived and circRNA-derived peptides. A subset of circRNA-derived peptides specifically encoded by the region spanning the back-splice junction (BSJ) were validated with targeted MS, and with direct Sanger sequencing of the respective source transcripts. Our workflow identified 54 unique BSJ-spanning circRNA-derived peptides in the immunopeptidome of melanoma and lung cancer samples. Our novel approach enlarges the catalog of source proteins that can be explored for immunotherapy.",
+  "sampleProcessingProtocol": "Purification of HLA-I peptides and LC-MS/MS Analysis: HLA-I immunoprecipitation was performed according to our previous established protocols6, 64. Shortly, protein-A Sepharose 4B (Pro-A) beads (Invitrogen) were used to purify W6/32 monoclonal antibodies from the supernatant of HB95 hybridoma cells (ATCC HB-95). After antibody crosslinking, Pro-A beads were used for immunoaffinity purification of HLA-I complexes from tissue or cell line lysates. HLA-I peptides were then purified using a C18 solid phase extraction (SPE) and dried using vacuum centrifugation (Concentrator plus, Eppendorf). Samples were stored at -80°C if not immediately submitted to mass spectrometry analysis. Finally, immunopeptides were re-suspended in 2% ACN and 0.1% FA (formic acid). iRT peptides (Biognosis, Schlieren, Switzerland) were spiked into in the samples (Biognosis) as indicated in Supplementary Table 7 and analyzed by LC-MS/MS. :Liquid chromatography and mass spectrometry (LC-MS): The LC-MS system consisted of an Easy-nLC 1200 coupled to Q Exactive HF-X mass spectrometer (ThermoFisher scientific, Bremen, Germany) or to Eclipse tribrid mass spectrometer (ThermoFisher Scientific, San Jose, USA). The peptides were eluted on a 450mm analytical column (8 m tip, 75 m ID) packed with ReproSil-Pur C18 (1.9 m particle size, 120 A pore size, Dr Maisch, GmbH) and separated at a flow rate of 250 nL/min as described64. For DDA measurements, the top 20 most abundant precursor ions selection was performed on the Q Exactive as described64. For DIA, the Eclipse tribrid mass spectrometer was used to samples ions. The cycle of acquisitions consists of a full MS scan from 300 to 1650 m/z (R = 120,000, ion accumulation time of 60 ms and normalized AGC of 250%) and 22 DIA MS/MS scans in the orbitrap. For each DIA MS/MS scan, a resolution of 30,000, a normalized AGC of 250%, and a stepped normalized collision energy (27, 30, and 32) were used. The maximum ion accumulation was set to auto, the fixed first mass was set to 200 m/z, and the overlap between consecutive MS/MS scans was 1 m/z as described79.",
+  "dataProcessingProtocol": "DDA MS search with group-specific FDR: MS-derived raw files resultant from three biological replicates of T1185B (Supplementary Table 7) were searched using MaxQuant51 (version 2.1.0.0) with a PSM FDR of 0.1 and Comet52 against the generated reference fasta file containing both UniProt and the trimmed circRNA-derived putative ORFs around the BSJ and initiated by the canonical start codon ATG. Outputs were then intersected by NewAnce (v1.6) setting a group-specific FDR of 0.03 for protein- and circRNA-derived peptides. The search was done setting a nonspecific protein digestion cleavage, no fixed modifications, methionine oxidation and protein N-term acetylation as variable modifications, and restricting the peptide length to 8-15 amino acids. Same approach was used for the cell line and tumor tissues of patient Mel-1 patient (two biological replicates and three different lymph node regions, respectively). Hybrid DIA MS search: DIA files corresponding to the immunopeptidomics samples of MG132 and IFN treatment of T1185B cells were searched using a hybrid DIA approach using two computational tools, FragPipe (v.20.0) with group-specific FDR calculation57, 60, 82 and Spectronaut (v.18.4)83, against the generated reference fasta file containing both UniProt and the trimmed circRNA-derived ORFs around the BSJ to which a list of common MS contaminant proteins were added. To increase the coverage of the spectral library, we assembled available DDA raw files from T1185B cells treated or not with IFN (from the PRIDE accession PXD0136496), the newly generated DDA data, together with the DIA files of T1185B cells treated with MG132 and the new IFN treatments (and their respective controls), as indicated in Supplementary Table 7. In FragPipe we applied a group-specific FDR threshold of 0.03 (MSFragger Group variable: Protein evidence from FASTA file) while in Spectronaut we applied a global peptide FDR threshold of 0.01. In both engines, the search was done by applying a FDR threshold of 1 for proteins, nonspecific protein digestion cleavage, no fixed modifications, methionine oxidation and protein N-term acetylation as variable modifications, and restricting the peptide length to 8-15 amino acids. Hybrid spectral libraries were then used to match and quantify peptides from the immunopeptidomics DIA data using a peptide precursor group-specific FDR of 0.03 for FragPipe or global FDR of 0.01 for Spectronaut. Default decoy generation methods were used for each MS search tool, reversed and mutated sequences for FragPipe and Spectronaut, respectively. Data analysis was performed using Fragpipe quantification values after overlapping identified sequences from both FragPipe and Spectronaut MS analysis tools. DDA-DIA MS search with group-specific FDR calculation: HLA-I and HLA-II raw files of the lung cancer cohort of 8 patients and 52 tumoral and healthy matched tissues62 (Supplementary Table 7) were downloaded from PRIDE PXD034772 and analyzed by FragPipe (v.19.2-build39 for HLA-I and v.20.0 for HLA-II immunopeptidomes) which supported group-specific FDR calculation. Spectral library generation was performed using the DDA immunopeptidomics data. The search was done setting a nonspecific protein digestion cleavage, no fixed modifications, methionine oxidation and protein N-term acetylation as variable modifications, a group-specific FDR threshold of 0.03 for peptides (MSFragger Group variable: Protein evidence from FASTA file), a FDR threshold of 1 for proteins, and restricting the peptide length to 8-15 or to 8-25 amino acids for HLA-I or HLA-II MS searches, respectively. Respective spectral libraries were then used to match and quantify peptides from the immunopeptidomics DIA data using a peptide precursor group-specific FDR of 0.03. DIA immunopeptidomics raw files were used for matching and quantification of peptides. Peptides from canonical and non-canonical circRNA groups were used to calculate the FDR separately because the score distributions are different. Pooling them together would result in underestimated FDR for the circRNA group. HLA-I and HLA-II library generation and peptide identification were performed in independent analysis.",
+  "projectTags": [],
+  "keywords": [
+    "Immunopeptidomics",
+    "Circrna",
+    "Antigen discovery"
+  ],
+  "doi": "",
+  "submissionType": "PARTIAL",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2023-12-08",
+  "publicationDate": "2024-03-20",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Michal",
+      "lastName": "Bassani-Sternberg",
+      "identifier": "45090176",
+      "affiliation": "UNIL/CHUV",
+      "email": "michal.bassani@chuv.ch",
+      "country": "Switzerland",
+      "orcid": "0000-0002-1934-954X",
+      "name": "Michal Bassani-Sternberg",
+      "id": "45090176"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Michal",
+      "lastName": "Bassani-Sternberg",
+      "identifier": "2807149",
+      "affiliation": "Department of oncology UNIL CHUV Ludwig Institute for Cancer Research Lausanne Office B25A/04/94 Rue du Bugnon 25a, CH-1005 Lausanne",
+      "email": "Michal.bassani@chuv.ch",
+      "country": "",
+      "orcid": "",
+      "name": "Michal Bassani-Sternberg",
+      "id": "2807149"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001327",
+      "name": "Spectronaut"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1003429",
+      "name": "FragPipe"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000649",
+      "name": "Immunopeptidomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Switzerland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ferreira HJ, Stevenson BJ, Pak H, Yu F, Almeida Oliveira J, Huber F, Taillandier-Coindard M, Michaux J, Ricart-Altimiras E, Kraemer AI, Kandalaft LE, Speiser DE, Nesvizhskii AI, Müller M, Bassani-Sternberg M. Immunopeptidomics-based identification of naturally presented non-canonical circRNA-derived peptides. Nat Commun. 2024 15(1):2357",
+      "pubmedID": 38490980,
+      "doi": "10.1038/s41467-024-46408-3"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    }
+  ],
+  "totalFileDownloads": 4086,
+  "otherOmicsLinks": [
+    "px:PXD013649"
+  ]
+}
